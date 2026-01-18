@@ -110,8 +110,14 @@ body {
     align-items: center;
 }
 
+.clue-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
 .clue {
-    margin: 10px;
     background-color: white;
     width: 80px;
     height: 80px;
@@ -120,13 +126,25 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: bold;
     border: 1px solid lightgray;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     overflow: hidden;
     padding: 5px;
     box-sizing: border-box;
+}
+
+.clue p.emoji {
+    font-size: 2rem;
+}
+
+.clue-label {
+    margin-top: 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
 }
 
 .clue p {

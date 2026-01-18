@@ -1,6 +1,7 @@
 let chosenCharacter = -1;
 let availableCharacterList = [];
 let characterList = [];
+let flags = {};
 let guessNo = 1;
 let guessMax = 5;
 
@@ -9,21 +10,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultsList = document.getElementById('search-results');
 
     // Load characters from the generated JSON file
-    fetch('src/characters.json')
-        .then(response => response.json())
-        .then(data => {
-            characterList = data;
-            availableCharacterList = data;
-            console.log('Characters loaded:', characterList);
-            startGame();
-        })
-        .catch(error => console.error('Error loading characters:', error));
-
-    const flags = {
-        "USA": "🇺🇸",
-        "PRI": "🇵🇷",
-        "ITA": "🇮🇹"
-    };
+    Promise.all([
+        fetch('src/characters.json').then(response => response.json()),
+        fetch('src/flags.json').then(response => response.json())
+    ])
+    .then(([characterData, flagData]) => {
+        characterList = characterData;
+        availableCharacterList = characterData;
+        flags = flagData;
+        console.log('Data loaded');
+        startGame();
+    })
+    .catch(error => console.error('Error loading data:', error));
 
     searchInput.addEventListener('input', function() {
         const query = this.value.toLowerCase();
@@ -108,6 +106,8 @@ function handleGuess(characterGuess) {
     cluesContainer.id = 'clues-container';
     
     // GENDER
+    const genderWrapper = document.createElement('div');
+    genderWrapper.classList.add('clue-wrapper');
     const genderClue = document.createElement('div');
     genderClue.classList.add('clue');
     
@@ -120,14 +120,27 @@ function handleGuess(characterGuess) {
     } else {
         genderClue.style.backgroundColor = red;
     }
-    cluesContainer.appendChild(genderClue);
+    genderWrapper.appendChild(genderClue);
+    const genderLabel = document.createElement('span');
+    genderLabel.classList.add('clue-label');
+    genderLabel.textContent = 'GENDER';
+    genderWrapper.appendChild(genderLabel);
+    cluesContainer.appendChild(genderWrapper);
     
     // NATIONALITY
+    const nationalityWrapper = document.createElement('div');
+    nationalityWrapper.classList.add('clue-wrapper');
     const nationalityClue = document.createElement('div');
     nationalityClue.classList.add('clue');
     
     const nationalityP = document.createElement('p');
-    nationalityP.textContent = characterGuess.nationality;
+    const flag = flags[characterGuess.nationality];
+    if (flag) {
+        nationalityP.textContent = flag;
+        nationalityP.classList.add('emoji');
+    } else {
+        nationalityP.textContent = characterGuess.nationality;
+    }
     nationalityClue.appendChild(nationalityP);
     
     if (chosenCharacter.nationality === characterGuess.nationality) {
@@ -135,35 +148,65 @@ function handleGuess(characterGuess) {
     } else {
         nationalityClue.style.backgroundColor = red;
     }
-    cluesContainer.appendChild(nationalityClue);
+    nationalityWrapper.appendChild(nationalityClue);
+    const nationalityLabel = document.createElement('span');
+    nationalityLabel.classList.add('clue-label');
+    nationalityLabel.textContent = 'NATIONALITY';
+    nationalityWrapper.appendChild(nationalityLabel);
+    cluesContainer.appendChild(nationalityWrapper);
     
     // FIRST APPEARANCE
     const firstAppearance = characterGuess.first_appearance
-    const season = firstAppearance.split('.')[0]
-    const episode = firstAppearance.split('.')[1]
+    const season = parseInt(firstAppearance.split('.')[0])
+    const episode = parseInt(firstAppearance.split('.')[1])
     
+    const chosenFirstAppearance = chosenCharacter.first_appearance;
+    const chosenSeason = parseInt(chosenFirstAppearance.split('.')[0]);
+    const chosenEpisode = parseInt(chosenFirstAppearance.split('.')[1]);
+
+    const firstAppearanceWrapper = document.createElement('div');
+    firstAppearanceWrapper.classList.add('clue-wrapper');
     const firstAppearanceClue = document.createElement('div');
     firstAppearanceClue.classList.add('clue');
     
     const firstAppearanceP = document.createElement('p');
-    firstAppearanceP.textContent = `S${season}E${episode}`;
+    let firstAppearanceArrow = '';
+    if (chosenSeason > season || (chosenSeason === season && chosenEpisode > episode)) {
+        firstAppearanceArrow = ' ↑';
+    } else if (chosenSeason < season || (chosenSeason === season && chosenEpisode < episode)) {
+        firstAppearanceArrow = ' ↓';
+    }
+    firstAppearanceP.textContent = `S${season}E${episode}${firstAppearanceArrow}`;
     firstAppearanceClue.appendChild(firstAppearanceP);
     
     if (chosenCharacter.first_appearance === firstAppearance) {
         firstAppearanceClue.style.backgroundColor = green;
-    } else if (chosenCharacter.first_appearance.split('.')[0] === season) {
+    } else if (chosenSeason === season) {
         firstAppearanceClue.style.backgroundColor = yellow;
     } else {
         firstAppearanceClue.style.backgroundColor = red;
     }
-    cluesContainer.appendChild(firstAppearanceClue);
+    firstAppearanceWrapper.appendChild(firstAppearanceClue);
+    const firstAppearanceLabel = document.createElement('span');
+    firstAppearanceLabel.classList.add('clue-label');
+    firstAppearanceLabel.textContent = 'FIRST SEEN';
+    firstAppearanceWrapper.appendChild(firstAppearanceLabel);
+    cluesContainer.appendChild(firstAppearanceWrapper);
 
     // EPISODES
+    const episodesWrapper = document.createElement('div');
+    episodesWrapper.classList.add('clue-wrapper');
     const episodesClue = document.createElement('div');
     episodesClue.classList.add('clue');
     
     const episodesP = document.createElement('p');
-    episodesP.textContent = characterGuess.total_episodes;
+    let episodesArrow = '';
+    if (chosenCharacter.total_episodes > characterGuess.total_episodes) {
+        episodesArrow = ' ↑';
+    } else if (chosenCharacter.total_episodes < characterGuess.total_episodes) {
+        episodesArrow = ' ↓';
+    }
+    episodesP.textContent = `${characterGuess.total_episodes}${episodesArrow}`;
     episodesClue.appendChild(episodesP);
     
     const difference = chosenCharacter.total_episodes - characterGuess.total_episodes
@@ -174,9 +217,16 @@ function handleGuess(characterGuess) {
     } else {
         episodesClue.style.backgroundColor = red;
     }
-    cluesContainer.appendChild(episodesClue);
+    episodesWrapper.appendChild(episodesClue);
+    const episodesLabel = document.createElement('span');
+    episodesLabel.classList.add('clue-label');
+    episodesLabel.textContent = 'TOTAL EP';
+    episodesWrapper.appendChild(episodesLabel);
+    cluesContainer.appendChild(episodesWrapper);
 
     // RELEVANCE
+    const relevanceWrapper = document.createElement('div');
+    relevanceWrapper.classList.add('clue-wrapper');
     const relevanceClue = document.createElement('div');
     relevanceClue.classList.add('clue');
     
@@ -192,17 +242,22 @@ function handleGuess(characterGuess) {
     
     if (specificOverlap.length > 0) {
         relevanceClue.style.backgroundColor = green;
-        relevanceP.textContent = specificOverlap.join(', ');
+        //relevanceP.textContent = specificOverlap.join(', ');
     } else if (broadOverlap.length > 0) {
         relevanceClue.style.backgroundColor = yellow;
-        relevanceP.textContent = broadOverlap.join(', ');
+        //relevanceP.textContent = broadOverlap.join(', ');
     } else {
         relevanceClue.style.backgroundColor = red;
-        relevanceP.textContent = guessedBroad.join(', ');
+        //relevanceP.textContent = guessedBroad.join(', ');
     }
     
     relevanceClue.appendChild(relevanceP);
-    cluesContainer.appendChild(relevanceClue);
+    relevanceWrapper.appendChild(relevanceClue);
+    const relevanceLabel = document.createElement('span');
+    relevanceLabel.classList.add('clue-label');
+    relevanceLabel.textContent = 'RELATION';
+    relevanceWrapper.appendChild(relevanceLabel);
+    cluesContainer.appendChild(relevanceWrapper);
 
     guessDiv.appendChild(cluesContainer);
     guessesContainer.prepend(guessDiv);

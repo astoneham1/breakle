@@ -10,10 +10,14 @@
         <h1>Breakle</h1>
     </div>
     <div id="character-container">
-        <img src="assets/images/question.png" alt="Breakle">
+        <img src="assets/images/question.png" id="character-image" alt="Breakle">
         <div id="guess-container">
-            <input type="text" id="guess" placeholder="GUESS 1 OF 5">
+            <input type="text" id="guess" autocomplete="off">
+            <div id="search-results" class="results-list"></div>
         </div>
     </div>
+    <div id="guesses-container">
+    </div>
+    <script src="js/app.js"></script>
 </body>
 </html>

@@ -20,8 +20,8 @@
       "Inmate"
     ],
     "status": "Alive",
-    "first_appearance": 1.1,
-    "total_episodes": 90,
+    "first_appearance": "1.1",
+    "total_episodes": 81,
     "image_url": "assets/images/avatars/tbagwell.jpg"
   }
 ]

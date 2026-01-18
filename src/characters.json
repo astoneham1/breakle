@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "name": "Michael Scofield",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 3,
+    "specific_groups": [
+      "Scofield",
+      "Burrows/Scofield",
+      "Fox River 8",
+      "Fox River Inmate",
+      "P.I Crew",
+      "Sona Inmate",
+      "Sona Escape Team",
+      "Self's Team",
+      "Miami-Dade Outside Help",
+      "Ogygia Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Terrorist"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 90,
+    "image_url": "assets/images/avatars/mscofield.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Lincoln Burrows",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 13,
+    "specific_groups": [
+      "Burrows",
+      "Burrows/Scofield",
+      "Fox River 8",
+      "Fox River Inmate",
+      "P.I Crew",
+      "Sona Outside Help",
+      "Self's Team",
+      "Miami-Dade Outside Help",
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Death Row"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 90,
+    "image_url": "assets/images/avatars/lburrows.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sara Tancredi",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 4,
+    "specific_groups": [
+      "Scofield",
+      "Fox River Staff",
+      "Hostages",
+      "Self's Team",
+      "Miami-Dade Inmate",
+      "Daddy's Family",
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Medical",
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 73,
+    "image_url": "assets/images/avatars/stancredi.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Alexander Mahone",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 21,
+    "specific_groups": [
+      "FBI Search Team",
+      "Sona Inmate",
+      "Sona Escape Team",
+      "Self's Team",
+      "Miami-Dade Outside Help"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.1",
+    "total_episodes": 59,
+    "image_url": "assets/images/avatars/amahone.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Brad Bellick",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 3,
+    "specific_groups": [
+      "Fox River Staff",
+      "Bounty Hunter",
+      "Sona Inmate",
+      "Sona Escape Team",
+      "Self's Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 63,
+    "image_url": "assets/images/avatars/bbellick.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Theodore Bagwell",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 27,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew",
+      "Sona Inmate",
+      "Lechero's Gang",
+      "GATE",
+      "Miami-Dade Inmate",
+      "21 Void Investigation"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 81,
+    "image_url": "assets/images/avatars/tbagwell.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Gretchen Morgan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 12,
+    "specific_groups": [
+      "Company",
+      "Sona Operation",
+      "GATE",
+      "Miami-Dade Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Organised Crime",
+      "Hitman",
+      "Rogue"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 36,
+    "image_url": "assets/images/avatars/gmorgan.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Fernando Sucre",
+    "gender": "Male",
+    "nationality": "PRI",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew",
+      "Sona Staff",
+      "Sona Inmate",
+      "Sona Outside Help",
+      "Self's Team",
+      "Miami-Dade Outside Help",
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 74,
+    "image_url": "assets/images/avatars/fsucre.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Paul Kellerman",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 10,
+    "specific_groups": [
+      "Company",
+      "Secret Service",
+      "Scylla Outside Help",
+      "21 Void Investigation"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Political",
+      "Hitman",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 42,
+    "image_url": "assets/images/avatars/pkellerman.jpg"
+  },
+  {
+    "id": 10,
+    "name": "John Abruzzi",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 7,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew",
+      "Abruzzi's Mob"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 20,
+    "image_url": "assets/images/avatars/jabruzzi.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Benjamin Miles Franklin",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 3,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew",
+      "Scylla Outside Help",
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 44,
+    "image_url": "assets/images/avatars/bfranklin.jpg"
+  }
+]

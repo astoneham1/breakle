@@ -1,0 +1,27 @@
+[
+  {
+    "id": 6,
+    "name": "Theodore Bagwell",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 27,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew",
+      "Sona Inmate",
+      "Lechero's Gang",
+      "GATE",
+      "Miami-Dade Inmate",
+      "21 Void Investigation"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": 1.1,
+    "total_episodes": 90,
+    "image_url": "assets/images/avatars/tbagwell.jpg"
+  }
+]

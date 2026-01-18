@@ -1,0 +1,44 @@
+* {
+    border: 1px solid black;
+}
+
+body {
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: lightblue;
+}
+
+#title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+}
+
+#character-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    width: 50vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#character-container img {
+    width: 30%;
+    margin: 5px auto;
+    max-width: 7vw;
+}
+
+#guess-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#guess-container input {
+    margin: 10px;
+    width: 80%;
+}

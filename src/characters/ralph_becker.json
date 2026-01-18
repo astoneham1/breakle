@@ -1,0 +1,21 @@
+[
+  {
+    "id": 26,
+    "name": "Ralph Becker",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Hitman"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.14",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": 13,
+    "name": "James Whistler",
+    "gender": "Male",
+    "nationality": "AUS",
+    "kills": 3,
+    "specific_groups": [
+      "Company",
+      "Sona Inmate",
+      "Sona Operation",
+      "Sona Escape Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.1",
+    "total_episodes": 15,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

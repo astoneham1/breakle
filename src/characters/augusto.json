@@ -1,0 +1,21 @@
+[
+  {
+    "id": 20,
+    "name": "Augusto",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Lechero's Gang"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.3",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

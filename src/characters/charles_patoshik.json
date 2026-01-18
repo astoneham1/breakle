@@ -1,0 +1,21 @@
+[
+  {
+    "id": 14,
+    "name": "Charles 'Haywire' Patoshik",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 5,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.3",
+    "total_episodes": 12,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

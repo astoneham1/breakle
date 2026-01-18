@@ -1,0 +1,19 @@
+[
+  {
+    "id": 18,
+    "name": "Alice Simms",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Miami-Dade Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

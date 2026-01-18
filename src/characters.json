@@ -56,7 +56,7 @@
   },
   {
     "id": 3,
-    "name": "Sara Tancredi",
+    "name": "Sara Tancredi/Scofield",
     "gender": "Female",
     "nationality": "USA",
     "kills": 4,
@@ -127,7 +127,7 @@
   },
   {
     "id": 6,
-    "name": "Theodore Bagwell",
+    "name": "Theodore 'T-Bag' Bagwell",
     "gender": "Male",
     "nationality": "USA",
     "kills": 27,
@@ -181,6 +181,7 @@
     "nationality": "PRI",
     "kills": 0,
     "specific_groups": [
+      "Sucre",
       "Fox River Inmate",
       "Fox River 8",
       "P.I Crew",
@@ -249,7 +250,7 @@
   },
   {
     "id": 11,
-    "name": "Benjamin Miles Franklin",
+    "name": "Benjamin 'C-Note' Franklin",
     "gender": "Male",
     "nationality": "USA",
     "kills": 3,
@@ -269,5 +270,302 @@
     "first_appearance": "1.1",
     "total_episodes": 44,
     "image_url": "assets/images/avatars/bfranklin.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Lincoln Junior 'LJ' Burrows",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Burrows",
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 25,
+    "image_url": "assets/images/avatars/ljburrows.jpg"
+  },
+  {
+    "id": 13,
+    "name": "James Whistler",
+    "gender": "Male",
+    "nationality": "AUS",
+    "kills": 3,
+    "specific_groups": [
+      "Company",
+      "Sona Inmate",
+      "Sona Operation",
+      "Sona Escape Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.1",
+    "total_episodes": 15,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Charles 'Haywire' Patoshik",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 5,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.3",
+    "total_episodes": 12,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 15,
+    "name": "David 'Tweener' Apolskis",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.9",
+    "total_episodes": 16,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Agatha Warren",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Miami-Dade Inmate",
+      "Daddy's Family"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Abu Ramal",
+    "gender": "Male",
+    "nationality": "YEM",
+    "kills": 1,
+    "specific_groups": [
+      "Ogygia Inmate",
+      "ISIL"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Terrorist"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.2",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Alice Simms",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Miami-Dade Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Mack Andrews",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 15,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Augusto",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Lechero's Gang"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.3",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Hector Avila",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 22,
+    "name": "David Baker",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.10",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Avocado",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Inmate"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.13",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Naveen Banerjee",
+    "gender": "Male",
+    "nationality": "IND",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.19",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Leticia Barris",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.2",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Ralph Becker",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Hitman"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.14",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Debra Jean Belle",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
   }
 ]

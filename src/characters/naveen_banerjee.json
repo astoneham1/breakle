@@ -1,0 +1,21 @@
+[
+  {
+    "id": 24,
+    "name": "Naveen Banerjee",
+    "gender": "Male",
+    "nationality": "IND",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.19",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

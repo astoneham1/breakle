@@ -1,0 +1,19 @@
+[
+  {
+    "id": 21,
+    "name": "Hector Avila",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

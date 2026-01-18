@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "name": "Michael Scofield",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 3,
+  "specific_groups": [
+    "Scofield",
+    "Burrows/Scofield",
+    "Fox River 8",
+    "Fox River Inmate",
+    "P.I Crew",
+    "Sona Inmate",
+    "Sona Escape Team",
+    "Self's Team",
+    "Miami-Dade Outside Help",
+    "Ogygia Inmate"
+  ],
+  "broad_archetypes": [
+    "Inmate",
+    "Criminal",
+    "Terrorist"
+  ],
+  "status": "Alive",
+  "first_appearance": 1.1,
+  "total_episodes": 90,
+  "image_url": "images/mscofield.jpg"
+}

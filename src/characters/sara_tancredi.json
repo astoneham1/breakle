@@ -1,0 +1,27 @@
+[
+  {
+    "id": 3,
+    "name": "Sara Tancredi",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 4,
+    "specific_groups": [
+      "Scofield",
+      "Fox River Staff",
+      "Hostages",
+      "Self's Team",
+      "Miami-Dade Inmate",
+      "Daddy's Family",
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Medical",
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": 1.1,
+    "total_episodes": 73,
+    "image_url": "images/stancredi.jpg"
+  }
+]

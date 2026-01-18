@@ -1,0 +1,19 @@
+[
+  {
+    "id": 4,
+    "name": "",
+    "gender": "",
+    "nationality": "",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      ""
+    ],
+    "status": "Alive",
+    "first_appearance": 1.1,
+    "total_episodes": 90,
+    "image_url": "images/.jpg"
+  }
+]

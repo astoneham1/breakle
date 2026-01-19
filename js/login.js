@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function checkPassword() {
         if (passwordInput.value === '2005') {
+            sessionStorage.setItem('loggedIn', 'true');
             window.location.href = 'game.html';
         } else {
             errorMessage.style.display = 'block';

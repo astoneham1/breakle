@@ -16,7 +16,7 @@ body {
     max-width: 500px;
 }
 
-#character-container, #login-container {
+#character-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,45 +27,6 @@ body {
     border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
-
-#login-container {
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-#login-container p {
-    margin-bottom: 15px;
-    font-weight: bold;
-    color: #333;
-}
-
-#login-container input {
-    margin-bottom: 15px;
-    padding: 10px;
-    width: 85%;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    font-size: 1rem;
-    outline: none;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-#login-btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.2s;
-}
-
-#login-btn:hover {
-    background-color: #555;
 }
 
 #character-container img {

@@ -95,8 +95,8 @@ body {
 }
 
 .guess {
-    width: 100%;
-    max-width: 600px;
+    width: 90vw;
+    max-width: 500px;
     margin: 20px auto;
     text-align: center;
 }
@@ -106,31 +106,33 @@ body {
     justify-content: center;
     margin-top: 20px;
     flex-wrap: wrap;
-}
-
-#guesses-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 5px;
 }
 
 .clue-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px 2px;
+    margin: 5px 0;
+}
+
+#guesses-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .clue {
     background-color: white;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: bold;
     border: 1px solid lightgray;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
@@ -148,7 +150,7 @@ body {
 }
 
 .clue p.emoji {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 @media (min-width: 600px) {
@@ -159,7 +161,7 @@ body {
 
 .clue-label {
     margin-top: 10px;
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     font-weight: bold;
     color: #333;
     text-transform: uppercase;

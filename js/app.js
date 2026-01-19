@@ -3,7 +3,11 @@ let availableCharacterList = [];
 let characterList = [];
 let flags = {};
 let guessNo = 1;
-let guessMax = 5;
+let guessMax = 10;
+
+const green = '#66e722'
+const yellow = '#ffeb3b'
+const red = '#ff3333'
 
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('guess');
@@ -79,6 +83,46 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     searchInput.placeholder = `GUESS ${guessNo} OF ${guessMax}`;
+
+    // View All Characters Modal Logic
+    const viewAllBtn = document.getElementById('view-all-btn');
+    const modal = document.getElementById('all-characters-modal');
+    const closeBtn = document.querySelector('.close-btn');
+    const allCharactersList = document.getElementById('all-characters-list');
+
+    viewAllBtn.addEventListener('click', () => {
+        allCharactersList.innerHTML = ''; // Clear previous list
+        
+        // Sort alphabetically for the list
+        const sortedList = [...characterList].sort((a, b) => a.name.localeCompare(b.name));
+
+        sortedList.forEach(character => {
+            const item = document.createElement('div');
+            item.classList.add('character-list-item');
+            
+            const nameSpan = document.createElement('span');
+            nameSpan.textContent = character.name;
+            
+            const flagSpan = document.createElement('span');
+            flagSpan.textContent = flags[character.nationality] || character.nationality;
+            
+            item.appendChild(nameSpan);
+            item.appendChild(flagSpan);
+            allCharactersList.appendChild(item);
+        });
+
+        modal.style.display = 'block';
+    });
+
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
 })
 
 function startGame() {
@@ -89,32 +133,44 @@ function startGame() {
 
 function handleGuess(characterGuess) {
     const guessesContainer = document.getElementById('guesses-container');
-    
-    const green = '#66e722'
-    const yellow = '#ffeb3b'
-    const red = '#ff3333'
-    
-    // Create a new guess element
+
     const guessDiv = document.createElement('div');
     guessDiv.classList.add('guess');
-    
+
     const guessName = document.createElement('h1');
     guessName.textContent = characterGuess.name;
     guessDiv.appendChild(guessName);
-    
+
     const cluesContainer = document.createElement('div');
     cluesContainer.id = 'clues-container';
+    cluesContainer.appendChild(compareGender(characterGuess));
+    cluesContainer.appendChild(compareNationality(characterGuess));
+    cluesContainer.appendChild(compareStatus(characterGuess));
+    cluesContainer.appendChild(compareFirstAppearance(characterGuess));
+    cluesContainer.appendChild(compareRelevance(characterGuess));
+    cluesContainer.appendChild(compareEpisodes(characterGuess));
+
+    guessDiv.appendChild(cluesContainer);
+    guessesContainer.prepend(guessDiv);
     
-    // GENDER
+    // CHECK EXACT MATCH
+    if (chosenCharacter.id === characterGuess.id) {
+        alert('You won!');
+    } else {
+        incrementGuessCount();
+    }
+}
+
+function compareGender(characterGuess) {
     const genderWrapper = document.createElement('div');
     genderWrapper.classList.add('clue-wrapper');
     const genderClue = document.createElement('div');
     genderClue.classList.add('clue');
-    
+
     const genderP = document.createElement('p');
     genderP.textContent = characterGuess.gender;
     genderClue.appendChild(genderP);
-    
+
     if (chosenCharacter.gender === characterGuess.gender) {
         genderClue.style.backgroundColor = green;
     } else {
@@ -125,14 +181,16 @@ function handleGuess(characterGuess) {
     genderLabel.classList.add('clue-label');
     genderLabel.textContent = 'GENDER';
     genderWrapper.appendChild(genderLabel);
-    cluesContainer.appendChild(genderWrapper);
     
-    // NATIONALITY
+    return genderWrapper;
+}
+
+function compareNationality(characterGuess) {
     const nationalityWrapper = document.createElement('div');
     nationalityWrapper.classList.add('clue-wrapper');
     const nationalityClue = document.createElement('div');
     nationalityClue.classList.add('clue');
-    
+
     const nationalityP = document.createElement('p');
     const flag = flags[characterGuess.nationality];
     if (flag) {
@@ -142,7 +200,7 @@ function handleGuess(characterGuess) {
         nationalityP.textContent = characterGuess.nationality;
     }
     nationalityClue.appendChild(nationalityP);
-    
+
     if (chosenCharacter.nationality === characterGuess.nationality) {
         nationalityClue.style.backgroundColor = green;
     } else {
@@ -153,13 +211,39 @@ function handleGuess(characterGuess) {
     nationalityLabel.classList.add('clue-label');
     nationalityLabel.textContent = 'NATIONALITY';
     nationalityWrapper.appendChild(nationalityLabel);
-    cluesContainer.appendChild(nationalityWrapper);
     
-    // FIRST APPEARANCE
+    return nationalityWrapper;
+}
+
+function compareStatus(characterGuess) {
+    const statusWrapper = document.createElement('div');
+    statusWrapper.classList.add('clue-wrapper');
+    const statusClue = document.createElement('div');
+    statusClue.classList.add('clue');
+
+    const statusP = document.createElement('p');
+    statusP.textContent = characterGuess.status;
+    statusClue.appendChild(statusP);
+
+    if (chosenCharacter.status === characterGuess.status) {
+        statusClue.style.backgroundColor = green;
+    } else {
+        statusClue.style.backgroundColor = red;
+    }
+    statusWrapper.appendChild(statusClue);
+    const statusLabel = document.createElement('span');
+    statusLabel.classList.add('clue-label');
+    statusLabel.textContent = 'STATUS';
+    statusWrapper.appendChild(statusLabel);
+    
+    return statusWrapper;
+}
+
+function compareFirstAppearance(characterGuess) {
     const firstAppearance = characterGuess.first_appearance
     const season = parseInt(firstAppearance.split('.')[0])
     const episode = parseInt(firstAppearance.split('.')[1])
-    
+
     const chosenFirstAppearance = chosenCharacter.first_appearance;
     const chosenSeason = parseInt(chosenFirstAppearance.split('.')[0]);
     const chosenEpisode = parseInt(chosenFirstAppearance.split('.')[1]);
@@ -168,7 +252,7 @@ function handleGuess(characterGuess) {
     firstAppearanceWrapper.classList.add('clue-wrapper');
     const firstAppearanceClue = document.createElement('div');
     firstAppearanceClue.classList.add('clue');
-    
+
     const firstAppearanceP = document.createElement('p');
     let firstAppearanceArrow = '';
     if (chosenSeason > season || (chosenSeason === season && chosenEpisode > episode)) {
@@ -178,7 +262,7 @@ function handleGuess(characterGuess) {
     }
     firstAppearanceP.textContent = `S${season}E${episode}${firstAppearanceArrow}`;
     firstAppearanceClue.appendChild(firstAppearanceP);
-    
+
     if (chosenCharacter.first_appearance === firstAppearance) {
         firstAppearanceClue.style.backgroundColor = green;
     } else if (chosenSeason === season) {
@@ -191,55 +275,26 @@ function handleGuess(characterGuess) {
     firstAppearanceLabel.classList.add('clue-label');
     firstAppearanceLabel.textContent = 'FIRST SEEN';
     firstAppearanceWrapper.appendChild(firstAppearanceLabel);
-    cluesContainer.appendChild(firstAppearanceWrapper);
-
-    // EPISODES
-    const episodesWrapper = document.createElement('div');
-    episodesWrapper.classList.add('clue-wrapper');
-    const episodesClue = document.createElement('div');
-    episodesClue.classList.add('clue');
     
-    const episodesP = document.createElement('p');
-    let episodesArrow = '';
-    if (chosenCharacter.total_episodes > characterGuess.total_episodes) {
-        episodesArrow = ' ↑';
-    } else if (chosenCharacter.total_episodes < characterGuess.total_episodes) {
-        episodesArrow = ' ↓';
-    }
-    episodesP.textContent = `${characterGuess.total_episodes}${episodesArrow}`;
-    episodesClue.appendChild(episodesP);
-    
-    const difference = chosenCharacter.total_episodes - characterGuess.total_episodes
-    if (difference === 0) {
-        episodesClue.style.backgroundColor = green;
-    } else if (difference <= 10 && difference >= -10) {
-        episodesClue.style.backgroundColor = yellow; 
-    } else {
-        episodesClue.style.backgroundColor = red;
-    }
-    episodesWrapper.appendChild(episodesClue);
-    const episodesLabel = document.createElement('span');
-    episodesLabel.classList.add('clue-label');
-    episodesLabel.textContent = 'TOTAL EP';
-    episodesWrapper.appendChild(episodesLabel);
-    cluesContainer.appendChild(episodesWrapper);
+    return firstAppearanceWrapper;
+}
 
-    // RELEVANCE
+function compareRelevance(characterGuess) {
     const relevanceWrapper = document.createElement('div');
     relevanceWrapper.classList.add('clue-wrapper');
     const relevanceClue = document.createElement('div');
     relevanceClue.classList.add('clue');
-    
+
     const relevanceP = document.createElement('p');
-    
+
     const guessedBroad = characterGuess.broad_archetypes;
     const chosenBroad = chosenCharacter.broad_archetypes;
     const guessedSpecific = characterGuess.specific_groups;
     const chosenSpecific = chosenCharacter.specific_groups;
-    
+
     const specificOverlap = guessedSpecific.filter(val => chosenSpecific.includes(val));
     const broadOverlap = guessedBroad.filter(val => chosenBroad.includes(val));
-    
+
     if (specificOverlap.length > 0) {
         relevanceClue.style.backgroundColor = green;
         //relevanceP.textContent = specificOverlap.join(', ');
@@ -250,24 +305,48 @@ function handleGuess(characterGuess) {
         relevanceClue.style.backgroundColor = red;
         //relevanceP.textContent = guessedBroad.join(', ');
     }
-    
+
     relevanceClue.appendChild(relevanceP);
     relevanceWrapper.appendChild(relevanceClue);
     const relevanceLabel = document.createElement('span');
     relevanceLabel.classList.add('clue-label');
     relevanceLabel.textContent = 'RELATION';
     relevanceWrapper.appendChild(relevanceLabel);
-    cluesContainer.appendChild(relevanceWrapper);
-
-    guessDiv.appendChild(cluesContainer);
-    guessesContainer.prepend(guessDiv);
     
-    // CHECK EXACT MATCH
-    if (chosenCharacter.id === characterGuess.id) {
-        alert('You won!');
-    } else {
-        incrementGuessCount();
+    return relevanceWrapper;
+}
+
+function compareEpisodes(characterGuess) {
+    const episodesWrapper = document.createElement('div');
+    episodesWrapper.classList.add('clue-wrapper');
+    const episodesClue = document.createElement('div');
+    episodesClue.classList.add('clue');
+
+    const episodesP = document.createElement('p');
+    let episodesArrow = '';
+    if (chosenCharacter.total_episodes > characterGuess.total_episodes) {
+        episodesArrow = ' ↑';
+    } else if (chosenCharacter.total_episodes < characterGuess.total_episodes) {
+        episodesArrow = ' ↓';
     }
+    episodesP.textContent = `${characterGuess.total_episodes}${episodesArrow}`;
+    episodesClue.appendChild(episodesP);
+
+    const difference = chosenCharacter.total_episodes - characterGuess.total_episodes
+    if (difference === 0) {
+        episodesClue.style.backgroundColor = green;
+    } else if (difference <= 10 && difference >= -10) {
+        episodesClue.style.backgroundColor = yellow;
+    } else {
+        episodesClue.style.backgroundColor = red;
+    }
+    episodesWrapper.appendChild(episodesClue);
+    const episodesLabel = document.createElement('span');
+    episodesLabel.classList.add('clue-label');
+    episodesLabel.textContent = 'EPISODES';
+    episodesWrapper.appendChild(episodesLabel);
+    
+    return episodesWrapper;
 }
 
 function incrementGuessCount() {

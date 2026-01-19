@@ -55,6 +55,83 @@ body {
     box-sizing: border-box;
 }
 
+#view-all-btn {
+    margin-bottom: 15px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background 0.2s;
+}
+
+#view-all-btn:hover {
+    background-color: #555;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: bold;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close-btn:hover {
+    color: #333;
+}
+
+#all-characters-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.character-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
 #search-results {
     position: absolute;
     top: calc(100% - 9px);
@@ -62,6 +139,7 @@ body {
     border-radius: 0 0 5px 5px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     max-height: 250px;
+    overflow-y: auto;
     z-index: 20;
     box-sizing: border-box;
     border: 1px solid lightgray;
@@ -99,21 +177,31 @@ body {
     max-width: 500px;
     margin: 20px auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.guess h1 {
+    margin: 0;
 }
 
 #clues-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 10px;
+    width: fit-content;
+    margin: 20px auto 0;
 }
 
 .clue-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px 0;
 }
 
 #guesses-container {

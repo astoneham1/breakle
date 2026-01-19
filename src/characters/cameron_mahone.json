@@ -1,0 +1,19 @@
+[
+  {
+    "id": 36,
+    "name": "Cameron 'Cammy' Mahone",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Mahone"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.17",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

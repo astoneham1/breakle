@@ -1,0 +1,23 @@
+[
+  {
+    "id": 47,
+    "name": "Donald Self",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 5,
+    "specific_groups": [
+      "Homeland Security",
+      "Self's Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Rogue",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.1",
+    "total_episodes": 22,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

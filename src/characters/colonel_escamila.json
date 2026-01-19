@@ -1,0 +1,20 @@
+[
+  {
+    "id": 50,
+    "name": "Colonel Escamila",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

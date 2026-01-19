@@ -1,0 +1,21 @@
+[
+  {
+    "id": 33,
+    "name": "Bruce Bennett",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Tancredi"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.5",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

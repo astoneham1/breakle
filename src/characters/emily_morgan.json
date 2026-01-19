@@ -1,0 +1,20 @@
+[
+  {
+    "id": 49,
+    "name": "Emily Morgan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages",
+      "Morgan"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "",
+    "first_appearance": "4.6",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

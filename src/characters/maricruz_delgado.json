@@ -1,0 +1,19 @@
+[
+  {
+    "id": 45,
+    "name": "Maricruz Delgado",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

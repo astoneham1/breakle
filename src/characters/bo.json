@@ -1,0 +1,20 @@
+[
+  {
+    "id": 30,
+    "name": "Bo",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal"
+    ],
+    "status": "Unknown",
+    "first_appearance": "1.2",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 48,
+    "name": "Nathaniel Edison",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Cardholder"
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Organised Crime",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

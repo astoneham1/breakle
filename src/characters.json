@@ -62,6 +62,7 @@
     "kills": 4,
     "specific_groups": [
       "Scofield",
+      "Tancredi",
       "Fox River Staff",
       "Hostages",
       "Self's Team",
@@ -86,6 +87,7 @@
     "nationality": "USA",
     "kills": 21,
     "specific_groups": [
+      "Mahone",
       "FBI Search Team",
       "Sona Inmate",
       "Sona Escape Team",
@@ -160,7 +162,8 @@
       "Company",
       "Sona Operation",
       "GATE",
-      "Miami-Dade Inmate"
+      "Miami-Dade Inmate",
+      "Morgan"
     ],
     "broad_archetypes": [
       "Inmate",
@@ -565,6 +568,442 @@
     ],
     "status": "Alive",
     "first_appearance": "2.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Andrew Blauner",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "GATE"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.4",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Blue Hawaii",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "21 Void Investigation"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "5.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Bo",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal"
+    ],
+    "status": "Unknown",
+    "first_appearance": "1.2",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Bob Hudson",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Hostages"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Samantha Brinker",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Civilian",
+      "Political"
+    ],
+    "status": "Unknown",
+    "first_appearance": "1.13",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Bruce Bennett",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Tancredi"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.5",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Jason 'Maytag' Buchanan",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Inmate"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.2",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Aldo Burrows",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Burrows",
+      "Burrows/Scofield"
+    ],
+    "broad_archetypes": [
+      "Hitman",
+      "Criminal",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.15",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Cameron 'Cammy' Mahone",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Mahone"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.17",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Caroline Reynolds",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Organised Crime"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 18,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Charles Westmoreland",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Fox River Inmate",
+      "P.I Crew"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 19,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Cheo",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate",
+      "Lechero's Gang"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.1",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Cristina Scofield",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Scofield",
+      "Company",
+      "Christina's Gang"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Criminal",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.16",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Cristobal",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.8",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Daddy",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Miami-Dade Inmate",
+      "Daddy's Family"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Senator Conrad Dallow",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Civilian"
+    ],
+    "status": "",
+    "first_appearance": "4.3",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Daniel 'Danny' Hale",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Secret Service"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Hitman",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 13,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Maricruz Delgado",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Downey",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Cristina's Gang"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Rogue",
+      "Hitman"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.16",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Donald Self",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 5,
+    "specific_groups": [
+      "Homeland Security",
+      "Self's Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Rogue",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.1",
+    "total_episodes": 22,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Nathaniel Edison",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Cardholder"
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Organised Crime",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Emily Morgan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages",
+      "Morgan"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "",
+    "first_appearance": "4.6",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Colonel Escamila",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.2",
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg"
   }

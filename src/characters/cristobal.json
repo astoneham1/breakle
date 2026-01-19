@@ -1,0 +1,21 @@
+[
+  {
+    "id": 41,
+    "name": "Cristobal",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.8",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

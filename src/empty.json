@@ -1,0 +1,19 @@
+[
+  {
+    "id": 0,
+    "name": "",
+    "gender": "",
+    "nationality": "",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      ""
+    ],
+    "status": "",
+    "first_appearance": "",
+    "total_episodes": 0,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "specific_groups": [
+    "Company",
+    "Burrows",
+    "Scofield",
+    "Sucre",
+    "Burrows/Scofield",
+    "Tancredi",
+    "Mahone",
+    "Morgan",
+
+    "Fox River Staff",
+    "Fox River 8",
+    "Fox River Inmate",
+    "P.I Crew",
+    "Abruzzi's Mob",
+
+    "FBI Search Team",
+    "Secret Service",
+    "Bounty Hunter",
+
+    "Hostages",
+
+    "Sona Inmate",
+    "Sona Operation",
+    "Lechero's Gang",
+    "Sona Outside Help",
+    "Sona Escape Team",
+    "Sona Staff",
+
+    "Cardholder",
+    "Self's Team",
+    "GATE",
+    "Scylla Outside Help",
+    "Homeland Security",
+    "Cristina's Gang",
+    "Miami-Dade Inmate",
+    "Miami-Dade Outside Help",
+    "Miami-Dade Staff",
+    "Daddy's Family",
+
+    "Ogygia Inmate",
+    "Ogygia Guard",
+    "21 Void",
+    "CIA",
+    "ISIL",
+    "Yemen Rescue Team",
+    "21 Void Investigation"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement",
+    "Criminal",
+    "Inmate",
+    "Death Row",
+    "Civilian",
+    "Government",
+    "Medical",
+    "Organised Crime",
+    "Political",
+    "Hitman",
+    "Terrorist",
+    "Rogue"
+  ]
+}

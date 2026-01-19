@@ -3,31 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breakle</title>
+    <title>Breakle - Login</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div id="title">
         <h1>Breakle</h1>
     </div>
-    <div id="character-container">
-        <img src="assets/images/question.png" id="character-image" alt="Breakle">
-        <div id="guess-container">
-            <input type="text" id="guess" autocomplete="off">
-            <div id="search-results" class="results-list"></div>
-        </div>
-        <button id="view-all-btn">View All Characters</button>
+    <div id="login-container">
+        <p>Please enter the code to play</p>
+        <input type="password" id="password" autocomplete="off" placeholder="Enter Code">
+        <button id="login-btn">Enter</button>
+        <p id="error-message" style="color: #ff3333; display: none;">Incorrect code. Try again.</p>
     </div>
-
-    <div id="all-characters-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>All Characters</h2>
-            <div id="all-characters-list"></div>
-        </div>
-    </div>
-    <div id="guesses-container">
-    </div>
-    <script src="js/app.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>

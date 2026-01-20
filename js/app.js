@@ -93,6 +93,10 @@ document.addEventListener('DOMContentLoaded', () => {
     viewAllBtn.addEventListener('click', () => {
         allCharactersList.innerHTML = ''; // Clear previous list
         
+        // Update heading with character count
+        const heading = document.getElementById('all-characters-heading');
+        heading.textContent = `All Characters (${characterList.length})`;
+        
         // Sort alphabetically for the list
         const sortedList = [...characterList].sort((a, b) => a.name.localeCompare(b.name));
 

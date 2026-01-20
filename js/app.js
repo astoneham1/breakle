@@ -227,6 +227,8 @@ function compareStatus(characterGuess) {
 
     if (chosenCharacter.status === characterGuess.status) {
         statusClue.style.backgroundColor = green;
+    } else if (chosenCharacter.status === 'UNKNOWN' && (characterGuess.status === 'Dead' || characterGuess.status === 'Alive')) {
+        statusClue.style.backgroundColor = yellow;
     } else {
         statusClue.style.backgroundColor = red;
     }

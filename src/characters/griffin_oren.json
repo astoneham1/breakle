@@ -1,0 +1,24 @@
+[
+  {
+    "id": 62,
+    "name": "Griffin Oren",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Cardholder",
+      "Cristina's Gang"
+    ],
+    "broad_archetypes": [
+      "Government",     
+      "Organised Crime",
+      "Criminal",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

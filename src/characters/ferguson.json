@@ -1,0 +1,21 @@
+[
+  {
+    "id": 54,
+    "name": "Ferguson",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal",
+      "Hitman"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.12",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

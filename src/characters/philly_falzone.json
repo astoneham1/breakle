@@ -1,0 +1,21 @@
+[
+  {
+    "id": 51,
+    "name": "Philly Falzone",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Abruzzi's Mob"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

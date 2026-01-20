@@ -1,0 +1,21 @@
+[
+  {
+    "id": 52,
+    "name": "Felicia Lang",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Mahone",
+      "FBI Search Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.3",
+    "total_episodes": 19,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

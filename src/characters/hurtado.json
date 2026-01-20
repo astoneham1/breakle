@@ -1,0 +1,19 @@
+[
+  {
+    "id": 67,
+    "name": "Captain Hurtado",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.5",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 64,
+    "name": "Herb Stanton",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Homeland Security"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.3",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

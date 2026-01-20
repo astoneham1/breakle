@@ -1,0 +1,25 @@
+[
+  {
+    "id": 69,
+    "name": "Jacob Anton Ness (Poseidon)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "21 Void",
+      "CIA",
+      "Fox River Inmate"
+    ],
+    "broad_archetypes": [
+      "Government",
+      "Law Enforcement",
+      "Inmate",
+      "Criminal",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

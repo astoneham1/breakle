@@ -1,0 +1,20 @@
+[
+  {
+    "id": 56,
+    "name": "Mary Francis (Lechero's Girl)",
+    "gender": "Female",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Lechero's Gang"
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

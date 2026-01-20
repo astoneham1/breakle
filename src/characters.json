@@ -1330,5 +1330,118 @@
     "first_appearance": "3.5",
     "total_episodes": 3,
     "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Ja",
+    "gender": "Male",
+    "nationality": "KOR",
+    "kills": 0,
+    "specific_groups": [
+      "Ogygia Inmate"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "5.2",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Jacob Anton Ness (Poseidon)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "21 Void",
+      "CIA",
+      "Fox River Inmate"
+    ],
+    "broad_archetypes": [
+      "Government",
+      "Law Enforcement",
+      "Inmate",
+      "Criminal",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Jeanette Owens",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.6",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 71,
+    "name": "William 'Bill' Kim",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Secret Service"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Government",
+      "Law Enforcement",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.5",
+    "total_episodes": 16,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Pam Mahone/Larson",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Mahone"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.3",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Lila Maria Sucre",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.1",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
   }
 ]

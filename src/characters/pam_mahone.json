@@ -1,0 +1,19 @@
+[
+  {
+    "id": 72,
+    "name": "Pam Mahone/Larson",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Mahone"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.3",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 71,
+    "name": "William 'Bill' Kim",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Secret Service"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Government",
+      "Law Enforcement",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.5",
+    "total_episodes": 16,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

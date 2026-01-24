@@ -1,0 +1,20 @@
+[
+  {
+    "id": 84,
+    "name": "Pistachio",
+    "gender": "Female",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.3",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

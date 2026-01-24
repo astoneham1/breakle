@@ -1,0 +1,20 @@
+[
+  {
+    "id": 80,
+    "name": "Richard Mills",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      "Government",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

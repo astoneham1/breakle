@@ -1443,5 +1443,225 @@
     "first_appearance": "4.1",
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Luca Abruzzi",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Abruzzi's Mob"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "5.1",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Sofia Lugo",
+    "gender": "Female",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages",
+      "Sona Outside Help"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 15,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Luis Gallego (McGrady)",
+    "gender": "Male",
+    "nationality": "COL",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate",
+      "Sona Escape Team",
+      "McGrady"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 13,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Marvin Gudat",
+    "gender": "Male",
+    "nationality": "IND",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Medical",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.1",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Bishop McMorrow",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 79,
+    "name": "General Mestas",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "",
+    "first_appearance": "3.9",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Richard Mills",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      ""
+    ],
+    "broad_archetypes": [
+      "Government",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Rita Morgan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Morgan",
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.6",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Omar",
+    "gender": "Male",
+    "nationality": "YEM",
+    "kills": 0,
+    "specific_groups": [
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.1",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Louis Patterson",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 20,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Pistachio",
+    "gender": "Female",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.3",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Roy Geary",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff",
+      "Bounty Hunter"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.6",
+    "total_episodes": 16,
+    "image_url": "assets/images/avatars/.jpg"
   }
 ]

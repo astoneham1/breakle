@@ -1,0 +1,20 @@
+[
+  {
+    "id": 81,
+    "name": "Rita Morgan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Morgan",
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.6",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

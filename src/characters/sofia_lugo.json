@@ -1,0 +1,20 @@
+[
+  {
+    "id": 75,
+    "name": "Sofia Lugo",
+    "gender": "Female",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages",
+      "Sona Outside Help"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 15,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

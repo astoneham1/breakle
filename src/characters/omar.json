@@ -1,0 +1,20 @@
+[
+  {
+    "id": 82,
+    "name": "Omar",
+    "gender": "Male",
+    "nationality": "YEM",
+    "kills": 0,
+    "specific_groups": [
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.1",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

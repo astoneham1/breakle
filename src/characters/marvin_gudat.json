@@ -1,0 +1,20 @@
+[
+  {
+    "id": 77,
+    "name": "Marvin Gudat",
+    "gender": "Male",
+    "nationality": "IND",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Medical",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.1",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

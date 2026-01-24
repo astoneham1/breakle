@@ -1,0 +1,21 @@
+[
+  {
+    "id": 74,
+    "name": "Luca Abruzzi",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Abruzzi's Mob"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "5.1",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  }
+]

@@ -52,7 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const flagSpan = document.createElement('span');
                 flagSpan.classList.add('flag');
-                flagSpan.textContent = flags[character.nationality] || "";
+                const flagEmoji = flags[character.nationality] || "";
+                flagSpan.textContent = flagEmoji;
+                if (flagEmoji) {
+                    twemoji.parse(flagSpan);
+                }
                 div.appendChild(flagSpan);
 
                 // Add click event to select the character
@@ -84,6 +88,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     searchInput.placeholder = `GUESS ${guessNo} OF ${guessMax}`;
 
+    const playAgainBtn = document.getElementById('play-again-btn');
+    playAgainBtn.addEventListener('click', () => {
+        resetGame();
+    });
+
     // View All Characters Modal Logic
     const viewAllBtn = document.getElementById('view-all-btn');
     const modal = document.getElementById('all-characters-modal');
@@ -108,7 +117,11 @@ document.addEventListener('DOMContentLoaded', () => {
             nameSpan.textContent = character.name;
             
             const flagSpan = document.createElement('span');
+            flagSpan.classList.add('flag');
             flagSpan.textContent = flags[character.nationality] || character.nationality;
+            if (flags[character.nationality]) {
+                twemoji.parse(flagSpan);
+            }
             
             item.appendChild(nameSpan);
             item.appendChild(flagSpan);
@@ -131,6 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function startGame() {
     console.log('Game started!');
+    // chosenCharacter = availableCharacterList[0];
     chosenCharacter = availableCharacterList[Math.random() * availableCharacterList.length | 0];
     console.log(`Chosen character: ${chosenCharacter.name}`);
 }
@@ -159,7 +173,7 @@ function handleGuess(characterGuess) {
     
     // CHECK EXACT MATCH
     if (chosenCharacter.id === characterGuess.id) {
-        alert('You won!');
+        gameOver(true);
     } else {
         incrementGuessCount();
     }
@@ -200,6 +214,7 @@ function compareNationality(characterGuess) {
     if (flag) {
         nationalityP.textContent = flag;
         nationalityP.classList.add('emoji');
+        twemoji.parse(nationalityP);
     } else {
         nationalityP.textContent = characterGuess.nationality;
     }
@@ -358,7 +373,50 @@ function compareEpisodes(characterGuess) {
 function incrementGuessCount() {
     guessNo++;
     if (guessNo > guessMax) {
-        alert(`Game Over! The character was ${chosenCharacter.name}`);
-        location.reload();
+        gameOver(false);
     }
+}
+
+function gameOver(win) {
+    const resultMessage = document.getElementById('result-message');
+    const resultText = document.getElementById('result-text');
+    const searchInput = document.getElementById('guess');
+    const guessContainer = document.getElementById('guess-container');
+    const characterImage = document.getElementById('character-image');
+
+    resultMessage.style.display = 'block';
+    guessContainer.style.display = 'none';
+    searchInput.disabled = true;
+
+    // Show character image if available
+    if (chosenCharacter.image_url) {
+        characterImage.src = chosenCharacter.image_url;
+    }
+
+    if (win) {
+        resultText.textContent = `You won! The character was ${chosenCharacter.name}`;
+        resultText.style.color = green;
+    } else {
+        resultText.textContent = `Game Over! The character was ${chosenCharacter.name}`;
+        resultText.style.color = red;
+    }
+}
+
+function resetGame() {
+    guessNo = 1;
+    const guessesContainer = document.getElementById('guesses-container');
+    const resultMessage = document.getElementById('result-message');
+    const searchInput = document.getElementById('guess');
+    const guessContainer = document.getElementById('guess-container');
+    const characterImage = document.getElementById('character-image');
+
+    guessesContainer.innerHTML = '';
+    resultMessage.style.display = 'none';
+    guessContainer.style.display = 'flex';
+    searchInput.disabled = false;
+    searchInput.value = '';
+    searchInput.placeholder = `GUESS ${guessNo} OF ${guessMax}`;
+    characterImage.src = 'assets/images/question.png';
+
+    startGame();
 }

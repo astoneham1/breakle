@@ -29,7 +29,7 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-#character-container img {
+#character-image {
     padding: 10px;
     width: 100px;
     margin: 5px auto;
@@ -69,6 +69,35 @@ body {
 
 #view-all-btn:hover {
     background-color: #555;
+}
+
+#result-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#result-text {
+    margin: 5px 15px;
+    font-size: 1.2rem;
+}
+
+#play-again-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #66e722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+#play-again-btn:hover {
+    background-color: #55c61a;
 }
 
 .modal {
@@ -241,10 +270,28 @@ body {
     font-size: 1.25rem;
 }
 
+.clue p.emoji img.emoji {
+    height: 1.25em;
+    width: 1.25em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
 @media (min-width: 600px) {
     .clue p.emoji {
         font-size: 2rem;
     }
+    .clue p.emoji img.emoji {
+        height: 1.25em;
+        width: 1.25em;
+    }
+}
+
+.flag img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
 }
 
 .clue-label {

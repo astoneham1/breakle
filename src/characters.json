@@ -129,7 +129,7 @@
   },
   {
     "id": 6,
-    "name": "Theodore 'T-Bag' Bagwell",
+    "name": "Theodore Bagwell (T-Bag)",
     "gender": "Male",
     "nationality": "USA",
     "kills": 27,
@@ -253,7 +253,7 @@
   },
   {
     "id": 11,
-    "name": "Benjamin 'C-Note' Franklin",
+    "name": "Benjamin Franklin (C-Note)",
     "gender": "Male",
     "nationality": "USA",
     "kills": 3,
@@ -277,7 +277,7 @@
   },
   {
     "id": 12,
-    "name": "Lincoln Junior 'LJ' Burrows",
+    "name": "Lincoln Burrows Jr. (LJ)",
     "gender": "Male",
     "nationality": "USA",
     "kills": 1,
@@ -319,7 +319,7 @@
   },
   {
     "id": 14,
-    "name": "Charles 'Haywire' Patoshik",
+    "name": "Charles Patoshik (Haywire)",
     "gender": "Male",
     "nationality": "USA",
     "kills": 5,
@@ -338,7 +338,7 @@
   },
   {
     "id": 15,
-    "name": "David 'Tweener' Apolskis",
+    "name": "David Apolskis (Tweener)",
     "gender": "Male",
     "nationality": "USA",
     "kills": 0,
@@ -714,7 +714,7 @@
   },
   {
     "id": 36,
-    "name": "Cameron 'Cammy' Mahone",
+    "name": "Cameron Mahone",
     "gender": "Male",
     "nationality": "USA",
     "kills": 0,
@@ -750,7 +750,7 @@
   },
   {
     "id": 38,
-    "name": "Charles Westmoreland",
+    "name": "Charles Westmoreland (DB Cooper)",
     "gender": "Male",
     "nationality": "USA",
     "kills": 1,
@@ -867,7 +867,7 @@
   },
   {
     "id": 44,
-    "name": "Daniel 'Danny' Hale",
+    "name": "Daniel Hale",
     "gender": "Male",
     "nationality": "USA",
     "kills": 0,
@@ -1341,7 +1341,7 @@
   },
   {
     "id": 69,
-    "name": "Jacob Anton Ness (Poseidon)",
+    "name": "Jacob Ness (Poseidon)",
     "gender": "Male",
     "nationality": "USA",
     "kills": 1,
@@ -1382,7 +1382,7 @@
   },
   {
     "id": 71,
-    "name": "William 'Bill' Kim",
+    "name": "William/Bill Kim",
     "gender": "Male",
     "nationality": "USA",
     "kills": 0,

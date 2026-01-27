@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 3,
     "name": "Sara Tancredi/Scofield",
     "gender": "Female",
@@ -25,4 +24,3 @@
     "total_episodes": 73,
     "image_url": "assets/images/avatars/stancredi.jpg"
   }
-]

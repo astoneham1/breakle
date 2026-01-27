@@ -1,0 +1,17 @@
+{
+    "id": 106,
+    "name": "Mark Wheeler",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "FBI Search Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.1",
+    "total_episodes": 18,
+    "image_url": "assets/images/avatars/.jpg"
+  }

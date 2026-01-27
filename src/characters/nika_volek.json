@@ -1,0 +1,17 @@
+{
+    "id": 103,
+    "name": "Nika Volek",
+    "gender": "Female",
+    "nationality": "CZE",
+    "kills": 0,
+    "specific_groups": [
+      "Scofield"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.10",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  }

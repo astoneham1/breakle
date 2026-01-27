@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 39,
     "name": "Cheo",
     "gender": "Male",
@@ -19,4 +18,3 @@
     "total_episodes": 6,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

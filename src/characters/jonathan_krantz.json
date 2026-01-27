@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 61,
     "name": "General Jonathan Krantz",
     "gender": "Male",
@@ -24,4 +23,3 @@
     "total_episodes": 29,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

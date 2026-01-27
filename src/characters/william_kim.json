@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 71,
     "name": "William 'Bill' Kim",
     "gender": "Male",
@@ -20,4 +19,3 @@
     "total_episodes": 16,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

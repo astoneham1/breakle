@@ -1,0 +1,17 @@
+{
+    "id": 108,
+    "name": "Gregory White",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "GATE"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.3",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg"
+  }

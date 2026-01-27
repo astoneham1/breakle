@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 21,
     "name": "Hector Avila",
     "gender": "Male",
@@ -16,4 +15,3 @@
     "total_episodes": 5,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

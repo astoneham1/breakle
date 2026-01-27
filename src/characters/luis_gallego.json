@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 76,
     "name": "Luis Gallego (McGrady)",
     "gender": "Male",
@@ -19,4 +18,3 @@
     "total_episodes": 13,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

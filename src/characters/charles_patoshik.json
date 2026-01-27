@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 14,
     "name": "Charles 'Haywire' Patoshik",
     "gender": "Male",
@@ -18,4 +17,3 @@
     "total_episodes": 12,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

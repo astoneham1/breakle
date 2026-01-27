@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 16,
     "name": "Agatha Warren",
     "gender": "Female",
@@ -18,4 +17,3 @@
     "total_episodes": 1,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 49,
     "name": "Emily Morgan",
     "gender": "Female",
@@ -17,4 +16,3 @@
     "total_episodes": 3,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

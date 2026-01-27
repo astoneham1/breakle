@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 44,
     "name": "Daniel 'Danny' Hale",
     "gender": "Male",
@@ -21,4 +20,3 @@
     "total_episodes": 13,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

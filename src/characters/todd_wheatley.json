@@ -1,0 +1,17 @@
+{
+    "id": 105,
+    "name": "Todd Wheatley",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "FBI Search Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg"
+  }

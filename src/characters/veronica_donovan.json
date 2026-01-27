@@ -1,0 +1,18 @@
+{
+    "id": 102,
+    "name": "Veronica Donovan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Burrows",
+      "Exoneration Team"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 23,
+    "image_url": "assets/images/avatars/.jpg"
+  }

@@ -1,0 +1,19 @@
+{
+    "id": 94,
+    "name": "Cyclops",
+    "gender": "Male",
+    "nationality": "YEM",
+    "kills": 1,
+    "specific_groups": [
+      "ISIL"
+    ],
+    "broad_archetypes": [
+      "Terrorist",
+      "Criminal",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.2",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg"
+  }

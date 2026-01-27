@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 34,
     "name": "Jason 'Maytag' Buchanan",
     "gender": "Male",
@@ -17,4 +16,3 @@
     "total_episodes": 1,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

@@ -1,13 +1,10 @@
-[
-  {
+{
     "id": 78,
     "name": "Bishop McMorrow",
     "gender": "Male",
     "nationality": "USA",
     "kills": 0,
-    "specific_groups": [
-      ""
-    ],
+    "specific_groups": [],
     "broad_archetypes": [
       "Civilian",
       "Political"
@@ -17,4 +14,4 @@
     "total_episodes": 1,
     "image_url": "assets/images/avatars/.jpg"
   }
-]
+

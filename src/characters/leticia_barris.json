@@ -1,13 +1,10 @@
-[
-  {
+{
     "id": 25,
     "name": "Leticia Barris",
     "gender": "Female",
     "nationality": "USA",
     "kills": 0,
-    "specific_groups": [
-      ""
-    ],
+    "specific_groups": [],
     "broad_archetypes": [
       "Civilian"
     ],
@@ -16,4 +13,4 @@
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg"
   }
-]
+

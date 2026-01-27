@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 53,
     "name": "Feng Huan",
     "gender": "Male",
@@ -18,4 +17,3 @@
     "total_episodes": 6,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

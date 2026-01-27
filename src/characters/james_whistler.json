@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 13,
     "name": "James Whistler",
     "gender": "Male",
@@ -22,4 +21,3 @@
     "total_episodes": 15,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

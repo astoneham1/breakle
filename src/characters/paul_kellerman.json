@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 9,
     "name": "Paul Kellerman",
     "gender": "Male",
@@ -19,9 +18,8 @@
       "Organised Crime",
       "Rogue"
     ],
-    "status": "Alive",
+    "status": "Deceased",
     "first_appearance": "1.1",
     "total_episodes": 42,
     "image_url": "assets/images/avatars/pkellerman.jpg"
   }
-]

@@ -1,10 +1,9 @@
-[
-  {
+{
     "id": 4,
     "name": "Alexander Mahone",
     "gender": "Male",
     "nationality": "USA",
-    "kills": 21,
+    "kills": 14,
     "specific_groups": [
       "Mahone",
       "FBI Search Team",
@@ -23,4 +22,3 @@
     "total_episodes": 59,
     "image_url": "assets/images/avatars/amahone.jpg"
   }
-]

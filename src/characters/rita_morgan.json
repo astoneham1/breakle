@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 81,
     "name": "Rita Morgan",
     "gender": "Female",
@@ -17,4 +16,3 @@
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

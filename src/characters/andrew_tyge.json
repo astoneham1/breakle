@@ -1,0 +1,18 @@
+{
+    "id": 100,
+    "name": "Andrew Tyge",
+    "gender": "Male",
+    "nationality": "FRA",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.5",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  }

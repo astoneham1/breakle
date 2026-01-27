@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 11,
     "name": "Benjamin 'C-Note' Franklin",
     "gender": "Male",
@@ -23,4 +22,3 @@
     "total_episodes": 44,
     "image_url": "assets/images/avatars/bfranklin.jpg"
   }
-]

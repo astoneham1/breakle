@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 22,
     "name": "David Baker",
     "gender": "Male",
@@ -16,4 +15,3 @@
     "total_episodes": 1,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

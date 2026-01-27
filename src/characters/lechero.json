@@ -1,0 +1,21 @@
+{
+    "id": 110,
+    "name": "Lechero",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Lechero's Gang",
+      "Sona Inmate",
+      "Sona Escape Team"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Organised Crime",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.1",
+    "total_episodes": 13,
+    "image_url": "assets/images/avatars/.jpg"
+  }

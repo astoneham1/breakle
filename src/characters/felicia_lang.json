@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 52,
     "name": "Felicia Lang",
     "gender": "Female",
@@ -18,4 +17,3 @@
     "total_episodes": 19,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 72,
     "name": "Pam Mahone/Larson",
     "gender": "Female",
@@ -16,4 +15,3 @@
     "total_episodes": 5,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

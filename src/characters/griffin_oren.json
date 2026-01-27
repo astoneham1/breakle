@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 62,
     "name": "Griffin Oren",
     "gender": "Male",
@@ -21,4 +20,3 @@
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

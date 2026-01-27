@@ -1,0 +1,17 @@
+{
+    "id": 89,
+    "name": "Nick Savrinn",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Exoneration Team"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.4",
+    "total_episodes": 18,
+    "image_url": "assets/images/avatars/.jpg"
+  }

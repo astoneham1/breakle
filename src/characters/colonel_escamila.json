@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 50,
     "name": "Colonel Escamila",
     "gender": "Male",
@@ -17,4 +16,3 @@
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

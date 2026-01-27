@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 65,
     "name": "Susan Hollander",
     "gender": "Female",
@@ -16,4 +15,3 @@
     "total_episodes": 7,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

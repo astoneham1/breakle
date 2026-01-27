@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 56,
     "name": "Mary Francis (Lechero's Girl)",
     "gender": "Female",
@@ -17,4 +16,3 @@
     "total_episodes": 5,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 75,
     "name": "Sofia Lugo",
     "gender": "Female",
@@ -17,4 +16,3 @@
     "total_episodes": 15,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 82,
     "name": "Omar",
     "gender": "Male",
@@ -17,4 +16,3 @@
     "total_episodes": 6,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

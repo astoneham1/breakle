@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 40,
     "name": "Cristina Scofield",
     "gender": "Female",
@@ -22,4 +21,3 @@
     "total_episodes": 7,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

@@ -1,0 +1,18 @@
+{
+    "id": 104,
+    "name": "Katie Welch",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Medical",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg"
+  }

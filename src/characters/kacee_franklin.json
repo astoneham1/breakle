@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 59,
     "name": "Kacee Franklin",
     "gender": "Female",
@@ -17,4 +16,3 @@
     "total_episodes": 9,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

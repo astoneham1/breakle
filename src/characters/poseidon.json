@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 69,
     "name": "Jacob Anton Ness (Poseidon)",
     "gender": "Male",
@@ -8,7 +7,8 @@
     "specific_groups": [
       "21 Void",
       "CIA",
-      "Fox River Inmate"
+      "Fox River Inmate",
+      "Tancredi"
     ],
     "broad_archetypes": [
       "Government",
@@ -22,4 +22,3 @@
     "total_episodes": 9,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

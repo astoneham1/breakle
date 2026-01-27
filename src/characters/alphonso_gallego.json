@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 60,
     "name": "Alphonso Gallego",
     "gender": "Male",
@@ -17,4 +16,3 @@
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

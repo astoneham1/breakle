@@ -1,0 +1,17 @@
+{
+    "id": 109,
+    "name": "General Zavala",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.8",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg"
+  }

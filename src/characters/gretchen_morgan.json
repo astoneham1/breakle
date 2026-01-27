@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 7,
     "name": "Gretchen Morgan",
     "gender": "Female",
@@ -24,4 +23,3 @@
     "total_episodes": 36,
     "image_url": "assets/images/avatars/gmorgan.jpg"
   }
-]

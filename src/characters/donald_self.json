@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 47,
     "name": "Donald Self",
     "gender": "Male",
@@ -20,4 +19,3 @@
     "total_episodes": 22,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

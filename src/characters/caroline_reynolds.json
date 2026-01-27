@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 37,
     "name": "Caroline Reynolds",
     "gender": "Female",
@@ -18,4 +17,3 @@
     "total_episodes": 18,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

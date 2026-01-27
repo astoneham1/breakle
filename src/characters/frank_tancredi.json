@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 57,
     "name": "Frank Tancredi",
     "gender": "Male",
@@ -18,4 +17,3 @@
     "total_episodes": 9,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

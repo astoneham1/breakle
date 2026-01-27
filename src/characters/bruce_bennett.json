@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 33,
     "name": "Bruce Bennett",
     "gender": "Male",
@@ -18,4 +17,3 @@
     "total_episodes": 7,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

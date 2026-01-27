@@ -1,0 +1,17 @@
+{
+    "id": 95,
+    "name": "Keith Stolte",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg"
+  }

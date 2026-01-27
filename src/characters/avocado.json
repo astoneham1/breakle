@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 23,
     "name": "Avocado",
     "gender": "Male",
@@ -17,4 +16,3 @@
     "total_episodes": 5,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

@@ -1,13 +1,10 @@
-[
-  {
+{
     "id": 27,
     "name": "Debra Jean Belle",
     "gender": "Female",
     "nationality": "USA",
     "kills": 0,
-    "specific_groups": [
-      ""
-    ],
+    "specific_groups": [],
     "broad_archetypes": [
       "Civilian"
     ],
@@ -16,4 +13,4 @@
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg"
   }
-]
+

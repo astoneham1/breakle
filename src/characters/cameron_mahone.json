@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 36,
     "name": "Cameron 'Cammy' Mahone",
     "gender": "Male",
@@ -16,4 +15,3 @@
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

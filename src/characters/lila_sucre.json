@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 73,
     "name": "Lila Maria Sucre",
     "gender": "Female",
@@ -16,4 +15,3 @@
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

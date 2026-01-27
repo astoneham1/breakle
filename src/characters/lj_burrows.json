@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 12,
     "name": "Lincoln Junior 'LJ' Burrows",
     "gender": "Male",
@@ -18,4 +17,3 @@
     "total_episodes": 25,
     "image_url": "assets/images/avatars/ljburrows.jpg"
   }
-]

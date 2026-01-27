@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 8,
     "name": "Fernando Sucre",
     "gender": "Male",
@@ -26,4 +25,3 @@
     "total_episodes": 74,
     "image_url": "assets/images/avatars/fsucre.jpg"
   }
-]

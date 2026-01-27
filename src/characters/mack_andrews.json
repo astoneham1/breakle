@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 19,
     "name": "Mack Andrews",
     "gender": "Male",
@@ -16,4 +15,3 @@
     "total_episodes": 15,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

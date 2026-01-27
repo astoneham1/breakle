@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 6,
     "name": "Theodore 'T-Bag' Bagwell",
     "gender": "Male",
@@ -24,4 +23,3 @@
     "total_episodes": 81,
     "image_url": "assets/images/avatars/tbagwell.jpg"
   }
-]

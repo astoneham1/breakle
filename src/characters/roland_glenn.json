@@ -1,0 +1,18 @@
+{
+    "id": 111,
+    "name": "Roland Glenn",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Self's Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.2",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg"
+  }

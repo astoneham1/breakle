@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 32,
     "name": "Samantha Brinker",
     "gender": "Female",
@@ -18,4 +17,3 @@
     "total_episodes": 7,
     "image_url": "assets/images/avatars/.jpg"
   }
-]

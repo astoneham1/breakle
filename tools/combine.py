@@ -22,6 +22,9 @@ for filename in os.listdir(folder_path):
 
 all_characters.sort(key=lambda x: x.get('id', 999))
 
+for i, character in enumerate(all_characters):
+    character['id'] = i + 1
+
 with open('src/characters.json', 'w') as outfile:
     json.dump(all_characters, outfile, indent=2)
 

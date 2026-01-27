@@ -602,24 +602,6 @@
   },
   {
     "id": 30,
-    "name": "Bo",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Criminal"
-    ],
-    "status": "Unknown",
-    "first_appearance": "1.2",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 31,
     "name": "Bob Hudson",
     "gender": "Male",
     "nationality": "USA",
@@ -637,7 +619,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 32,
+    "id": 31,
     "name": "Samantha Brinker",
     "gender": "Female",
     "nationality": "USA",
@@ -656,7 +638,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 33,
+    "id": 32,
     "name": "Bruce Bennett",
     "gender": "Male",
     "nationality": "USA",
@@ -675,25 +657,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 34,
-    "name": "Jason 'Maytag' Buchanan",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Inmate"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.2",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 35,
+    "id": 33,
     "name": "Aldo Burrows",
     "gender": "Male",
     "nationality": "USA",
@@ -713,7 +677,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 36,
+    "id": 34,
     "name": "Cameron Mahone",
     "gender": "Male",
     "nationality": "USA",
@@ -730,7 +694,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 37,
+    "id": 35,
     "name": "Caroline Reynolds",
     "gender": "Female",
     "nationality": "USA",
@@ -749,7 +713,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 38,
+    "id": 36,
     "name": "Charles Westmoreland (DB Cooper)",
     "gender": "Male",
     "nationality": "USA",
@@ -768,7 +732,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 39,
+    "id": 37,
     "name": "Cheo",
     "gender": "Male",
     "nationality": "PAN",
@@ -788,7 +752,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 40,
+    "id": 38,
     "name": "Cristina Scofield",
     "gender": "Female",
     "nationality": "USA",
@@ -811,7 +775,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 41,
+    "id": 39,
     "name": "Cristobal",
     "gender": "Male",
     "nationality": "PAN",
@@ -830,7 +794,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 42,
+    "id": 40,
     "name": "Daddy",
     "gender": "Female",
     "nationality": "USA",
@@ -849,7 +813,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 43,
+    "id": 41,
     "name": "Senator Conrad Dallow",
     "gender": "Male",
     "nationality": "USA",
@@ -866,7 +830,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 44,
+    "id": 42,
     "name": "Daniel Hale",
     "gender": "Male",
     "nationality": "USA",
@@ -888,7 +852,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 45,
+    "id": 43,
     "name": "Maricruz Delgado",
     "gender": "Female",
     "nationality": "USA",
@@ -905,7 +869,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 46,
+    "id": 44,
     "name": "Downey",
     "gender": "Male",
     "nationality": "USA",
@@ -925,7 +889,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 47,
+    "id": 45,
     "name": "Donald Self",
     "gender": "Male",
     "nationality": "USA",
@@ -946,7 +910,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 48,
+    "id": 46,
     "name": "Nathaniel Edison",
     "gender": "Male",
     "nationality": "USA",
@@ -966,7 +930,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 49,
+    "id": 47,
     "name": "Emily Morgan",
     "gender": "Female",
     "nationality": "USA",
@@ -984,7 +948,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 50,
+    "id": 48,
     "name": "Colonel Escamila",
     "gender": "Male",
     "nationality": "PAN",
@@ -1002,7 +966,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 51,
+    "id": 49,
     "name": "Philly Falzone",
     "gender": "Male",
     "nationality": "USA",
@@ -1021,7 +985,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 52,
+    "id": 50,
     "name": "Felicia Lang",
     "gender": "Female",
     "nationality": "USA",
@@ -1040,7 +1004,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 53,
+    "id": 51,
     "name": "Feng Huan",
     "gender": "Male",
     "nationality": "CHN",
@@ -1059,7 +1023,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 54,
+    "id": 52,
     "name": "Ferguson",
     "gender": "Male",
     "nationality": "USA",
@@ -1078,7 +1042,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 55,
+    "id": 53,
     "name": "Otto Fibonacci",
     "gender": "Male",
     "nationality": "ITA",
@@ -1094,7 +1058,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 56,
+    "id": 54,
     "name": "Mary Francis (Lechero's Girl)",
     "gender": "Female",
     "nationality": "PAN",
@@ -1112,7 +1076,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 57,
+    "id": 55,
     "name": "Frank Tancredi",
     "gender": "Male",
     "nationality": "USA",
@@ -1131,7 +1095,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 58,
+    "id": 56,
     "name": "Dede Franklin",
     "gender": "Female",
     "nationality": "USA",
@@ -1148,7 +1112,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 59,
+    "id": 57,
     "name": "Kacee Franklin",
     "gender": "Female",
     "nationality": "USA",
@@ -1166,7 +1130,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 60,
+    "id": 58,
     "name": "Alphonso Gallego",
     "gender": "Male",
     "nationality": "COL",
@@ -1184,7 +1148,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 61,
+    "id": 59,
     "name": "General Jonathan Krantz",
     "gender": "Male",
     "nationality": "USA",
@@ -1209,7 +1173,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 62,
+    "id": 60,
     "name": "Griffin Oren",
     "gender": "Male",
     "nationality": "USA",
@@ -1231,7 +1195,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 63,
+    "id": 61,
     "name": "Henry Pope",
     "gender": "Male",
     "nationality": "USA",
@@ -1250,7 +1214,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 64,
+    "id": 62,
     "name": "Herb Stanton",
     "gender": "Male",
     "nationality": "USA",
@@ -1268,7 +1232,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 65,
+    "id": 63,
     "name": "Susan Hollander",
     "gender": "Female",
     "nationality": "USA",
@@ -1285,7 +1249,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 66,
+    "id": 64,
     "name": "Miriam Holtz",
     "gender": "Female",
     "nationality": "USA",
@@ -1305,7 +1269,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 67,
+    "id": 65,
     "name": "Captain Hurtado",
     "gender": "Male",
     "nationality": "PAN",
@@ -1322,7 +1286,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 68,
+    "id": 66,
     "name": "Ja",
     "gender": "Male",
     "nationality": "KOR",
@@ -1340,7 +1304,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 69,
+    "id": 67,
     "name": "Jacob Ness (Poseidon)",
     "gender": "Male",
     "nationality": "USA",
@@ -1364,24 +1328,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 70,
-    "name": "Jeanette Owens",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "2.6",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 71,
+    "id": 68,
     "name": "William/Bill Kim",
     "gender": "Male",
     "nationality": "USA",
@@ -1402,7 +1349,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 72,
+    "id": 69,
     "name": "Pam Mahone/Larson",
     "gender": "Female",
     "nationality": "USA",
@@ -1419,7 +1366,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 73,
+    "id": 70,
     "name": "Lila Maria Sucre",
     "gender": "Female",
     "nationality": "USA",
@@ -1436,7 +1383,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 74,
+    "id": 71,
     "name": "Luca Abruzzi",
     "gender": "Male",
     "nationality": "USA",
@@ -1455,7 +1402,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 75,
+    "id": 72,
     "name": "Sofia Lugo",
     "gender": "Female",
     "nationality": "PAN",
@@ -1473,7 +1420,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 76,
+    "id": 73,
     "name": "Luis Gallego (McGrady)",
     "gender": "Male",
     "nationality": "COL",
@@ -1493,7 +1440,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 77,
+    "id": 74,
     "name": "Marvin Gudat",
     "gender": "Male",
     "nationality": "IND",
@@ -1511,7 +1458,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 78,
+    "id": 75,
     "name": "Bishop McMorrow",
     "gender": "Male",
     "nationality": "USA",
@@ -1527,7 +1474,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 79,
+    "id": 76,
     "name": "General Mestas",
     "gender": "Male",
     "nationality": "PAN",
@@ -1545,7 +1492,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 80,
+    "id": 77,
     "name": "Richard Mills",
     "gender": "Male",
     "nationality": "USA",
@@ -1561,7 +1508,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 81,
+    "id": 78,
     "name": "Rita Morgan",
     "gender": "Female",
     "nationality": "USA",
@@ -1579,7 +1526,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 82,
+    "id": 79,
     "name": "Omar",
     "gender": "Male",
     "nationality": "YEM",
@@ -1597,7 +1544,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 83,
+    "id": 80,
     "name": "Louis Patterson",
     "gender": "Male",
     "nationality": "USA",
@@ -1614,7 +1561,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 84,
+    "id": 81,
     "name": "Pistachio",
     "gender": "Female",
     "nationality": "PAN",
@@ -1632,7 +1579,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 85,
+    "id": 82,
     "name": "Roy Geary",
     "gender": "Male",
     "nationality": "USA",
@@ -1652,7 +1599,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 86,
+    "id": 83,
     "name": "Sammy",
     "gender": "Male",
     "nationality": "PAN",
@@ -1672,7 +1619,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 87,
+    "id": 84,
     "name": "Manche Sanchez",
     "gender": "Male",
     "nationality": "USA",
@@ -1692,7 +1639,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 88,
+    "id": 85,
     "name": "Vincent Sandinsky",
     "gender": "Male",
     "nationality": "USA",
@@ -1710,7 +1657,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 89,
+    "id": 86,
     "name": "Nick Savrinn",
     "gender": "Male",
     "nationality": "USA",
@@ -1727,7 +1674,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 90,
+    "id": 87,
     "name": "Michael Scofield Jr.",
     "gender": "Male",
     "nationality": "USA",
@@ -1746,7 +1693,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 91,
+    "id": 88,
     "name": "Howard Scuderi",
     "gender": "Male",
     "nationality": "USA",
@@ -1766,7 +1713,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 92,
+    "id": 89,
     "name": "Sheba",
     "gender": "Female",
     "nationality": "YEM",
@@ -1784,7 +1731,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 93,
+    "id": 90,
     "name": "Sid",
     "gender": "Male",
     "nationality": "YEM",
@@ -1801,7 +1748,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 94,
+    "id": 91,
     "name": "Cyclops",
     "gender": "Male",
     "nationality": "YEM",
@@ -1820,7 +1767,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 95,
+    "id": 92,
     "name": "Keith Stolte",
     "gender": "Male",
     "nationality": "USA",
@@ -1837,7 +1784,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 96,
+    "id": 93,
     "name": "Richard Sullins",
     "gender": "Male",
     "nationality": "USA",
@@ -1854,7 +1801,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 97,
+    "id": 94,
     "name": "Lisa Tabak",
     "gender": "Female",
     "nationality": "USA",
@@ -1874,7 +1821,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 98,
+    "id": 95,
     "name": "Terrence Steadman",
     "gender": "Male",
     "nationality": "USA",
@@ -1893,7 +1840,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 99,
+    "id": 96,
     "name": "Stuart Tuxhorn",
     "gender": "Male",
     "nationality": "USA",
@@ -1912,7 +1859,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 100,
+    "id": 97,
     "name": "Andrew Tyge",
     "gender": "Male",
     "nationality": "FRA",
@@ -1930,7 +1877,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 101,
+    "id": 98,
     "name": "Van Gogh",
     "gender": "Male",
     "nationality": "USA",
@@ -1949,7 +1896,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 102,
+    "id": 99,
     "name": "Veronica Donovan",
     "gender": "Female",
     "nationality": "USA",
@@ -1967,7 +1914,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 103,
+    "id": 100,
     "name": "Nika Volek",
     "gender": "Female",
     "nationality": "CZE",
@@ -1984,7 +1931,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 104,
+    "id": 101,
     "name": "Katie Welch",
     "gender": "Female",
     "nationality": "USA",
@@ -2002,7 +1949,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 105,
+    "id": 102,
     "name": "Todd Wheatley",
     "gender": "Male",
     "nationality": "USA",
@@ -2019,7 +1966,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 106,
+    "id": 103,
     "name": "Mark Wheeler",
     "gender": "Male",
     "nationality": "USA",
@@ -2036,7 +1983,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 107,
+    "id": 104,
     "name": "David Martin (Whip)",
     "gender": "Male",
     "nationality": "USA",
@@ -2054,7 +2001,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 108,
+    "id": 105,
     "name": "Gregory White",
     "gender": "Male",
     "nationality": "USA",
@@ -2071,7 +2018,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 109,
+    "id": 106,
     "name": "General Zavala",
     "gender": "Male",
     "nationality": "PAN",
@@ -2088,7 +2035,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 110,
+    "id": 107,
     "name": "Lechero",
     "gender": "Male",
     "nationality": "PAN",
@@ -2109,7 +2056,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 111,
+    "id": 108,
     "name": "Roland Glenn",
     "gender": "Male",
     "nationality": "USA",
@@ -2127,7 +2074,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 112,
+    "id": 109,
     "name": "Emily Blake",
     "gender": "Female",
     "nationality": "USA",
@@ -2146,7 +2093,7 @@
     "image_url": "assets/images/avatars/.jpg"
   },
   {
-    "id": 113,
+    "id": 110,
     "name": "Henry Kishida",
     "gender": "Male",
     "nationality": "USA",

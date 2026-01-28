@@ -1,22 +1,21 @@
 {
-    "id": 10,
-    "name": "John Abruzzi",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 7,
-    "specific_groups": [
-      "Fox River Inmate",
-      "Fox River 8",
-      "P.I Crew",
-      "Abruzzi's Mob"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Organised Crime"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 20,
-    "image_url": "assets/images/avatars/jabruzzi.jpg"
-  }
+  "name": "John Abruzzi",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 7,
+  "specific_groups": [
+    "Fox River Inmate",
+    "Fox River 8",
+    "P.I Crew",
+    "Abruzzi's Mob"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Inmate",
+    "Organised Crime"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.1",
+  "total_episodes": 20,
+  "image_url": "assets/images/avatars/jabruzzi.jpg"
+}

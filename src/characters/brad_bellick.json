@@ -1,23 +1,22 @@
 {
-    "id": 5,
-    "name": "Brad Bellick",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 3,
-    "specific_groups": [
-      "Fox River Staff",
-      "Bounty Hunter",
-      "Sona Inmate",
-      "Sona Escape Team",
-      "Self's Team"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 63,
-    "image_url": "assets/images/avatars/bbellick.jpg"
-  }
+  "name": "Brad Bellick",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 3,
+  "specific_groups": [
+    "Fox River Staff",
+    "Bounty Hunter",
+    "Sona Inmate",
+    "Sona Escape Team",
+    "Self's Team"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement",
+    "Criminal",
+    "Inmate"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.1",
+  "total_episodes": 63,
+  "image_url": "assets/images/avatars/bbellick.jpg"
+}

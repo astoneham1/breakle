@@ -1,24 +1,23 @@
 {
-    "id": 4,
-    "name": "Alexander Mahone",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 14,
-    "specific_groups": [
-      "Mahone",
-      "FBI Search Team",
-      "Sona Inmate",
-      "Sona Escape Team",
-      "Self's Team",
-      "Miami-Dade Outside Help"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Alive",
-    "first_appearance": "2.1",
-    "total_episodes": 59,
-    "image_url": "assets/images/avatars/amahone.jpg"
-  }
+  "name": "Alexander Mahone",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 14,
+  "specific_groups": [
+    "Mahone",
+    "FBI Search Team",
+    "Sona Inmate",
+    "Sona Escape Team",
+    "Self's Team",
+    "Miami-Dade Outside Help"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement",
+    "Criminal",
+    "Inmate"
+  ],
+  "status": "Alive",
+  "first_appearance": "2.1",
+  "total_episodes": 59,
+  "image_url": "assets/images/avatars/amahone.jpg"
+}

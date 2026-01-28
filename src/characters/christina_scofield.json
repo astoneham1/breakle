@@ -1,23 +1,22 @@
 {
-    "id": 40,
-    "name": "Cristina Scofield",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Scofield",
-      "Company",
-      "Christina's Gang",
-      "Scylla Buyer"
-    ],
-    "broad_archetypes": [
-      "Political",
-      "Criminal",
-      "Organised Crime",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.16",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Cristina Scofield",
+  "gender": "Female",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Scofield",
+    "Company",
+    "Christina's Gang",
+    "Scylla Buyer"
+  ],
+  "broad_archetypes": [
+    "Political",
+    "Criminal",
+    "Organised Crime",
+    "Rogue"
+  ],
+  "status": "Deceased",
+  "first_appearance": "4.16",
+  "total_episodes": 7,
+  "image_url": "assets/images/avatars/.jpg"
+}

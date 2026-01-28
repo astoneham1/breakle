@@ -1,20 +1,19 @@
 {
-    "id": 91,
-    "name": "Howard Scuderi",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company",
-      "Cardholder"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Civilian",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.7",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Howard Scuderi",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Company",
+    "Cardholder"
+  ],
+  "broad_archetypes": [
+    "Organised Crime",
+    "Civilian",
+    "Criminal"
+  ],
+  "status": "Deceased",
+  "first_appearance": "4.7",
+  "total_episodes": 4,
+  "image_url": "assets/images/avatars/.jpg"
+}

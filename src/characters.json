@@ -1,6 +1,1449 @@
 [
   {
-    "id": 1,
+    "name": "Abu Ramal",
+    "gender": "Male",
+    "nationality": "YEM",
+    "kills": 1,
+    "specific_groups": [
+      "Ogygia Inmate",
+      "ISIL"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Terrorist"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.2",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 1
+  },
+  {
+    "name": "Agatha Warren",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Miami-Dade Inmate",
+      "Daddy's Family"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 2
+  },
+  {
+    "name": "Aldo Burrows",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Burrows",
+      "Burrows/Scofield"
+    ],
+    "broad_archetypes": [
+      "Hitman",
+      "Criminal",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.15",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 3
+  },
+  {
+    "name": "Alexander Mahone",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 14,
+    "specific_groups": [
+      "Mahone",
+      "FBI Search Team",
+      "Sona Inmate",
+      "Sona Escape Team",
+      "Self's Team",
+      "Miami-Dade Outside Help"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.1",
+    "total_episodes": 59,
+    "image_url": "assets/images/avatars/amahone.jpg",
+    "id": 4
+  },
+  {
+    "name": "Alice Simms",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Miami-Dade Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 5
+  },
+  {
+    "name": "Alphonso Gallego",
+    "gender": "Male",
+    "nationality": "COL",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Outside Help",
+      "McGrady"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.8",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 6
+  },
+  {
+    "name": "Andrew Blauner",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "GATE"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.4",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 7
+  },
+  {
+    "name": "Andrew Tyge",
+    "gender": "Male",
+    "nationality": "FRA",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.5",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 8
+  },
+  {
+    "name": "Augusto",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Lechero's Gang"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.3",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 9
+  },
+  {
+    "name": "Avocado",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Inmate"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.13",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 10
+  },
+  {
+    "name": "Benjamin Franklin (C-Note)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 3,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew",
+      "Scylla Outside Help",
+      "Yemen Rescue Team",
+      "Franklin"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 44,
+    "image_url": "assets/images/avatars/bfranklin.jpg",
+    "id": 11
+  },
+  {
+    "name": "Bishop McMorrow",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [],
+    "broad_archetypes": [
+      "Civilian",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 12
+  },
+  {
+    "name": "Blue Hawaii",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "21 Void Investigation"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "5.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 13
+  },
+  {
+    "name": "Bob Hudson",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Hostages"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 14
+  },
+  {
+    "name": "Brad Bellick",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 3,
+    "specific_groups": [
+      "Fox River Staff",
+      "Bounty Hunter",
+      "Sona Inmate",
+      "Sona Escape Team",
+      "Self's Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 63,
+    "image_url": "assets/images/avatars/bbellick.jpg",
+    "id": 15
+  },
+  {
+    "name": "Bruce Bennett",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Tancredi"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.5",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 16
+  },
+  {
+    "name": "Cameron Mahone",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Mahone"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.17",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 17
+  },
+  {
+    "name": "Captain Hurtado",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.5",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 18
+  },
+  {
+    "name": "Caroline Reynolds",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Organised Crime"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 18,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 19
+  },
+  {
+    "name": "Charles Patoshik (Haywire)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 5,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.3",
+    "total_episodes": 12,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 20
+  },
+  {
+    "name": "Charles Westmoreland (DB Cooper)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Fox River Inmate",
+      "P.I Crew"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 19,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 21
+  },
+  {
+    "name": "Cheo",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate",
+      "Lechero's Gang"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.1",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 22
+  },
+  {
+    "name": "Colonel Escamila",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 23
+  },
+  {
+    "name": "Cristina Scofield",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Scofield",
+      "Company",
+      "Christina's Gang",
+      "Scylla Buyer"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Criminal",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.16",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 24
+  },
+  {
+    "name": "Cristobal",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.8",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 25
+  },
+  {
+    "name": "Cyclops",
+    "gender": "Male",
+    "nationality": "YEM",
+    "kills": 1,
+    "specific_groups": [
+      "ISIL"
+    ],
+    "broad_archetypes": [
+      "Terrorist",
+      "Criminal",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.2",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 26
+  },
+  {
+    "name": "Daddy",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Miami-Dade Inmate",
+      "Daddy's Family"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 27
+  },
+  {
+    "name": "Daniel Hale",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Secret Service"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Hitman",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 13,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 28
+  },
+  {
+    "name": "David Apolskis (Tweener)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.9",
+    "total_episodes": 16,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 29
+  },
+  {
+    "name": "David Baker",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.10",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 30
+  },
+  {
+    "name": "David Martin (Whip)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Ogygia Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.2",
+    "total_episodes": 8,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 31
+  },
+  {
+    "name": "Debra Jean Belle",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 32
+  },
+  {
+    "name": "Dede Franklin",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Franklin"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.13",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 33
+  },
+  {
+    "name": "Donald Self",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 5,
+    "specific_groups": [
+      "Homeland Security",
+      "Self's Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Rogue",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.1",
+    "total_episodes": 22,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 34
+  },
+  {
+    "name": "Downey",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Cristina's Gang"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Rogue",
+      "Hitman"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.16",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 35
+  },
+  {
+    "name": "Emily Blake",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 2,
+    "specific_groups": [
+      "21 Void",
+      "CIA"
+    ],
+    "broad_archetypes": [
+      "Hitman",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 36
+  },
+  {
+    "name": "Emily Morgan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages",
+      "Morgan"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "",
+    "first_appearance": "4.6",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 37
+  },
+  {
+    "name": "Felicia Lang",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Mahone",
+      "FBI Search Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.3",
+    "total_episodes": 19,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 38
+  },
+  {
+    "name": "Feng Huan",
+    "gender": "Male",
+    "nationality": "CHN",
+    "kills": 1,
+    "specific_groups": [
+      "Scylla Buyer"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Civilian",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.4",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 39
+  },
+  {
+    "name": "Ferguson",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal",
+      "Hitman"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.12",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 40
+  },
+  {
+    "name": "Fernando Sucre",
+    "gender": "Male",
+    "nationality": "PRI",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre",
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew",
+      "Sona Staff",
+      "Sona Inmate",
+      "Sona Outside Help",
+      "Self's Team",
+      "Miami-Dade Outside Help",
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 74,
+    "image_url": "assets/images/avatars/fsucre.jpg",
+    "id": 41
+  },
+  {
+    "name": "Frank Tancredi",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Tancredi"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.6",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 42
+  },
+  {
+    "name": "General Jonathan Krantz",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Company",
+      "Cardholder",
+      "Morgan",
+      "Sona Operation",
+      "Miami-Dade Inmate"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Death Row",
+      "Organised Crime",
+      "Government"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.13",
+    "total_episodes": 29,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 43
+  },
+  {
+    "name": "General Mestas",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "",
+    "first_appearance": "3.9",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 44
+  },
+  {
+    "name": "General Zavala",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.8",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 45
+  },
+  {
+    "name": "Gregory White",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "GATE"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.3",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 46
+  },
+  {
+    "name": "Gretchen Morgan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 12,
+    "specific_groups": [
+      "Company",
+      "Sona Operation",
+      "GATE",
+      "Miami-Dade Inmate",
+      "Morgan"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Organised Crime",
+      "Hitman",
+      "Rogue"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 36,
+    "image_url": "assets/images/avatars/gmorgan.jpg",
+    "id": 47
+  },
+  {
+    "name": "Griffin Oren",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Cardholder",
+      "Cristina's Gang"
+    ],
+    "broad_archetypes": [
+      "Government",
+      "Organised Crime",
+      "Criminal",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 48
+  },
+  {
+    "name": "Hector Avila",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 49
+  },
+  {
+    "name": "Henry Kishida",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "21 Void Investigation",
+      "CIA"
+    ],
+    "broad_archetypes": [
+      "Government"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.2",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 50
+  },
+  {
+    "name": "Henry Pope",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 23,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 51
+  },
+  {
+    "name": "Herb Stanton",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Homeland Security"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.3",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 52
+  },
+  {
+    "name": "Howard Scuderi",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Cardholder"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Civilian",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.7",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 53
+  },
+  {
+    "name": "Ja",
+    "gender": "Male",
+    "nationality": "KOR",
+    "kills": 0,
+    "specific_groups": [
+      "Ogygia Inmate"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate"
+    ],
+    "status": "Alive",
+    "first_appearance": "5.2",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 54
+  },
+  {
+    "name": "Jacob Ness (Poseidon)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "21 Void",
+      "CIA",
+      "Fox River Inmate",
+      "Tancredi"
+    ],
+    "broad_archetypes": [
+      "Government",
+      "Law Enforcement",
+      "Inmate",
+      "Criminal",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "5.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 55
+  },
+  {
+    "name": "James Whistler",
+    "gender": "Male",
+    "nationality": "AUS",
+    "kills": 3,
+    "specific_groups": [
+      "Company",
+      "Sona Inmate",
+      "Sona Operation",
+      "Sona Escape Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.1",
+    "total_episodes": 15,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 56
+  },
+  {
+    "name": "John Abruzzi",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 7,
+    "specific_groups": [
+      "Fox River Inmate",
+      "Fox River 8",
+      "P.I Crew",
+      "Abruzzi's Mob"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 20,
+    "image_url": "assets/images/avatars/jabruzzi.jpg",
+    "id": 57
+  },
+  {
+    "name": "Kacee Franklin",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Franklin"
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.13",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 58
+  },
+  {
+    "name": "Katie Welch",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Medical",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 59
+  },
+  {
+    "name": "Keith Stolte",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 60
+  },
+  {
+    "name": "Lechero",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Lechero's Gang",
+      "Sona Inmate",
+      "Sona Escape Team"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Organised Crime",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.1",
+    "total_episodes": 13,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 61
+  },
+  {
+    "name": "Leticia Barris",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.2",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 62
+  },
+  {
+    "name": "Lila Maria Sucre",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.1",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 63
+  },
+  {
+    "name": "Lincoln Burrows",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 13,
+    "specific_groups": [
+      "Burrows",
+      "Burrows/Scofield",
+      "Fox River 8",
+      "Fox River Inmate",
+      "P.I Crew",
+      "Sona Outside Help",
+      "Self's Team",
+      "Miami-Dade Outside Help",
+      "Yemen Rescue Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Inmate",
+      "Death Row"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 90,
+    "image_url": "assets/images/avatars/lburrows.jpg",
+    "id": 64
+  },
+  {
+    "name": "Lincoln Burrows Jr. (LJ)",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Burrows",
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 25,
+    "image_url": "assets/images/avatars/ljburrows.jpg",
+    "id": 65
+  },
+  {
+    "name": "Lisa Tabak",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Cardholder"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.4",
+    "total_episodes": 10,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 66
+  },
+  {
+    "name": "Louis Patterson",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 20,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 67
+  },
+  {
+    "name": "Luca Abruzzi",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Abruzzi's Mob"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "5.1",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 68
+  },
+  {
+    "name": "Luis Gallego (McGrady)",
+    "gender": "Male",
+    "nationality": "COL",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate",
+      "Sona Escape Team",
+      "McGrady"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 13,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 69
+  },
+  {
+    "name": "Mack Andrews",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 15,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 70
+  },
+  {
+    "name": "Manche Sanchez",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Inmate",
+      "P.I Crew",
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.15",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 71
+  },
+  {
+    "name": "Maricruz Delgado",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Sucre"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 72
+  },
+  {
+    "name": "Mark Wheeler",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "FBI Search Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.1",
+    "total_episodes": 18,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 73
+  },
+  {
+    "name": "Marvin Gudat",
+    "gender": "Male",
+    "nationality": "IND",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Medical",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "2.1",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 74
+  },
+  {
+    "name": "Mary Francis (Lechero's Girl)",
+    "gender": "Female",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Lechero's Gang"
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 75
+  },
+  {
     "name": "Michael Scofield",
     "gender": "Male",
     "nationality": "USA",
@@ -25,37 +1468,380 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 90,
-    "image_url": "assets/images/avatars/mscofield.jpeg"
+    "image_url": "assets/images/avatars/mscofield.jpeg",
+    "id": 76
   },
   {
-    "id": 2,
-    "name": "Lincoln Burrows",
+    "name": "Michael Scofield Jr.",
     "gender": "Male",
     "nationality": "USA",
-    "kills": 13,
+    "kills": 0,
     "specific_groups": [
-      "Burrows",
-      "Burrows/Scofield",
-      "Fox River 8",
-      "Fox River Inmate",
-      "P.I Crew",
-      "Sona Outside Help",
-      "Self's Team",
-      "Miami-Dade Outside Help",
+      "Scofield",
+      "Tancredi",
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.22",
+    "total_episodes": 8,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 77
+  },
+  {
+    "name": "Miriam Holtz",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "GATE",
+      "Homeland Security"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.3",
+    "total_episodes": 11,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 78
+  },
+  {
+    "name": "Nathaniel Edison",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company",
+      "Cardholder"
+    ],
+    "broad_archetypes": [
+      "Civilian",
+      "Organised Crime",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 79
+  },
+  {
+    "name": "Naveen Banerjee",
+    "gender": "Male",
+    "nationality": "IND",
+    "kills": 0,
+    "specific_groups": [],
+    "broad_archetypes": [
+      "Political",
+      "Government",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.19",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 80
+  },
+  {
+    "name": "Nick Savrinn",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Exoneration Team"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.4",
+    "total_episodes": 18,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 81
+  },
+  {
+    "name": "Nika Volek",
+    "gender": "Female",
+    "nationality": "CZE",
+    "kills": 0,
+    "specific_groups": [
+      "Scofield"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.10",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 82
+  },
+  {
+    "name": "Omar",
+    "gender": "Male",
+    "nationality": "YEM",
+    "kills": 0,
+    "specific_groups": [
       "Yemen Rescue Team"
     ],
     "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Death Row"
+      "Civilian",
+      "Criminal"
     ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 90,
-    "image_url": "assets/images/avatars/lburrows.jpg"
+    "status": "Deceased",
+    "first_appearance": "5.1",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 83
   },
   {
-    "id": 3,
+    "name": "Otto Fibonacci",
+    "gender": "Male",
+    "nationality": "ITA",
+    "kills": 0,
+    "specific_groups": [],
+    "broad_archetypes": [
+      "Civilian",
+      "Organised Crime"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.10",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 84
+  },
+  {
+    "name": "Pam Mahone/Larson",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Mahone"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.3",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 85
+  },
+  {
+    "name": "Paul Kellerman",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 10,
+    "specific_groups": [
+      "Company",
+      "Secret Service",
+      "Scylla Outside Help",
+      "21 Void Investigation"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Government",
+      "Political",
+      "Hitman",
+      "Organised Crime",
+      "Rogue"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 42,
+    "image_url": "assets/images/avatars/pkellerman.jpg",
+    "id": 86
+  },
+  {
+    "name": "Philly Falzone",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Abruzzi's Mob"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 87
+  },
+  {
+    "name": "Pistachio",
+    "gender": "Female",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Sona Inmate"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.3",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 88
+  },
+  {
+    "name": "Ralph Becker",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 1,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Organised Crime",
+      "Hitman"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.14",
+    "total_episodes": 3,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 89
+  },
+  {
+    "name": "Richard Mills",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [],
+    "broad_archetypes": [
+      "Government",
+      "Political"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.6",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 90
+  },
+  {
+    "name": "Richard Sullins",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "FBI Search Team"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement"
+    ],
+    "status": "Alive",
+    "first_appearance": "2.8",
+    "total_episodes": 6,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 91
+  },
+  {
+    "name": "Rita Morgan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Morgan",
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "4.6",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 92
+  },
+  {
+    "name": "Roland Glenn",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Self's Team"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.2",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 93
+  },
+  {
+    "name": "Roy Geary",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Fox River Staff",
+      "Bounty Hunter"
+    ],
+    "broad_archetypes": [
+      "Law Enforcement",
+      "Criminal",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.6",
+    "total_episodes": 16,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 94
+  },
+  {
+    "name": "Samantha Brinker",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Civilian",
+      "Political"
+    ],
+    "status": "Unknown",
+    "first_appearance": "1.13",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 95
+  },
+  {
+    "name": "Sammy",
+    "gender": "Male",
+    "nationality": "PAN",
+    "kills": 3,
+    "specific_groups": [
+      "Sona Inmate",
+      "Lechero's Gang"
+    ],
+    "broad_archetypes": [
+      "Inmate",
+      "Criminal",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "3.1",
+    "total_episodes": 10,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 96
+  },
+  {
     "name": "Sara Tancredi/Scofield",
     "gender": "Female",
     "nationality": "USA",
@@ -78,57 +1864,135 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 73,
-    "image_url": "assets/images/avatars/stancredi.jpg"
+    "image_url": "assets/images/avatars/stancredi.jpg",
+    "id": 97
   },
   {
-    "id": 4,
-    "name": "Alexander Mahone",
+    "name": "Senator Conrad Dallow",
     "gender": "Male",
     "nationality": "USA",
-    "kills": 14,
-    "specific_groups": [
-      "Mahone",
-      "FBI Search Team",
-      "Sona Inmate",
-      "Sona Escape Team",
-      "Self's Team",
-      "Miami-Dade Outside Help"
-    ],
+    "kills": 0,
+    "specific_groups": [],
     "broad_archetypes": [
-      "Law Enforcement",
-      "Criminal",
-      "Inmate"
+      "Political",
+      "Government",
+      "Civilian"
     ],
     "status": "Alive",
-    "first_appearance": "2.1",
-    "total_episodes": 59,
-    "image_url": "assets/images/avatars/amahone.jpg"
+    "first_appearance": "4.3",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 98
   },
   {
-    "id": 5,
-    "name": "Brad Bellick",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 3,
+    "name": "Sheba",
+    "gender": "Female",
+    "nationality": "YEM",
+    "kills": 1,
     "specific_groups": [
-      "Fox River Staff",
-      "Bounty Hunter",
-      "Sona Inmate",
-      "Sona Escape Team",
-      "Self's Team"
+      "Burrows",
+      "Yemen Rescue Team"
     ],
     "broad_archetypes": [
-      "Law Enforcement",
-      "Criminal",
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "5.1",
+    "total_episodes": 8,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 99
+  },
+  {
+    "name": "Sid",
+    "gender": "Male",
+    "nationality": "YEM",
+    "kills": 0,
+    "specific_groups": [
+      "Ogygia Inmate"
+    ],
+    "broad_archetypes": [
       "Inmate"
     ],
     "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 63,
-    "image_url": "assets/images/avatars/bbellick.jpg"
+    "first_appearance": "5.2",
+    "total_episodes": 4,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 100
   },
   {
-    "id": 6,
+    "name": "Sofia Lugo",
+    "gender": "Female",
+    "nationality": "PAN",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages",
+      "Sona Outside Help"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "3.1",
+    "total_episodes": 15,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 101
+  },
+  {
+    "name": "Stuart Tuxhorn",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Cardholder",
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Criminal"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.1",
+    "total_episodes": 5,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 102
+  },
+  {
+    "name": "Susan Hollander",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Hostages"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Alive",
+    "first_appearance": "1.16",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 103
+  },
+  {
+    "name": "Terrence Steadman",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Political",
+      "Organised Crime",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.16",
+    "total_episodes": 7,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 104
+  },
+  {
     "name": "Theodore Bagwell (T-Bag)",
     "gender": "Male",
     "nationality": "USA",
@@ -150,1185 +2014,82 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 81,
-    "image_url": "assets/images/avatars/tbagwell.jpg"
+    "image_url": "assets/images/avatars/tbagwell.jpg",
+    "id": 105
   },
   {
-    "id": 7,
-    "name": "Gretchen Morgan",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 12,
-    "specific_groups": [
-      "Company",
-      "Sona Operation",
-      "GATE",
-      "Miami-Dade Inmate",
-      "Morgan"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal",
-      "Organised Crime",
-      "Hitman",
-      "Rogue"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.1",
-    "total_episodes": 36,
-    "image_url": "assets/images/avatars/gmorgan.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Fernando Sucre",
-    "gender": "Male",
-    "nationality": "PRI",
-    "kills": 0,
-    "specific_groups": [
-      "Sucre",
-      "Fox River Inmate",
-      "Fox River 8",
-      "P.I Crew",
-      "Sona Staff",
-      "Sona Inmate",
-      "Sona Outside Help",
-      "Self's Team",
-      "Miami-Dade Outside Help",
-      "Yemen Rescue Team"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 74,
-    "image_url": "assets/images/avatars/fsucre.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Paul Kellerman",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 10,
-    "specific_groups": [
-      "Company",
-      "Secret Service",
-      "Scylla Outside Help",
-      "21 Void Investigation"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government",
-      "Political",
-      "Hitman",
-      "Organised Crime",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 42,
-    "image_url": "assets/images/avatars/pkellerman.jpg"
-  },
-  {
-    "id": 10,
-    "name": "John Abruzzi",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 7,
-    "specific_groups": [
-      "Fox River Inmate",
-      "Fox River 8",
-      "P.I Crew",
-      "Abruzzi's Mob"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Organised Crime"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 20,
-    "image_url": "assets/images/avatars/jabruzzi.jpg"
-  },
-  {
-    "id": 11,
-    "name": "Benjamin Franklin (C-Note)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 3,
-    "specific_groups": [
-      "Fox River Inmate",
-      "Fox River 8",
-      "P.I Crew",
-      "Scylla Outside Help",
-      "Yemen Rescue Team",
-      "Franklin"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 44,
-    "image_url": "assets/images/avatars/bfranklin.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Lincoln Burrows Jr. (LJ)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Burrows",
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 25,
-    "image_url": "assets/images/avatars/ljburrows.jpg"
-  },
-  {
-    "id": 13,
-    "name": "James Whistler",
-    "gender": "Male",
-    "nationality": "AUS",
-    "kills": 3,
-    "specific_groups": [
-      "Company",
-      "Sona Inmate",
-      "Sona Operation",
-      "Sona Escape Team"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Organised Crime",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.1",
-    "total_episodes": 15,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Charles Patoshik (Haywire)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 5,
-    "specific_groups": [
-      "Fox River Inmate",
-      "Fox River 8"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.3",
-    "total_episodes": 12,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 15,
-    "name": "David Apolskis (Tweener)",
+    "name": "Todd Wheatley",
     "gender": "Male",
     "nationality": "USA",
     "kills": 0,
     "specific_groups": [
-      "Fox River Inmate",
-      "Fox River 8",
-      "P.I Crew"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.9",
-    "total_episodes": 16,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 16,
-    "name": "Agatha Warren",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Miami-Dade Inmate",
-      "Daddy's Family"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.23",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Abu Ramal",
-    "gender": "Male",
-    "nationality": "YEM",
-    "kills": 1,
-    "specific_groups": [
-      "Ogygia Inmate",
-      "ISIL"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Terrorist"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.2",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Alice Simms",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Miami-Dade Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.23",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 19,
-    "name": "Mack Andrews",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 15,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 20,
-    "name": "Augusto",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Lechero's Gang"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Organised Crime",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.3",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 21,
-    "name": "Hector Avila",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Sucre"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.2",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 22,
-    "name": "David Baker",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.10",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 23,
-    "name": "Avocado",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Inmate"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.13",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 24,
-    "name": "Naveen Banerjee",
-    "gender": "Male",
-    "nationality": "IND",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Political",
-      "Government",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.19",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 25,
-    "name": "Leticia Barris",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.2",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 26,
-    "name": "Ralph Becker",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Organised Crime",
-      "Hitman"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.14",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 27,
-    "name": "Debra Jean Belle",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "2.2",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 28,
-    "name": "Andrew Blauner",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "GATE"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.4",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 29,
-    "name": "Blue Hawaii",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "21 Void Investigation"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "5.6",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 30,
-    "name": "Bob Hudson",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Hostages"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.6",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 31,
-    "name": "Samantha Brinker",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Civilian",
-      "Political"
-    ],
-    "status": "Unknown",
-    "first_appearance": "1.13",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 32,
-    "name": "Bruce Bennett",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Tancredi"
-    ],
-    "broad_archetypes": [
-      "Political",
-      "Government",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "2.5",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 33,
-    "name": "Aldo Burrows",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Burrows",
-      "Burrows/Scofield"
-    ],
-    "broad_archetypes": [
-      "Hitman",
-      "Criminal",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.15",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 34,
-    "name": "Cameron Mahone",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Mahone"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "2.17",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 35,
-    "name": "Caroline Reynolds",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Political",
-      "Government",
-      "Organised Crime"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.2",
-    "total_episodes": 18,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 36,
-    "name": "Charles Westmoreland (DB Cooper)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Fox River Inmate",
-      "P.I Crew"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 19,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 37,
-    "name": "Cheo",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Inmate",
-      "Lechero's Gang"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal",
-      "Organised Crime"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.1",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 38,
-    "name": "Cristina Scofield",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Scofield",
-      "Company",
-      "Christina's Gang",
-      "Scylla Buyer"
-    ],
-    "broad_archetypes": [
-      "Political",
-      "Criminal",
-      "Organised Crime",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.16",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 39,
-    "name": "Cristobal",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Inmate"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal",
-      "Organised Crime"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.8",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 40,
-    "name": "Daddy",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Miami-Dade Inmate",
-      "Daddy's Family"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.23",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 41,
-    "name": "Senator Conrad Dallow",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Political",
-      "Government",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.3",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 42,
-    "name": "Daniel Hale",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company",
-      "Secret Service"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government",
-      "Hitman",
-      "Organised Crime",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 13,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 43,
-    "name": "Maricruz Delgado",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Sucre"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 44,
-    "name": "Downey",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Cristina's Gang"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Organised Crime",
-      "Rogue",
-      "Hitman"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.16",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 45,
-    "name": "Donald Self",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 5,
-    "specific_groups": [
-      "Homeland Security",
-      "Self's Team"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government",
-      "Rogue",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.1",
-    "total_episodes": 22,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 46,
-    "name": "Nathaniel Edison",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company",
-      "Cardholder"
-    ],
-    "broad_archetypes": [
-      "Civilian",
-      "Organised Crime",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.6",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 47,
-    "name": "Emily Morgan",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Hostages",
-      "Morgan"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "",
-    "first_appearance": "4.6",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 48,
-    "name": "Colonel Escamila",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.2",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 49,
-    "name": "Philly Falzone",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Abruzzi's Mob"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Organised Crime",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.2",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 50,
-    "name": "Felicia Lang",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Mahone",
       "FBI Search Team"
     ],
     "broad_archetypes": [
-      "Law Enforcement",
-      "Government"
-    ],
-    "status": "Alive",
-    "first_appearance": "2.3",
-    "total_episodes": 19,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 51,
-    "name": "Feng Huan",
-    "gender": "Male",
-    "nationality": "CHN",
-    "kills": 1,
-    "specific_groups": [
-      "Scylla Buyer"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Civilian",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.4",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 52,
-    "name": "Ferguson",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Criminal",
-      "Hitman"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.12",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 53,
-    "name": "Otto Fibonacci",
-    "gender": "Male",
-    "nationality": "ITA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Civilian",
-      "Organised Crime"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.10",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 54,
-    "name": "Mary Francis (Lechero's Girl)",
-    "gender": "Female",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Lechero's Gang"
-    ],
-    "broad_archetypes": [
-      "Civilian",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.1",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 55,
-    "name": "Frank Tancredi",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Tancredi"
-    ],
-    "broad_archetypes": [
-      "Political",
-      "Government",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.6",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 56,
-    "name": "Dede Franklin",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Franklin"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.13",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 57,
-    "name": "Kacee Franklin",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Franklin"
-    ],
-    "broad_archetypes": [
-      "Civilian",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.13",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 58,
-    "name": "Alphonso Gallego",
-    "gender": "Male",
-    "nationality": "COL",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Outside Help",
-      "McGrady"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.8",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 59,
-    "name": "General Jonathan Krantz",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Company",
-      "Cardholder",
-      "Morgan",
-      "Sona Operation",
-      "Miami-Dade Inmate"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Death Row",
-      "Organised Crime",
-      "Government"
-    ],
-    "status": "Deceased",
-    "first_appearance": "2.13",
-    "total_episodes": 29,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 60,
-    "name": "Griffin Oren",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company",
-      "Cardholder",
-      "Cristina's Gang"
-    ],
-    "broad_archetypes": [
-      "Government",
-      "Organised Crime",
-      "Criminal",
-      "Political"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.2",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 61,
-    "name": "Henry Pope",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 23,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 62,
-    "name": "Herb Stanton",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Homeland Security"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.3",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 63,
-    "name": "Susan Hollander",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.16",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 64,
-    "name": "Miriam Holtz",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "GATE",
-      "Homeland Security"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.3",
-    "total_episodes": 11,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 65,
-    "name": "Captain Hurtado",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Staff"
-    ],
-    "broad_archetypes": [
       "Law Enforcement"
     ],
     "status": "Alive",
-    "first_appearance": "3.5",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
+    "first_appearance": "4.23",
+    "total_episodes": 1,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 106
   },
   {
-    "id": 66,
-    "name": "Ja",
-    "gender": "Male",
-    "nationality": "KOR",
-    "kills": 0,
-    "specific_groups": [
-      "Ogygia Inmate"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Alive",
-    "first_appearance": "5.2",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 67,
-    "name": "Jacob Ness (Poseidon)",
+    "name": "Van Gogh",
     "gender": "Male",
     "nationality": "USA",
     "kills": 1,
     "specific_groups": [
       "21 Void",
-      "CIA",
-      "Fox River Inmate",
-      "Tancredi"
+      "CIA"
     ],
     "broad_archetypes": [
-      "Government",
-      "Law Enforcement",
-      "Inmate",
-      "Criminal",
+      "Hitman",
       "Rogue"
     ],
     "status": "Deceased",
     "first_appearance": "5.1",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 107
   },
   {
-    "id": 68,
+    "name": "Veronica Donovan",
+    "gender": "Female",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Burrows",
+      "Exoneration Team"
+    ],
+    "broad_archetypes": [
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "1.1",
+    "total_episodes": 23,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 108
+  },
+  {
+    "name": "Vincent Sandinsky",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 0,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Organised Crime",
+      "Civilian"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.18",
+    "total_episodes": 2,
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 109
+  },
+  {
     "name": "William/Bill Kim",
     "gender": "Male",
     "nationality": "USA",
@@ -1346,768 +2107,7 @@
     "status": "Deceased",
     "first_appearance": "2.5",
     "total_episodes": 16,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 69,
-    "name": "Pam Mahone/Larson",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Mahone"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "2.3",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 70,
-    "name": "Lila Maria Sucre",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Sucre"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.1",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 71,
-    "name": "Luca Abruzzi",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Abruzzi's Mob"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Criminal",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "5.1",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 72,
-    "name": "Sofia Lugo",
-    "gender": "Female",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Hostages",
-      "Sona Outside Help"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.1",
-    "total_episodes": 15,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 73,
-    "name": "Luis Gallego (McGrady)",
-    "gender": "Male",
-    "nationality": "COL",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Inmate",
-      "Sona Escape Team",
-      "McGrady"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.1",
-    "total_episodes": 13,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 74,
-    "name": "Marvin Gudat",
-    "gender": "Male",
-    "nationality": "IND",
-    "kills": 0,
-    "specific_groups": [
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Medical",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "2.1",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 75,
-    "name": "Bishop McMorrow",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Civilian",
-      "Political"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 76,
-    "name": "General Mestas",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government"
-    ],
-    "status": "",
-    "first_appearance": "3.9",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 77,
-    "name": "Richard Mills",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Government",
-      "Political"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.6",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 78,
-    "name": "Rita Morgan",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Morgan",
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.6",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 79,
-    "name": "Omar",
-    "gender": "Male",
-    "nationality": "YEM",
-    "kills": 0,
-    "specific_groups": [
-      "Yemen Rescue Team"
-    ],
-    "broad_archetypes": [
-      "Civilian",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.1",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 80,
-    "name": "Louis Patterson",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 20,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 81,
-    "name": "Pistachio",
-    "gender": "Female",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Inmate"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.3",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 82,
-    "name": "Roy Geary",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff",
-      "Bounty Hunter"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Criminal",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.6",
-    "total_episodes": 16,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 83,
-    "name": "Sammy",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 3,
-    "specific_groups": [
-      "Sona Inmate",
-      "Lechero's Gang"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal",
-      "Organised Crime"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.1",
-    "total_episodes": 10,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 84,
-    "name": "Manche Sanchez",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Inmate",
-      "P.I Crew",
-      "Sucre"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.15",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 85,
-    "name": "Vincent Sandinsky",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.18",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 86,
-    "name": "Nick Savrinn",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Exoneration Team"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.4",
-    "total_episodes": 18,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 87,
-    "name": "Michael Scofield Jr.",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Scofield",
-      "Tancredi",
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.22",
-    "total_episodes": 8,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 88,
-    "name": "Howard Scuderi",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company",
-      "Cardholder"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Civilian",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.7",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 89,
-    "name": "Sheba",
-    "gender": "Female",
-    "nationality": "YEM",
-    "kills": 1,
-    "specific_groups": [
-      "Burrows",
-      "Yemen Rescue Team"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "5.1",
-    "total_episodes": 8,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 90,
-    "name": "Sid",
-    "gender": "Male",
-    "nationality": "YEM",
-    "kills": 0,
-    "specific_groups": [
-      "Ogygia Inmate"
-    ],
-    "broad_archetypes": [
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.2",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 91,
-    "name": "Cyclops",
-    "gender": "Male",
-    "nationality": "YEM",
-    "kills": 1,
-    "specific_groups": [
-      "ISIL"
-    ],
-    "broad_archetypes": [
-      "Terrorist",
-      "Criminal",
-      "Political"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.2",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 92,
-    "name": "Keith Stolte",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 93,
-    "name": "Richard Sullins",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "FBI Search Team"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "2.8",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 94,
-    "name": "Lisa Tabak",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company",
-      "Cardholder"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Criminal",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.4",
-    "total_episodes": 10,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 95,
-    "name": "Terrence Steadman",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Political",
-      "Organised Crime",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.16",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 96,
-    "name": "Stuart Tuxhorn",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Cardholder",
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.1",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 97,
-    "name": "Andrew Tyge",
-    "gender": "Male",
-    "nationality": "FRA",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Inmate"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.5",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 98,
-    "name": "Van Gogh",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "21 Void",
-      "CIA"
-    ],
-    "broad_archetypes": [
-      "Hitman",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.1",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 99,
-    "name": "Veronica Donovan",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Burrows",
-      "Exoneration Team"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 23,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 100,
-    "name": "Nika Volek",
-    "gender": "Female",
-    "nationality": "CZE",
-    "kills": 0,
-    "specific_groups": [
-      "Scofield"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.10",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 101,
-    "name": "Katie Welch",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff"
-    ],
-    "broad_archetypes": [
-      "Medical",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.2",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 102,
-    "name": "Todd Wheatley",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "FBI Search Team"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.23",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 103,
-    "name": "Mark Wheeler",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "FBI Search Team"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "2.1",
-    "total_episodes": 18,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 104,
-    "name": "David Martin (Whip)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Ogygia Inmate"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.2",
-    "total_episodes": 8,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 105,
-    "name": "Gregory White",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "GATE"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.3",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 106,
-    "name": "General Zavala",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.8",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 107,
-    "name": "Lechero",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Lechero's Gang",
-      "Sona Inmate",
-      "Sona Escape Team"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Organised Crime",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.1",
-    "total_episodes": 13,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 108,
-    "name": "Roland Glenn",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Self's Team"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.2",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 109,
-    "name": "Emily Blake",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 2,
-    "specific_groups": [
-      "21 Void",
-      "CIA"
-    ],
-    "broad_archetypes": [
-      "Hitman",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.1",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  },
-  {
-    "id": 110,
-    "name": "Henry Kishida",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "21 Void Investigation",
-      "CIA"
-    ],
-    "broad_archetypes": [
-      "Government"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.2",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
+    "image_url": "assets/images/avatars/.jpg",
+    "id": 110
   }
 ]

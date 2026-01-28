@@ -1,17 +1,15 @@
 {
-    "id": 55,
-    "name": "Otto Fibonacci",
-    "gender": "Male",
-    "nationality": "ITA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Civilian",
-      "Organised Crime"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.10",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  }
-
+  "name": "Otto Fibonacci",
+  "gender": "Male",
+  "nationality": "ITA",
+  "kills": 0,
+  "specific_groups": [],
+  "broad_archetypes": [
+    "Civilian",
+    "Organised Crime"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.10",
+  "total_episodes": 1,
+  "image_url": "assets/images/avatars/.jpg"
+}

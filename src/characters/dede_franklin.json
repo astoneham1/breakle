@@ -1,17 +1,16 @@
 {
-    "id": 58,
-    "name": "Dede Franklin",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Franklin"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.13",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Dede Franklin",
+  "gender": "Female",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Franklin"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.13",
+  "total_episodes": 9,
+  "image_url": "assets/images/avatars/.jpg"
+}

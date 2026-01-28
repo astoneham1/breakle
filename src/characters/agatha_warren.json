@@ -1,19 +1,18 @@
 {
-    "id": 16,
-    "name": "Agatha Warren",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Miami-Dade Inmate",
-      "Daddy's Family"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.23",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Agatha Warren",
+  "gender": "Female",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Miami-Dade Inmate",
+    "Daddy's Family"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Inmate"
+  ],
+  "status": "Deceased",
+  "first_appearance": "4.23",
+  "total_episodes": 1,
+  "image_url": "assets/images/avatars/.jpg"
+}

@@ -1,18 +1,17 @@
 {
-    "id": 68,
-    "name": "Ja",
-    "gender": "Male",
-    "nationality": "KOR",
-    "kills": 0,
-    "specific_groups": [
-      "Ogygia Inmate"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Alive",
-    "first_appearance": "5.2",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Ja",
+  "gender": "Male",
+  "nationality": "KOR",
+  "kills": 0,
+  "specific_groups": [
+    "Ogygia Inmate"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Inmate"
+  ],
+  "status": "Alive",
+  "first_appearance": "5.2",
+  "total_episodes": 6,
+  "image_url": "assets/images/avatars/.jpg"
+}

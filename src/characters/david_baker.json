@@ -1,17 +1,16 @@
 {
-    "id": 22,
-    "name": "David Baker",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.10",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "David Baker",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Company"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "4.10",
+  "total_episodes": 1,
+  "image_url": "assets/images/avatars/.jpg"
+}

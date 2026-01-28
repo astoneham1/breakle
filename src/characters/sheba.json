@@ -1,18 +1,17 @@
 {
-    "id": 92,
-    "name": "Sheba",
-    "gender": "Female",
-    "nationality": "YEM",
-    "kills": 1,
-    "specific_groups": [
-      "Burrows",
-      "Yemen Rescue Team"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "5.1",
-    "total_episodes": 8,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Sheba",
+  "gender": "Female",
+  "nationality": "YEM",
+  "kills": 1,
+  "specific_groups": [
+    "Burrows",
+    "Yemen Rescue Team"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "5.1",
+  "total_episodes": 8,
+  "image_url": "assets/images/avatars/.jpg"
+}

@@ -1,19 +1,18 @@
 {
-    "id": 38,
-    "name": "Charles Westmoreland (DB Cooper)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Fox River Inmate",
-      "P.I Crew"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 19,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Charles Westmoreland (DB Cooper)",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 1,
+  "specific_groups": [
+    "Fox River Inmate",
+    "P.I Crew"
+  ],
+  "broad_archetypes": [
+    "Inmate",
+    "Criminal"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.1",
+  "total_episodes": 19,
+  "image_url": "assets/images/avatars/.jpg"
+}

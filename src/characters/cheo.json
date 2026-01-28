@@ -1,20 +1,19 @@
 {
-    "id": 39,
-    "name": "Cheo",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Inmate",
-      "Lechero's Gang"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal",
-      "Organised Crime"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.1",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Cheo",
+  "gender": "Male",
+  "nationality": "PAN",
+  "kills": 0,
+  "specific_groups": [
+    "Sona Inmate",
+    "Lechero's Gang"
+  ],
+  "broad_archetypes": [
+    "Inmate",
+    "Criminal",
+    "Organised Crime"
+  ],
+  "status": "Deceased",
+  "first_appearance": "3.1",
+  "total_episodes": 6,
+  "image_url": "assets/images/avatars/.jpg"
+}

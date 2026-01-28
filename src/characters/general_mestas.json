@@ -1,18 +1,17 @@
 {
-    "id": 79,
-    "name": "General Mestas",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government"
-    ],
-    "status": "",
-    "first_appearance": "3.9",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "General Mestas",
+  "gender": "Male",
+  "nationality": "PAN",
+  "kills": 0,
+  "specific_groups": [
+    "Sona Staff"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement",
+    "Government"
+  ],
+  "status": "",
+  "first_appearance": "3.9",
+  "total_episodes": 3,
+  "image_url": "assets/images/avatars/.jpg"
+}

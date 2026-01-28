@@ -1,17 +1,16 @@
 {
-    "id": 29,
-    "name": "Blue Hawaii",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "21 Void Investigation"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "5.6",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Blue Hawaii",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "21 Void Investigation"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "5.6",
+  "total_episodes": 2,
+  "image_url": "assets/images/avatars/.jpg"
+}

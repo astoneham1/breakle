@@ -1,20 +1,19 @@
 {
-    "id": 97,
-    "name": "Lisa Tabak",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company",
-      "Cardholder"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Criminal",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.4",
-    "total_episodes": 10,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Lisa Tabak",
+  "gender": "Female",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Company",
+    "Cardholder"
+  ],
+  "broad_archetypes": [
+    "Organised Crime",
+    "Criminal",
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "4.4",
+  "total_episodes": 10,
+  "image_url": "assets/images/avatars/.jpg"
+}

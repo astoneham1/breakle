@@ -1,19 +1,18 @@
 {
-    "id": 101,
-    "name": "Van Gogh",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "21 Void",
-      "CIA"
-    ],
-    "broad_archetypes": [
-      "Hitman",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.1",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Van Gogh",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 1,
+  "specific_groups": [
+    "21 Void",
+    "CIA"
+  ],
+  "broad_archetypes": [
+    "Hitman",
+    "Rogue"
+  ],
+  "status": "Deceased",
+  "first_appearance": "5.1",
+  "total_episodes": 9,
+  "image_url": "assets/images/avatars/.jpg"
+}

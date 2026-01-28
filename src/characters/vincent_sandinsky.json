@@ -1,18 +1,17 @@
 {
-    "id": 88,
-    "name": "Vincent Sandinsky",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.18",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Vincent Sandinsky",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Company"
+  ],
+  "broad_archetypes": [
+    "Organised Crime",
+    "Civilian"
+  ],
+  "status": "Deceased",
+  "first_appearance": "4.18",
+  "total_episodes": 2,
+  "image_url": "assets/images/avatars/.jpg"
+}

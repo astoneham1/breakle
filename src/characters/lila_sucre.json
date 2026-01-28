@@ -1,17 +1,16 @@
 {
-    "id": 73,
-    "name": "Lila Maria Sucre",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Sucre"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.1",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Lila Maria Sucre",
+  "gender": "Female",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Sucre"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "4.1",
+  "total_episodes": 2,
+  "image_url": "assets/images/avatars/.jpg"
+}

@@ -1,18 +1,16 @@
 {
-    "id": 43,
-    "name": "Senator Conrad Dallow",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Political",
-      "Government",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.3",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  }
-
+  "name": "Senator Conrad Dallow",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [],
+  "broad_archetypes": [
+    "Political",
+    "Government",
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "4.3",
+  "total_episodes": 2,
+  "image_url": "assets/images/avatars/.jpg"
+}

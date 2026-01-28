@@ -1,20 +1,19 @@
 {
-    "id": 17,
-    "name": "Abu Ramal",
-    "gender": "Male",
-    "nationality": "YEM",
-    "kills": 1,
-    "specific_groups": [
-      "Ogygia Inmate",
-      "ISIL"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Terrorist"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.2",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Abu Ramal",
+  "gender": "Male",
+  "nationality": "YEM",
+  "kills": 1,
+  "specific_groups": [
+    "Ogygia Inmate",
+    "ISIL"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Inmate",
+    "Terrorist"
+  ],
+  "status": "Deceased",
+  "first_appearance": "5.2",
+  "total_episodes": 3,
+  "image_url": "assets/images/avatars/.jpg"
+}

@@ -1,19 +1,18 @@
 {
-    "id": 99,
-    "name": "Stuart Tuxhorn",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Cardholder",
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Criminal"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.1",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Stuart Tuxhorn",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Cardholder",
+    "Company"
+  ],
+  "broad_archetypes": [
+    "Organised Crime",
+    "Criminal"
+  ],
+  "status": "Deceased",
+  "first_appearance": "4.1",
+  "total_episodes": 5,
+  "image_url": "assets/images/avatars/.jpg"
+}

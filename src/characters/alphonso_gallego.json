@@ -1,18 +1,17 @@
 {
-    "id": 60,
-    "name": "Alphonso Gallego",
-    "gender": "Male",
-    "nationality": "COL",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Outside Help",
-      "McGrady"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.8",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Alphonso Gallego",
+  "gender": "Male",
+  "nationality": "COL",
+  "kills": 0,
+  "specific_groups": [
+    "Sona Outside Help",
+    "McGrady"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "3.8",
+  "total_episodes": 4,
+  "image_url": "assets/images/avatars/.jpg"
+}

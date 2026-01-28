@@ -1,17 +1,16 @@
 {
-    "id": 93,
-    "name": "Sid",
-    "gender": "Male",
-    "nationality": "YEM",
-    "kills": 0,
-    "specific_groups": [
-      "Ogygia Inmate"
-    ],
-    "broad_archetypes": [
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.2",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Sid",
+  "gender": "Male",
+  "nationality": "YEM",
+  "kills": 0,
+  "specific_groups": [
+    "Ogygia Inmate"
+  ],
+  "broad_archetypes": [
+    "Inmate"
+  ],
+  "status": "Deceased",
+  "first_appearance": "5.2",
+  "total_episodes": 4,
+  "image_url": "assets/images/avatars/.jpg"
+}

@@ -1,20 +1,19 @@
 {
-    "id": 15,
-    "name": "David Apolskis (Tweener)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Inmate",
-      "Fox River 8",
-      "P.I Crew"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.9",
-    "total_episodes": 16,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "David Apolskis (Tweener)",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Fox River Inmate",
+    "Fox River 8",
+    "P.I Crew"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Inmate"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.9",
+  "total_episodes": 16,
+  "image_url": "assets/images/avatars/.jpg"
+}

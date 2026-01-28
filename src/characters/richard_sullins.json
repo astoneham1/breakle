@@ -1,17 +1,16 @@
 {
-    "id": 96,
-    "name": "Richard Sullins",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "FBI Search Team"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "2.8",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Richard Sullins",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "FBI Search Team"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement"
+  ],
+  "status": "Alive",
+  "first_appearance": "2.8",
+  "total_episodes": 6,
+  "image_url": "assets/images/avatars/.jpg"
+}

@@ -1,20 +1,19 @@
 {
-    "id": 87,
-    "name": "Manche Sanchez",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Inmate",
-      "P.I Crew",
-      "Sucre"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.15",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Manche Sanchez",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Fox River Inmate",
+    "P.I Crew",
+    "Sucre"
+  ],
+  "broad_archetypes": [
+    "Inmate",
+    "Criminal"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.15",
+  "total_episodes": 9,
+  "image_url": "assets/images/avatars/.jpg"
+}

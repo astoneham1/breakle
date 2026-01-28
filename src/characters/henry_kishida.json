@@ -1,18 +1,17 @@
 {
-    "id": 113,
-    "name": "Henry Kishida",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "21 Void Investigation",
-      "CIA"
-    ],
-    "broad_archetypes": [
-      "Government"
-    ],
-    "status": "Deceased",
-    "first_appearance": "5.2",
-    "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Henry Kishida",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "21 Void Investigation",
+    "CIA"
+  ],
+  "broad_archetypes": [
+    "Government"
+  ],
+  "status": "Deceased",
+  "first_appearance": "5.2",
+  "total_episodes": 3,
+  "image_url": "assets/images/avatars/.jpg"
+}

@@ -1,17 +1,16 @@
 {
-    "id": 28,
-    "name": "Andrew Blauner",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "GATE"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.4",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Andrew Blauner",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "GATE"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Deceased",
+  "first_appearance": "4.4",
+  "total_episodes": 4,
+  "image_url": "assets/images/avatars/.jpg"
+}

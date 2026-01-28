@@ -1,25 +1,24 @@
 {
-    "id": 9,
-    "name": "Paul Kellerman",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 10,
-    "specific_groups": [
-      "Company",
-      "Secret Service",
-      "Scylla Outside Help",
-      "21 Void Investigation"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government",
-      "Political",
-      "Hitman",
-      "Organised Crime",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 42,
-    "image_url": "assets/images/avatars/pkellerman.jpg"
-  }
+  "name": "Paul Kellerman",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 10,
+  "specific_groups": [
+    "Company",
+    "Secret Service",
+    "Scylla Outside Help",
+    "21 Void Investigation"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement",
+    "Government",
+    "Political",
+    "Hitman",
+    "Organised Crime",
+    "Rogue"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.1",
+  "total_episodes": 42,
+  "image_url": "assets/images/avatars/pkellerman.jpg"
+}

@@ -1,19 +1,18 @@
 {
-    "id": 53,
-    "name": "Feng Huan",
-    "gender": "Male",
-    "nationality": "CHN",
-    "kills": 1,
-    "specific_groups": [
-      "Scylla Buyer"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Civilian",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.4",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Feng Huan",
+  "gender": "Male",
+  "nationality": "CHN",
+  "kills": 1,
+  "specific_groups": [
+    "Scylla Buyer"
+  ],
+  "broad_archetypes": [
+    "Organised Crime",
+    "Civilian",
+    "Criminal"
+  ],
+  "status": "Alive",
+  "first_appearance": "4.4",
+  "total_episodes": 6,
+  "image_url": "assets/images/avatars/.jpg"
+}

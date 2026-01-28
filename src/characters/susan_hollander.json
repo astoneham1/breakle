@@ -1,17 +1,16 @@
 {
-    "id": 65,
-    "name": "Susan Hollander",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.16",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Susan Hollander",
+  "gender": "Female",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Hostages"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.16",
+  "total_episodes": 7,
+  "image_url": "assets/images/avatars/.jpg"
+}

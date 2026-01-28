@@ -1,18 +1,17 @@
 {
-    "id": 31,
-    "name": "Bob Hudson",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Hostages"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.6",
-    "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Bob Hudson",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Fox River Staff"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement",
+    "Hostages"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.6",
+  "total_episodes": 2,
+  "image_url": "assets/images/avatars/.jpg"
+}

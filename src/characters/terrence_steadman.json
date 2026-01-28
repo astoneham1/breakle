@@ -1,19 +1,18 @@
 {
-    "id": 98,
-    "name": "Terrence Steadman",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Political",
-      "Organised Crime",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.16",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Terrence Steadman",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Company"
+  ],
+  "broad_archetypes": [
+    "Political",
+    "Organised Crime",
+    "Civilian"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.16",
+  "total_episodes": 7,
+  "image_url": "assets/images/avatars/.jpg"
+}

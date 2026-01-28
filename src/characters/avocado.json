@@ -1,18 +1,17 @@
 {
-    "id": 23,
-    "name": "Avocado",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Inmate"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.13",
-    "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Avocado",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Fox River Inmate"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Inmate"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.13",
+  "total_episodes": 5,
+  "image_url": "assets/images/avatars/.jpg"
+}

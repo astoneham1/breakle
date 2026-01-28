@@ -1,17 +1,16 @@
 {
-    "id": 19,
-    "name": "Mack Andrews",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 15,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Mack Andrews",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Fox River Staff"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.1",
+  "total_episodes": 15,
+  "image_url": "assets/images/avatars/.jpg"
+}

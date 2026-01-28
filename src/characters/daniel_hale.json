@@ -1,22 +1,21 @@
 {
-    "id": 44,
-    "name": "Daniel Hale",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company",
-      "Secret Service"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Government",
-      "Hitman",
-      "Organised Crime",
-      "Rogue"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 13,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Daniel Hale",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Company",
+    "Secret Service"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement",
+    "Government",
+    "Hitman",
+    "Organised Crime",
+    "Rogue"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.1",
+  "total_episodes": 13,
+  "image_url": "assets/images/avatars/.jpg"
+}

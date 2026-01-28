@@ -1,19 +1,18 @@
 {
-    "id": 12,
-    "name": "Lincoln Burrows Jr. (LJ)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 1,
-    "specific_groups": [
-      "Burrows",
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 25,
-    "image_url": "assets/images/avatars/ljburrows.jpg"
-  }
+  "name": "Lincoln Burrows Jr. (LJ)",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 1,
+  "specific_groups": [
+    "Burrows",
+    "Hostages"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.1",
+  "total_episodes": 25,
+  "image_url": "assets/images/avatars/ljburrows.jpg"
+}

@@ -20,7 +20,7 @@ for filename in os.listdir(folder_path):
             except json.JSONDecodeError:
                 print(f"❌ Error in file: {filename}")
 
-all_characters.sort(key=lambda x: x.get('id', 999))
+all_characters.sort(key=lambda x: x.get('name', ''))
 
 for i, character in enumerate(all_characters):
     character['id'] = i + 1

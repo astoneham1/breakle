@@ -1,19 +1,18 @@
 {
-    "id": 90,
-    "name": "Michael Scofield Jr.",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Scofield",
-      "Tancredi",
-      "Hostages"
-    ],
-    "broad_archetypes": [
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "4.22",
-    "total_episodes": 8,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Michael Scofield Jr.",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Scofield",
+    "Tancredi",
+    "Hostages"
+  ],
+  "broad_archetypes": [
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "4.22",
+  "total_episodes": 8,
+  "image_url": "assets/images/avatars/.jpg"
+}

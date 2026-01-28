@@ -1,19 +1,18 @@
 {
-    "id": 32,
-    "name": "Samantha Brinker",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Company"
-    ],
-    "broad_archetypes": [
-      "Organised Crime",
-      "Civilian",
-      "Political"
-    ],
-    "status": "Unknown",
-    "first_appearance": "1.13",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Samantha Brinker",
+  "gender": "Female",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Company"
+  ],
+  "broad_archetypes": [
+    "Organised Crime",
+    "Civilian",
+    "Political"
+  ],
+  "status": "Unknown",
+  "first_appearance": "1.13",
+  "total_episodes": 7,
+  "image_url": "assets/images/avatars/.jpg"
+}

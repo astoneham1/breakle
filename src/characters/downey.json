@@ -1,20 +1,19 @@
 {
-    "id": 46,
-    "name": "Downey",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Cristina's Gang"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Organised Crime",
-      "Rogue",
-      "Hitman"
-    ],
-    "status": "Deceased",
-    "first_appearance": "4.16",
-    "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Downey",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Cristina's Gang"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Organised Crime",
+    "Rogue",
+    "Hitman"
+  ],
+  "status": "Deceased",
+  "first_appearance": "4.16",
+  "total_episodes": 7,
+  "image_url": "assets/images/avatars/.jpg"
+}

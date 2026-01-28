@@ -1,18 +1,17 @@
 {
-    "id": 59,
-    "name": "Kacee Franklin",
-    "gender": "Female",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Franklin"
-    ],
-    "broad_archetypes": [
-      "Civilian",
-      "Criminal"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.13",
-    "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Kacee Franklin",
+  "gender": "Female",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Franklin"
+  ],
+  "broad_archetypes": [
+    "Civilian",
+    "Criminal"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.13",
+  "total_episodes": 9,
+  "image_url": "assets/images/avatars/.jpg"
+}

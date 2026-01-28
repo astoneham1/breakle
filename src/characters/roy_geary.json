@@ -1,20 +1,19 @@
 {
-    "id": 85,
-    "name": "Roy Geary",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [
-      "Fox River Staff",
-      "Bounty Hunter"
-    ],
-    "broad_archetypes": [
-      "Law Enforcement",
-      "Criminal",
-      "Civilian"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.6",
-    "total_episodes": 16,
-    "image_url": "assets/images/avatars/.jpg"
-  }
+  "name": "Roy Geary",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 0,
+  "specific_groups": [
+    "Fox River Staff",
+    "Bounty Hunter"
+  ],
+  "broad_archetypes": [
+    "Law Enforcement",
+    "Criminal",
+    "Civilian"
+  ],
+  "status": "Deceased",
+  "first_appearance": "1.6",
+  "total_episodes": 16,
+  "image_url": "assets/images/avatars/.jpg"
+}

@@ -1,24 +1,23 @@
 {
-    "id": 11,
-    "name": "Benjamin Franklin (C-Note)",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 3,
-    "specific_groups": [
-      "Fox River Inmate",
-      "Fox River 8",
-      "P.I Crew",
-      "Scylla Outside Help",
-      "Yemen Rescue Team",
-      "Franklin"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Inmate",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "1.1",
-    "total_episodes": 44,
-    "image_url": "assets/images/avatars/bfranklin.jpg"
-  }
+  "name": "Benjamin Franklin (C-Note)",
+  "gender": "Male",
+  "nationality": "USA",
+  "kills": 3,
+  "specific_groups": [
+    "Fox River Inmate",
+    "Fox River 8",
+    "P.I Crew",
+    "Scylla Outside Help",
+    "Yemen Rescue Team",
+    "Franklin"
+  ],
+  "broad_archetypes": [
+    "Criminal",
+    "Inmate",
+    "Civilian"
+  ],
+  "status": "Alive",
+  "first_appearance": "1.1",
+  "total_episodes": 44,
+  "image_url": "assets/images/avatars/bfranklin.jpg"
+}

@@ -16,7 +16,7 @@
     "status": "Deceased",
     "first_appearance": "5.2",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/abu_ramal.jpeg",
     "id": 1
   },
   {
@@ -35,7 +35,7 @@
     "status": "Deceased",
     "first_appearance": "4.23",
     "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/agatha_warren.png",
     "id": 2
   },
   {
@@ -55,7 +55,7 @@
     "status": "Deceased",
     "first_appearance": "1.15",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/aldo_burrows.png",
     "id": 3
   },
   {
@@ -79,7 +79,7 @@
     "status": "Alive",
     "first_appearance": "2.1",
     "total_episodes": 59,
-    "image_url": "assets/images/avatars/amahone.jpg",
+    "image_url": "assets/images/avatars/alexander_mahone.png",
     "id": 4
   },
   {
@@ -96,7 +96,7 @@
     "status": "Alive",
     "first_appearance": "4.23",
     "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/alice_simms.png",
     "id": 5
   },
   {
@@ -114,7 +114,7 @@
     "status": "Alive",
     "first_appearance": "3.8",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/alphonso_gallego.png",
     "id": 6
   },
   {
@@ -131,7 +131,7 @@
     "status": "Deceased",
     "first_appearance": "4.4",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/andrew_blauner.png",
     "id": 7
   },
   {
@@ -149,27 +149,8 @@
     "status": "Deceased",
     "first_appearance": "3.5",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/andrew_tyge.png",
     "id": 8
-  },
-  {
-    "name": "Augusto",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Lechero's Gang"
-    ],
-    "broad_archetypes": [
-      "Criminal",
-      "Organised Crime",
-      "Civilian"
-    ],
-    "status": "Alive",
-    "first_appearance": "3.3",
-    "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 9
   },
   {
     "name": "Avocado",
@@ -186,8 +167,8 @@
     "status": "Alive",
     "first_appearance": "1.13",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 10
+    "image_url": "assets/images/avatars/avocado.png",
+    "id": 9
   },
   {
     "name": "Benjamin Franklin (C-Note)",
@@ -210,24 +191,8 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 44,
-    "image_url": "assets/images/avatars/bfranklin.jpg",
-    "id": 11
-  },
-  {
-    "name": "Bishop McMorrow",
-    "gender": "Male",
-    "nationality": "USA",
-    "kills": 0,
-    "specific_groups": [],
-    "broad_archetypes": [
-      "Civilian",
-      "Political"
-    ],
-    "status": "Deceased",
-    "first_appearance": "1.1",
-    "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 12
+    "image_url": "assets/images/avatars/benjamin_franklin.png",
+    "id": 10
   },
   {
     "name": "Blue Hawaii",
@@ -243,8 +208,8 @@
     "status": "Alive",
     "first_appearance": "5.6",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 13
+    "image_url": "assets/images/avatars/blue_hawaii.png",
+    "id": 11
   },
   {
     "name": "Bob Hudson",
@@ -261,8 +226,8 @@
     "status": "Deceased",
     "first_appearance": "1.6",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 14
+    "image_url": "assets/images/avatars/bob_hudson.png",
+    "id": 12
   },
   {
     "name": "Brad Bellick",
@@ -284,8 +249,8 @@
     "status": "Deceased",
     "first_appearance": "1.1",
     "total_episodes": 63,
-    "image_url": "assets/images/avatars/bbellick.jpg",
-    "id": 15
+    "image_url": "assets/images/avatars/brad_bellick.png",
+    "id": 13
   },
   {
     "name": "Bruce Bennett",
@@ -303,8 +268,8 @@
     "status": "Deceased",
     "first_appearance": "2.5",
     "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 16
+    "image_url": "assets/images/avatars/bruce_bennett.png",
+    "id": 14
   },
   {
     "name": "Cameron Mahone",
@@ -320,8 +285,8 @@
     "status": "Deceased",
     "first_appearance": "2.17",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 17
+    "image_url": "assets/images/avatars/cameron_mahone.png",
+    "id": 15
   },
   {
     "name": "Captain Hurtado",
@@ -338,7 +303,7 @@
     "first_appearance": "3.5",
     "total_episodes": 3,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 18
+    "id": 16
   },
   {
     "name": "Caroline Reynolds",
@@ -356,8 +321,8 @@
     "status": "Alive",
     "first_appearance": "1.2",
     "total_episodes": 18,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 19
+    "image_url": "assets/images/avatars/caroline_reynolds.png",
+    "id": 17
   },
   {
     "name": "Charles Patoshik (Haywire)",
@@ -375,8 +340,8 @@
     "status": "Deceased",
     "first_appearance": "1.3",
     "total_episodes": 12,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 20
+    "image_url": "assets/images/avatars/charles_patoshik.png",
+    "id": 18
   },
   {
     "name": "Charles Westmoreland (DB Cooper)",
@@ -394,31 +359,11 @@
     "status": "Deceased",
     "first_appearance": "1.1",
     "total_episodes": 19,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 21
+    "image_url": "assets/images/avatars/charles_westmoreland.png",
+    "id": 19
   },
   {
-    "name": "Cheo",
-    "gender": "Male",
-    "nationality": "PAN",
-    "kills": 0,
-    "specific_groups": [
-      "Sona Inmate",
-      "Lechero's Gang"
-    ],
-    "broad_archetypes": [
-      "Inmate",
-      "Criminal",
-      "Organised Crime"
-    ],
-    "status": "Deceased",
-    "first_appearance": "3.1",
-    "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 22
-  },
-  {
-    "name": "Colonel Escamila",
+    "name": "Colonel Escamilla",
     "gender": "Male",
     "nationality": "PAN",
     "kills": 0,
@@ -432,8 +377,8 @@
     "status": "Alive",
     "first_appearance": "3.2",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 23
+    "image_url": "assets/images/avatars/colonel_escamilla.png",
+    "id": 20
   },
   {
     "name": "Cristina Scofield",
@@ -455,8 +400,8 @@
     "status": "Deceased",
     "first_appearance": "4.16",
     "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 24
+    "image_url": "assets/images/avatars/christina_scofield.png",
+    "id": 21
   },
   {
     "name": "Cristobal",
@@ -474,8 +419,8 @@
     "status": "Deceased",
     "first_appearance": "3.8",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 25
+    "image_url": "assets/images/avatars/cristobal.png",
+    "id": 22
   },
   {
     "name": "Cyclops",
@@ -493,8 +438,8 @@
     "status": "Deceased",
     "first_appearance": "5.2",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 26
+    "image_url": "assets/images/avatars/cyclops.png",
+    "id": 23
   },
   {
     "name": "Daddy",
@@ -512,8 +457,8 @@
     "status": "Alive",
     "first_appearance": "4.23",
     "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 27
+    "image_url": "assets/images/avatars/daddy.png",
+    "id": 24
   },
   {
     "name": "Daniel Hale",
@@ -534,8 +479,8 @@
     "status": "Deceased",
     "first_appearance": "1.1",
     "total_episodes": 13,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 28
+    "image_url": "assets/images/avatars/daniel_hale.png",
+    "id": 25
   },
   {
     "name": "David Apolskis (Tweener)",
@@ -554,8 +499,8 @@
     "status": "Deceased",
     "first_appearance": "1.9",
     "total_episodes": 16,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 29
+    "image_url": "assets/images/avatars/david_apolskis.png",
+    "id": 26
   },
   {
     "name": "David Baker",
@@ -571,8 +516,8 @@
     "status": "Alive",
     "first_appearance": "4.10",
     "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 30
+    "image_url": "assets/images/avatars/david_baker.png",
+    "id": 27
   },
   {
     "name": "David Martin (Whip)",
@@ -590,7 +535,7 @@
     "first_appearance": "5.2",
     "total_episodes": 8,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 31
+    "id": 28
   },
   {
     "name": "Debra Jean Belle",
@@ -604,8 +549,8 @@
     "status": "Alive",
     "first_appearance": "2.2",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 32
+    "image_url": "assets/images/avatars/debrajean_belle.png",
+    "id": 29
   },
   {
     "name": "Dede Franklin",
@@ -621,8 +566,8 @@
     "status": "Alive",
     "first_appearance": "1.13",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 33
+    "image_url": "assets/images/avatars/dede_franklin.png",
+    "id": 30
   },
   {
     "name": "Donald Self",
@@ -642,8 +587,8 @@
     "status": "Alive",
     "first_appearance": "4.1",
     "total_episodes": 22,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 34
+    "image_url": "assets/images/avatars/donald_self.png",
+    "id": 31
   },
   {
     "name": "Downey",
@@ -662,8 +607,8 @@
     "status": "Deceased",
     "first_appearance": "4.16",
     "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 35
+    "image_url": "assets/images/avatars/downey.png",
+    "id": 32
   },
   {
     "name": "Emily Blake",
@@ -681,8 +626,8 @@
     "status": "Deceased",
     "first_appearance": "5.1",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 36
+    "image_url": "assets/images/avatars/emily_blake.png",
+    "id": 33
   },
   {
     "name": "Emily Morgan",
@@ -699,8 +644,8 @@
     "status": "",
     "first_appearance": "4.6",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 37
+    "image_url": "assets/images/avatars/emily_morgan.png",
+    "id": 34
   },
   {
     "name": "Felicia Lang",
@@ -718,8 +663,8 @@
     "status": "Alive",
     "first_appearance": "2.3",
     "total_episodes": 19,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 38
+    "image_url": "assets/images/avatars/felicia_lang.png",
+    "id": 35
   },
   {
     "name": "Feng Huan",
@@ -737,8 +682,8 @@
     "status": "Alive",
     "first_appearance": "4.4",
     "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 39
+    "image_url": "assets/images/avatars/feng_huan.png",
+    "id": 36
   },
   {
     "name": "Ferguson",
@@ -756,8 +701,8 @@
     "status": "Deceased",
     "first_appearance": "4.12",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 40
+    "image_url": "assets/images/avatars/ferguson.png",
+    "id": 37
   },
   {
     "name": "Fernando Sucre",
@@ -783,8 +728,8 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 74,
-    "image_url": "assets/images/avatars/fsucre.jpg",
-    "id": 41
+    "image_url": "assets/images/avatars/fernando_sucre.png",
+    "id": 38
   },
   {
     "name": "Frank Tancredi",
@@ -802,8 +747,8 @@
     "status": "Deceased",
     "first_appearance": "1.6",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 42
+    "image_url": "assets/images/avatars/frank_tancredi.png",
+    "id": 39
   },
   {
     "name": "General Jonathan Krantz",
@@ -828,7 +773,7 @@
     "first_appearance": "2.13",
     "total_episodes": 29,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 43
+    "id": 40
   },
   {
     "name": "General Mestas",
@@ -845,8 +790,8 @@
     "status": "",
     "first_appearance": "3.9",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 44
+    "image_url": "assets/images/avatars/general_mestas.png",
+    "id": 41
   },
   {
     "name": "General Zavala",
@@ -862,8 +807,8 @@
     "status": "Deceased",
     "first_appearance": "3.8",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 45
+    "image_url": "assets/images/avatars/general_zavala.png",
+    "id": 42
   },
   {
     "name": "Gregory White",
@@ -879,8 +824,8 @@
     "status": "Deceased",
     "first_appearance": "4.3",
     "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 46
+    "image_url": "assets/images/avatars/gregory_white.png",
+    "id": 43
   },
   {
     "name": "Gretchen Morgan",
@@ -904,8 +849,8 @@
     "status": "Alive",
     "first_appearance": "3.1",
     "total_episodes": 36,
-    "image_url": "assets/images/avatars/gmorgan.jpg",
-    "id": 47
+    "image_url": "assets/images/avatars/gretchen_morgan.png",
+    "id": 44
   },
   {
     "name": "Griffin Oren",
@@ -926,8 +871,8 @@
     "status": "Deceased",
     "first_appearance": "4.2",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 48
+    "image_url": "assets/images/avatars/griffin_oren.png",
+    "id": 45
   },
   {
     "name": "Hector Avila",
@@ -943,8 +888,8 @@
     "status": "Alive",
     "first_appearance": "1.2",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 49
+    "image_url": "assets/images/avatars/hector_avila.png",
+    "id": 46
   },
   {
     "name": "Henry Kishida",
@@ -962,7 +907,7 @@
     "first_appearance": "5.2",
     "total_episodes": 3,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 50
+    "id": 47
   },
   {
     "name": "Henry Pope",
@@ -981,7 +926,7 @@
     "first_appearance": "1.1",
     "total_episodes": 23,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 51
+    "id": 48
   },
   {
     "name": "Herb Stanton",
@@ -999,7 +944,7 @@
     "first_appearance": "4.3",
     "total_episodes": 3,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 52
+    "id": 49
   },
   {
     "name": "Howard Scuderi",
@@ -1019,7 +964,7 @@
     "first_appearance": "4.7",
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 53
+    "id": 50
   },
   {
     "name": "Ja",
@@ -1037,7 +982,7 @@
     "first_appearance": "5.2",
     "total_episodes": 6,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 54
+    "id": 51
   },
   {
     "name": "Jacob Ness (Poseidon)",
@@ -1061,7 +1006,7 @@
     "first_appearance": "5.1",
     "total_episodes": 9,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 55
+    "id": 52
   },
   {
     "name": "James Whistler",
@@ -1084,7 +1029,7 @@
     "first_appearance": "3.1",
     "total_episodes": 15,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 56
+    "id": 53
   },
   {
     "name": "John Abruzzi",
@@ -1106,7 +1051,7 @@
     "first_appearance": "1.1",
     "total_episodes": 20,
     "image_url": "assets/images/avatars/jabruzzi.jpg",
-    "id": 57
+    "id": 54
   },
   {
     "name": "Kacee Franklin",
@@ -1124,7 +1069,7 @@
     "first_appearance": "1.13",
     "total_episodes": 9,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 58
+    "id": 55
   },
   {
     "name": "Katie Welch",
@@ -1142,7 +1087,7 @@
     "first_appearance": "1.2",
     "total_episodes": 3,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 59
+    "id": 56
   },
   {
     "name": "Keith Stolte",
@@ -1159,7 +1104,7 @@
     "first_appearance": "1.1",
     "total_episodes": 6,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 60
+    "id": 57
   },
   {
     "name": "Lechero",
@@ -1180,7 +1125,7 @@
     "first_appearance": "3.1",
     "total_episodes": 13,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 61
+    "id": 58
   },
   {
     "name": "Leticia Barris",
@@ -1195,7 +1140,7 @@
     "first_appearance": "1.2",
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 62
+    "id": 59
   },
   {
     "name": "Lila Maria Sucre",
@@ -1212,7 +1157,7 @@
     "first_appearance": "4.1",
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 63
+    "id": 60
   },
   {
     "name": "Lincoln Burrows",
@@ -1239,7 +1184,7 @@
     "first_appearance": "1.1",
     "total_episodes": 90,
     "image_url": "assets/images/avatars/lburrows.jpg",
-    "id": 64
+    "id": 61
   },
   {
     "name": "Lincoln Burrows Jr. (LJ)",
@@ -1258,7 +1203,7 @@
     "first_appearance": "1.1",
     "total_episodes": 25,
     "image_url": "assets/images/avatars/ljburrows.jpg",
-    "id": 65
+    "id": 62
   },
   {
     "name": "Lisa Tabak",
@@ -1278,7 +1223,7 @@
     "first_appearance": "4.4",
     "total_episodes": 10,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 66
+    "id": 63
   },
   {
     "name": "Louis Patterson",
@@ -1295,7 +1240,7 @@
     "first_appearance": "1.1",
     "total_episodes": 20,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 67
+    "id": 64
   },
   {
     "name": "Luca Abruzzi",
@@ -1314,7 +1259,7 @@
     "first_appearance": "5.1",
     "total_episodes": 3,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 68
+    "id": 65
   },
   {
     "name": "Luis Gallego (McGrady)",
@@ -1334,7 +1279,7 @@
     "first_appearance": "3.1",
     "total_episodes": 13,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 69
+    "id": 66
   },
   {
     "name": "Mack Andrews",
@@ -1351,7 +1296,7 @@
     "first_appearance": "1.1",
     "total_episodes": 15,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 70
+    "id": 67
   },
   {
     "name": "Manche Sanchez",
@@ -1371,7 +1316,7 @@
     "first_appearance": "1.15",
     "total_episodes": 9,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 71
+    "id": 68
   },
   {
     "name": "Maricruz Delgado",
@@ -1388,7 +1333,7 @@
     "first_appearance": "1.1",
     "total_episodes": 9,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 72
+    "id": 69
   },
   {
     "name": "Mark Wheeler",
@@ -1405,7 +1350,7 @@
     "first_appearance": "2.1",
     "total_episodes": 18,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 73
+    "id": 70
   },
   {
     "name": "Marvin Gudat",
@@ -1423,7 +1368,7 @@
     "first_appearance": "2.1",
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 74
+    "id": 71
   },
   {
     "name": "Mary Francis (Lechero's Girl)",
@@ -1441,7 +1386,7 @@
     "first_appearance": "3.1",
     "total_episodes": 5,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 75
+    "id": 72
   },
   {
     "name": "Michael Scofield",
@@ -1468,8 +1413,8 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 90,
-    "image_url": "assets/images/avatars/mscofield.jpeg",
-    "id": 76
+    "image_url": "assets/images/avatars/michael_scofield.jpeg",
+    "id": 73
   },
   {
     "name": "Michael Scofield Jr.",
@@ -1488,7 +1433,7 @@
     "first_appearance": "4.22",
     "total_episodes": 8,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 77
+    "id": 74
   },
   {
     "name": "Miriam Holtz",
@@ -1508,7 +1453,7 @@
     "first_appearance": "4.3",
     "total_episodes": 11,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 78
+    "id": 75
   },
   {
     "name": "Nathaniel Edison",
@@ -1528,7 +1473,7 @@
     "first_appearance": "4.6",
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 79
+    "id": 76
   },
   {
     "name": "Naveen Banerjee",
@@ -1545,7 +1490,7 @@
     "first_appearance": "4.19",
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 80
+    "id": 77
   },
   {
     "name": "Nick Savrinn",
@@ -1562,7 +1507,7 @@
     "first_appearance": "1.4",
     "total_episodes": 18,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 81
+    "id": 78
   },
   {
     "name": "Nika Volek",
@@ -1579,7 +1524,7 @@
     "first_appearance": "1.10",
     "total_episodes": 5,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 82
+    "id": 79
   },
   {
     "name": "Omar",
@@ -1597,7 +1542,7 @@
     "first_appearance": "5.1",
     "total_episodes": 6,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 83
+    "id": 80
   },
   {
     "name": "Otto Fibonacci",
@@ -1613,7 +1558,7 @@
     "first_appearance": "1.10",
     "total_episodes": 1,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 84
+    "id": 81
   },
   {
     "name": "Pam Mahone/Larson",
@@ -1630,7 +1575,7 @@
     "first_appearance": "2.3",
     "total_episodes": 5,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 85
+    "id": 82
   },
   {
     "name": "Paul Kellerman",
@@ -1655,7 +1600,7 @@
     "first_appearance": "1.1",
     "total_episodes": 42,
     "image_url": "assets/images/avatars/pkellerman.jpg",
-    "id": 86
+    "id": 83
   },
   {
     "name": "Philly Falzone",
@@ -1674,7 +1619,7 @@
     "first_appearance": "1.2",
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 87
+    "id": 84
   },
   {
     "name": "Pistachio",
@@ -1692,7 +1637,7 @@
     "first_appearance": "3.3",
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 88
+    "id": 85
   },
   {
     "name": "Ralph Becker",
@@ -1711,7 +1656,7 @@
     "first_appearance": "4.14",
     "total_episodes": 3,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 89
+    "id": 86
   },
   {
     "name": "Richard Mills",
@@ -1727,7 +1672,7 @@
     "first_appearance": "1.6",
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 90
+    "id": 87
   },
   {
     "name": "Richard Sullins",
@@ -1744,7 +1689,7 @@
     "first_appearance": "2.8",
     "total_episodes": 6,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 91
+    "id": 88
   },
   {
     "name": "Rita Morgan",
@@ -1762,7 +1707,7 @@
     "first_appearance": "4.6",
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 92
+    "id": 89
   },
   {
     "name": "Roland Glenn",
@@ -1780,7 +1725,7 @@
     "first_appearance": "4.2",
     "total_episodes": 7,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 93
+    "id": 90
   },
   {
     "name": "Roy Geary",
@@ -1800,7 +1745,7 @@
     "first_appearance": "1.6",
     "total_episodes": 16,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 94
+    "id": 91
   },
   {
     "name": "Samantha Brinker",
@@ -1819,7 +1764,7 @@
     "first_appearance": "1.13",
     "total_episodes": 7,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 95
+    "id": 92
   },
   {
     "name": "Sammy",
@@ -1839,7 +1784,7 @@
     "first_appearance": "3.1",
     "total_episodes": 10,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 96
+    "id": 93
   },
   {
     "name": "Sara Tancredi/Scofield",
@@ -1865,7 +1810,7 @@
     "first_appearance": "1.1",
     "total_episodes": 73,
     "image_url": "assets/images/avatars/stancredi.jpg",
-    "id": 97
+    "id": 94
   },
   {
     "name": "Senator Conrad Dallow",
@@ -1881,8 +1826,8 @@
     "status": "Alive",
     "first_appearance": "4.3",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
-    "id": 98
+    "image_url": "assets/images/avatars/conrad_dallow.png",
+    "id": 95
   },
   {
     "name": "Sheba",
@@ -1900,7 +1845,7 @@
     "first_appearance": "5.1",
     "total_episodes": 8,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 99
+    "id": 96
   },
   {
     "name": "Sid",
@@ -1917,7 +1862,7 @@
     "first_appearance": "5.2",
     "total_episodes": 4,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 100
+    "id": 97
   },
   {
     "name": "Sofia Lugo",
@@ -1935,7 +1880,7 @@
     "first_appearance": "3.1",
     "total_episodes": 15,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 101
+    "id": 98
   },
   {
     "name": "Stuart Tuxhorn",
@@ -1954,7 +1899,7 @@
     "first_appearance": "4.1",
     "total_episodes": 5,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 102
+    "id": 99
   },
   {
     "name": "Susan Hollander",
@@ -1971,7 +1916,7 @@
     "first_appearance": "1.16",
     "total_episodes": 7,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 103
+    "id": 100
   },
   {
     "name": "Terrence Steadman",
@@ -1990,7 +1935,7 @@
     "first_appearance": "1.16",
     "total_episodes": 7,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 104
+    "id": 101
   },
   {
     "name": "Theodore Bagwell (T-Bag)",
@@ -2015,7 +1960,7 @@
     "first_appearance": "1.1",
     "total_episodes": 81,
     "image_url": "assets/images/avatars/tbagwell.jpg",
-    "id": 105
+    "id": 102
   },
   {
     "name": "Todd Wheatley",
@@ -2032,7 +1977,7 @@
     "first_appearance": "4.23",
     "total_episodes": 1,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 106
+    "id": 103
   },
   {
     "name": "Van Gogh",
@@ -2051,7 +1996,7 @@
     "first_appearance": "5.1",
     "total_episodes": 9,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 107
+    "id": 104
   },
   {
     "name": "Veronica Donovan",
@@ -2069,7 +2014,7 @@
     "first_appearance": "1.1",
     "total_episodes": 23,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 108
+    "id": 105
   },
   {
     "name": "Vincent Sandinsky",
@@ -2087,7 +2032,7 @@
     "first_appearance": "4.18",
     "total_episodes": 2,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 109
+    "id": 106
   },
   {
     "name": "William/Bill Kim",
@@ -2108,6 +2053,6 @@
     "first_appearance": "2.5",
     "total_episodes": 16,
     "image_url": "assets/images/avatars/.jpg",
-    "id": 110
+    "id": 107
   }
 ]

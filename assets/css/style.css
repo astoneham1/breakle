@@ -32,7 +32,10 @@ body {
 #character-image {
     padding: 10px;
     width: 100px;
+    height: 100px;
     margin: 5px auto;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 #guess-container {
@@ -64,40 +67,88 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 0.8rem;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.1s;
 }
 
 #view-all-btn:hover {
     background-color: #555;
+    transform: scale(1.02);
 }
 
 #result-message {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
     text-align: center;
+    width: 100%;
 }
 
-#result-text {
-    margin: 5px 15px;
-    font-size: 1.2rem;
+#result-status {
+    margin: 10px 0 5px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#result-character {
+    margin: 5px 0 15px;
+}
+
+#result-character-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+#result-guess-count {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0 0;
+}
+
+#result-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 #play-again-btn {
-    margin-top: 10px;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-color: #66e722;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    transition: background 0.2s;
+    font-size: 1.1rem;
+    transition: background 0.2s, transform 0.1s;
+    width: 80%;
 }
 
 #play-again-btn:hover {
     background-color: #55c61a;
+    transform: scale(1.02);
+}
+
+#view-all-btn-end {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background 0.2s, transform 0.1s;
+    width: fit-content;
+}
+
+#view-all-btn-end:hover {
+    background-color: #555;
+    transform: scale(1.02);
 }
 
 .modal {
@@ -197,7 +248,7 @@ body {
     border-bottom: none;
 }
 
-.result-item:hover {
+.result-item:hover, .result-item.active {
     background-color: #f0f0f0;
 }
 
@@ -218,6 +269,15 @@ body {
     margin: 0;
 }
 
+.guess-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 2px solid lightgray;
+}
+
 #clues-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -231,6 +291,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.clue-wrapper:hover .clue-label {
+    opacity: 1;
 }
 
 #guesses-container {
@@ -256,6 +321,11 @@ body {
     overflow: hidden;
     padding: 5px;
     box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.clue:hover {
+    transform: scale(1.05);
 }
 
 @media (min-width: 600px) {
@@ -295,19 +365,133 @@ body {
 }
 
 .clue-label {
-    margin-top: 10px;
-    font-size: 0.55rem;
+    margin-top: 5px;
+    font-size: 0.5rem;
     font-weight: bold;
     color: #333;
     text-transform: uppercase;
+    opacity: 0.6;
+    transition: opacity 0.2s;
 }
 
 @media (min-width: 600px) {
     .clue-label {
+        margin-top: 10px;
         font-size: 0.75rem;
     }
 }
 
 .clue p {
     margin: 0;
+}
+
+/* Welcome Page Styles */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 90vw;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.welcome-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.instructions {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.instructions p {
+    margin-bottom: 15px;
+}
+
+.example-section {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.example-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.example-text {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.example-text strong {
+    color: #333;
+}
+
+#login-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+#login-section p {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+#login-section input {
+    margin-bottom: 15px;
+    padding: 12px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#login-btn {
+    padding: 12px 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background 0.2s, transform 0.1s;
+}
+
+#login-btn:hover {
+    background-color: #555;
+    transform: scale(1.02);
+}
+
+#error-message {
+    color: #ff3333;
+    display: none;
+    margin-top: 15px;
+    font-weight: bold;
 }

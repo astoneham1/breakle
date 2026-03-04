@@ -6,19 +6,156 @@
     <title>Breakle - Welcome</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/login.css">
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+    <style>
+        .example-section h3 {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.2rem;
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .example-section h3:first-of-type {
+            margin-top: 0;
+        }
+        .example-row .clue {
+            flex-shrink: 0;
+            width: 70px;
+            height: 70px;
+        }
+        .clue-detail {
+            margin-top: 5px;
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.4;
+        }
+        .clue-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        @media (max-width: 480px) {
+            .clue-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .clue-item {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+        .clue-item strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        #login-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
     <div id="title">
-        <h1>Breakle</h1>
+        <h1>Welcome to Breakle!</h1>
     </div>
-    <div id="login-container">
-        <p>Breakle is still in early phases of development. Come back soon!</p>
-        <p>If you are an alpha tester, please enter the code to play</p>
-        <input type="text" id="password" autocomplete="off" placeholder="Enter Code">
-        <button id="login-btn">Enter</button>
-        <p id="error-message">Incorrect code. Try again.</p>
+
+    <div class="welcome-container">
+        <div class="instructions">
+            <p>Breakle is a character guessing game. Your goal is to identify the secret Prison Break character in as few guesses as possible.</p>
+            <p>Each guess provides clues based on the character's properties. Use these clues to narrow down your search! If you are stuck, you can choose to view a list of all possible characters to help ring a few bells.</p>
+            <p>The character's status and stats are as of the <strong>final episode (S5E9)</strong>, if you haven't watched all of Prison Break, don't play!</p>
+        </div>
+
+        <div class="example-section">
+            <h3>Color Indicators</h3>
+            
+            <div class="example-row">
+                <div class="clue" style="background-color: #66e722; color: black; border: 2px solid #66e722;">
+                    <p></p>
+                </div>
+                <div class="example-text">
+                    <strong>Green:</strong> Perfect match! This property is exactly the same as the target character.
+                </div>
+            </div>
+
+            <div class="example-row">
+                <div class="clue" style="background-color: #ffeb3b; color: black; border: 2px solid #ffeb3b;">
+                    <p></p>
+                </div>
+                <div class="example-text">
+                    <strong>Yellow:</strong> Close or partial match. See the clue details below for what this means in each category.
+                </div>
+            </div>
+
+            <div class="example-row">
+                <div class="clue" style="background-color: #ff3333; color: white; border: 2px solid #ff3333;">
+                    <p></p>
+                </div>
+                <div class="example-text">
+                    <strong>Red:</strong> No match. The target character does not share this property.
+                </div>
+            </div>
+
+            <h3>Clue Categories</h3>
+            
+            <div class="clue-grid">
+                <div class="clue-item">
+                    <strong>Gender</strong>
+                    <div class="clue-detail">Matches if the character's gender is the same. No yellow match.</div>
+                </div>
+                <div class="clue-item">
+                    <strong>Nationality</strong>
+                    <div class="clue-detail">Matches if the character's nationality is the same. Shown as a flag. No yellow match.</div>
+                </div>
+                <div class="clue-item">
+                    <strong>Status (Alive/Deceased)</strong>
+                    <div class="clue-detail">
+                        Green if same status. Yellow if target status is unknown but your guess is alive or dead.
+                    </div>
+                </div>
+                <div class="clue-item">
+                    <strong>First Seen</strong>
+                    <div class="clue-detail">
+                        S0E0 format. Green if exact match. Yellow if same season. Arrows (↑/↓) show if target appeared earlier or later.
+                    </div>
+                </div>
+                <div class="clue-item">
+                    <strong>Relation</strong>
+                    <div class="clue-detail">
+                        Green if they share specific groups. Yellow if they share broad archetypes. Examples of groups are being in a prison together, working on a team together, same family, etc. If there is one matching group, it will be shown. If there is multiple, it will be shown as "x2, x3", etc.
+                    </div>
+                </div>
+                <div class="clue-item">
+                    <strong>Episodes</strong>
+                    <div class="clue-detail">
+                        Total episode count. Green if exact match. Yellow if within 10 episodes. Arrows show if target has more or fewer.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="login-section">
+            <p>Breakle is currently in Alpha. Enter your access code below to play:</p>
+            <input type="text" id="password" autocomplete="off" placeholder="Access Code">
+            <button id="login-btn">Enter Game</button>
+            <p id="error-message">Incorrect code. Try again.</p>
+        </div>
     </div>
+
     <script src="js/login.js"></script>
+    <script>
+        // Ensure emojis are rendered
+        window.onload = function() {
+            twemoji.parse(document.body);
+        }
+    </script>
 </body>
 </html>

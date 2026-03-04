@@ -27,6 +27,40 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.error('Error loading data:', error));
 
+    searchInput.addEventListener('keydown', function(e) {
+        const items = resultsList.querySelectorAll('.result-item');
+        let activeIndex = -1;
+
+        items.forEach((item, index) => {
+            if (item.classList.contains('active')) {
+                activeIndex = index;
+            }
+        });
+
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            if (activeIndex < items.length - 1) {
+                if (activeIndex >= 0) items[activeIndex].classList.remove('active');
+                items[activeIndex + 1].classList.add('active');
+                items[activeIndex + 1].scrollIntoView({ block: 'nearest' });
+            } else if (activeIndex === -1 && items.length > 0) {
+                items[0].classList.add('active');
+            }
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            if (activeIndex > 0) {
+                items[activeIndex].classList.remove('active');
+                items[activeIndex - 1].classList.add('active');
+                items[activeIndex - 1].scrollIntoView({ block: 'nearest' });
+            }
+        } else if (e.key === 'Enter') {
+            if (activeIndex >= 0) {
+                e.preventDefault();
+                items[activeIndex].click();
+            }
+        }
+    });
+
     searchInput.addEventListener('input', function() {
         const query = this.value.toLowerCase();
         resultsList.innerHTML = ''; // Clear previous results
@@ -95,11 +129,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // View All Characters Modal Logic
     const viewAllBtn = document.getElementById('view-all-btn');
+    const viewAllBtnEnd = document.getElementById('view-all-btn-end');
     const modal = document.getElementById('all-characters-modal');
     const closeBtn = document.querySelector('.close-btn');
     const allCharactersList = document.getElementById('all-characters-list');
 
-    viewAllBtn.addEventListener('click', () => {
+    const openModal = () => {
         allCharactersList.innerHTML = ''; // Clear previous list
         
         // Update heading with character count
@@ -129,7 +164,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         modal.style.display = 'block';
-    });
+    };
+
+    viewAllBtn.addEventListener('click', openModal);
+    viewAllBtnEnd.addEventListener('click', openModal);
 
     closeBtn.addEventListener('click', () => {
         modal.style.display = 'none';
@@ -154,6 +192,13 @@ function handleGuess(characterGuess) {
 
     const guessDiv = document.createElement('div');
     guessDiv.classList.add('guess');
+
+    if (characterGuess.image_url) {
+        const guessImage = document.createElement('img');
+        guessImage.src = characterGuess.image_url;
+        guessImage.classList.add('guess-image');
+        guessDiv.appendChild(guessImage);
+    }
 
     const guessName = document.createElement('h1');
     guessName.textContent = characterGuess.name;
@@ -318,13 +363,17 @@ function compareRelevance(characterGuess) {
 
     if (specificOverlap.length > 0) {
         relevanceClue.style.backgroundColor = green;
-        //relevanceP.textContent = specificOverlap.join(', ');
+        if (specificOverlap.length > 1) {
+            relevanceP.textContent = `x${specificOverlap.length}`;
+        } else {
+            relevanceP.textContent = specificOverlap[0];
+        }
     } else if (broadOverlap.length > 0) {
         relevanceClue.style.backgroundColor = yellow;
-        //relevanceP.textContent = broadOverlap.join(', ');
+        relevanceP.textContent = '';
     } else {
         relevanceClue.style.backgroundColor = red;
-        //relevanceP.textContent = guessedBroad.join(', ');
+        relevanceP.textContent = '';
     }
 
     relevanceClue.appendChild(relevanceP);
@@ -379,13 +428,17 @@ function incrementGuessCount() {
 
 function gameOver(win) {
     const resultMessage = document.getElementById('result-message');
-    const resultText = document.getElementById('result-text');
+    const resultStatus = document.getElementById('result-status');
+    const resultName = document.getElementById('result-character-name');
+    const resultGuessCount = document.getElementById('result-guess-count');
     const searchInput = document.getElementById('guess');
     const guessContainer = document.getElementById('guess-container');
     const characterImage = document.getElementById('character-image');
+    const viewAllBtnMain = document.getElementById('view-all-btn');
 
-    resultMessage.style.display = 'block';
+    resultMessage.style.display = 'flex';
     guessContainer.style.display = 'none';
+    viewAllBtnMain.style.display = 'none';
     searchInput.disabled = true;
 
     // Show character image if available
@@ -393,12 +446,19 @@ function gameOver(win) {
         characterImage.src = chosenCharacter.image_url;
     }
 
+    resultName.textContent = chosenCharacter.name;
+
     if (win) {
-        resultText.textContent = `You won! The character was ${chosenCharacter.name}`;
-        resultText.style.color = green;
+        resultStatus.textContent = "Victory!";
+        resultStatus.style.color = green;
+        resultGuessCount.textContent = `You got it in ${guessNo} guess${guessNo === 1 ? '' : 'es'}!`;
+        resultGuessCount.style.display = 'block';
+        characterImage.style.border = `4px solid ${green}`;
     } else {
-        resultText.textContent = `Game Over! The character was ${chosenCharacter.name}`;
-        resultText.style.color = red;
+        resultStatus.textContent = "Game Over";
+        resultStatus.style.color = red;
+        resultGuessCount.style.display = 'none';
+        characterImage.style.border = `4px solid ${red}`;
     }
 }
 
@@ -409,14 +469,17 @@ function resetGame() {
     const searchInput = document.getElementById('guess');
     const guessContainer = document.getElementById('guess-container');
     const characterImage = document.getElementById('character-image');
+    const viewAllBtnMain = document.getElementById('view-all-btn');
 
     guessesContainer.innerHTML = '';
     resultMessage.style.display = 'none';
     guessContainer.style.display = 'flex';
+    viewAllBtnMain.style.display = 'block';
     searchInput.disabled = false;
     searchInput.value = '';
     searchInput.placeholder = `GUESS ${guessNo} OF ${guessMax}`;
     characterImage.src = 'assets/images/question.png';
+    characterImage.style.border = 'none';
 
     startGame();
 }

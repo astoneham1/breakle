@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         characterList = characterData;
         availableCharacterList = characterData;
         flags = flagData;
-        console.log('Data loaded');
+        console.log("Characters loaded: " + characterList.length);
         startGame();
     })
     .catch(error => console.error('Error loading data:', error));
@@ -97,7 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 div.addEventListener('click', () => {
                     searchInput.value = character.name;
                     resultsList.style.display = 'none';
-                    console.log(`User selected: ${character.name}`);
                     handleGuess(character);
                     searchInput.value = '';
                     if (guessNo <= guessMax) {
@@ -181,14 +180,12 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function startGame() {
-    console.log('Game started!');
     // chosenCharacter = availableCharacterList[0];
     chosenCharacter = availableCharacterList[Math.random() * availableCharacterList.length | 0];
-    console.log(`Chosen character: ${chosenCharacter.name}`);
+    console.log("Character chosen");
 }
 
 function handleGuess(characterGuess) {
-    const dots = document.querySelectorAll('.clue-dot');
     const guessesContainer = document.getElementById('guesses-container');
 
     const guessDiv = document.createElement('div');

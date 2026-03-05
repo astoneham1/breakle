@@ -484,7 +484,7 @@ function gameOver(win) {
         resultGuessCount.style.display = 'block';
         characterImage.style.border = `4px solid ${green}`;
         // Ensure indicators are visible on victory
-        document.getElementById('clue-indicators').style.display = 'flex';
+        document.getElementById('clue-indicators').style.display = '';
     } else {
         resultStatus.textContent = "Game Over";
         resultStatus.style.color = red;
@@ -515,7 +515,7 @@ function resetGame() {
     characterImage.style.border = 'none';
 
     const indicators = document.getElementById('clue-indicators');
-    indicators.style.display = 'flex';
+    indicators.style.display = '';
     indicators.querySelectorAll('.clue-dot').forEach(dot => {
         dot.classList.remove('correct');
         dot.innerHTML = '';

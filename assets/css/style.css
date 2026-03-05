@@ -22,7 +22,8 @@ body {
     left: 10px;
     font-size: 1.5rem;
     text-decoration: none;
-    color: inherit;
+    color: transparent;
+    text-shadow: 0 0 0 #000;
     background: white;
     width: 35px;
     height: 35px;
@@ -33,6 +34,13 @@ body {
     border: 1px solid lightgray;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.2s;
+    line-height: 1;
+}
+
+#instructions-btn:active, 
+#instructions-btn:visited {
+    color: transparent;
+    text-decoration: none;
 }
 
 #instructions-btn:hover {

@@ -177,6 +177,20 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.style.display = 'none';
         }
     });
+
+    // Page transitions
+    document.body.classList.add('fade-in');
+
+    const instructionsBtn = document.getElementById('instructions-btn');
+    if (instructionsBtn) {
+        instructionsBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.body.classList.add('fade-out');
+            setTimeout(function() {
+                window.location.href = 'index.html';
+            }, 500);
+        });
+    }
 })
 
 function startGame() {

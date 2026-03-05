@@ -64,8 +64,11 @@
 </head>
 <body>
     <div id="title">
+        <img src="assets/images/favicon.png" alt="Breakle Icon" class="title-icon">
         <h1>Welcome to Breakle!</h1>
     </div>
+
+    <img src="assets/images/favicon.png" alt="Decorative Icon" class="big-background-icon">
 
     <div class="welcome-container">
         <div class="instructions">
@@ -143,15 +146,25 @@
         </div>
 
         <div id="login-section">
-            <button id="play-btn" onclick="window.location.href='game.html'">Play Game</button>
+            <button id="play-btn">Play Game</button>
         </div>
     </div>
 
     <script>
-        // Ensure emojis are rendered
+        // Ensure emojis are rendered and handle page transitions
         window.onload = function() {
             twemoji.parse(document.body);
+            document.body.classList.add('fade-in');
         }
+
+        // Handle Play Game button transition
+        document.getElementById('play-btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.body.classList.add('fade-out');
+            setTimeout(function() {
+                window.location.href = 'game.html';
+            }, 500); // Wait for the transition to finish
+        });
     </script>
 </body>
 </html>

@@ -302,7 +302,7 @@
     "status": "Alive",
     "first_appearance": "3.5",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/hurtado.png",
     "id": 16
   },
   {
@@ -534,7 +534,7 @@
     "status": "Deceased",
     "first_appearance": "5.2",
     "total_episodes": 8,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/whip.png",
     "id": 28
   },
   {
@@ -772,7 +772,7 @@
     "status": "Deceased",
     "first_appearance": "2.13",
     "total_episodes": 29,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/jonathan_krantz.png",
     "id": 40
   },
   {
@@ -787,7 +787,7 @@
       "Law Enforcement",
       "Government"
     ],
-    "status": "",
+    "status": "Alive",
     "first_appearance": "3.9",
     "total_episodes": 3,
     "image_url": "assets/images/avatars/general_mestas.png",
@@ -906,7 +906,7 @@
     "status": "Deceased",
     "first_appearance": "5.2",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/henry_kishida.png",
     "id": 47
   },
   {
@@ -925,7 +925,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 23,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/henry_pope.png",
     "id": 48
   },
   {
@@ -943,7 +943,7 @@
     "status": "Deceased",
     "first_appearance": "4.3",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/herb_stanton.png",
     "id": 49
   },
   {
@@ -963,7 +963,7 @@
     "status": "Deceased",
     "first_appearance": "4.7",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/howard_scuderi.png",
     "id": 50
   },
   {
@@ -981,7 +981,7 @@
     "status": "Alive",
     "first_appearance": "5.2",
     "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/ja.png",
     "id": 51
   },
   {
@@ -1005,7 +1005,7 @@
     "status": "Deceased",
     "first_appearance": "5.1",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/poseidon.png",
     "id": 52
   },
   {
@@ -1028,7 +1028,7 @@
     "status": "Deceased",
     "first_appearance": "3.1",
     "total_episodes": 15,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/james_whistler.png",
     "id": 53
   },
   {
@@ -1050,7 +1050,7 @@
     "status": "Deceased",
     "first_appearance": "1.1",
     "total_episodes": 20,
-    "image_url": "assets/images/avatars/jabruzzi.jpg",
+    "image_url": "assets/images/avatars/john_abruzzi.png",
     "id": 54
   },
   {
@@ -1068,7 +1068,7 @@
     "status": "Alive",
     "first_appearance": "1.13",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/kacee_franklin.png",
     "id": 55
   },
   {
@@ -1086,7 +1086,7 @@
     "status": "Alive",
     "first_appearance": "1.2",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/katie_welch.png",
     "id": 56
   },
   {
@@ -1103,7 +1103,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/keith_stolte.png",
     "id": 57
   },
   {
@@ -1124,7 +1124,7 @@
     "status": "Deceased",
     "first_appearance": "3.1",
     "total_episodes": 13,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/lechero.png",
     "id": 58
   },
   {
@@ -1139,7 +1139,7 @@
     "status": "Deceased",
     "first_appearance": "1.2",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/leticia_barris.png",
     "id": 59
   },
   {
@@ -1156,7 +1156,7 @@
     "status": "Alive",
     "first_appearance": "4.1",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/lila_sucre.png",
     "id": 60
   },
   {
@@ -1183,7 +1183,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 90,
-    "image_url": "assets/images/avatars/lburrows.jpg",
+    "image_url": "assets/images/avatars/lincoln_burrows.png",
     "id": 61
   },
   {
@@ -1202,7 +1202,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 25,
-    "image_url": "assets/images/avatars/ljburrows.jpg",
+    "image_url": "assets/images/avatars/lj_burrows.png",
     "id": 62
   },
   {
@@ -1222,7 +1222,7 @@
     "status": "Alive",
     "first_appearance": "4.4",
     "total_episodes": 10,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/lisa_tabak.png",
     "id": 63
   },
   {
@@ -1239,7 +1239,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 20,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/louis_patterson.png",
     "id": 64
   },
   {
@@ -1258,7 +1258,7 @@
     "status": "Alive",
     "first_appearance": "5.1",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/luca_abruzzi.png",
     "id": 65
   },
   {
@@ -1278,7 +1278,7 @@
     "status": "Alive",
     "first_appearance": "3.1",
     "total_episodes": 13,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/luis_gallego.png",
     "id": 66
   },
   {
@@ -1295,7 +1295,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 15,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/mack_andrews.png",
     "id": 67
   },
   {
@@ -1315,7 +1315,7 @@
     "status": "Alive",
     "first_appearance": "1.15",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/manche_sanchez.png",
     "id": 68
   },
   {
@@ -1332,7 +1332,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/maricruz_delgado.png",
     "id": 69
   },
   {
@@ -1349,7 +1349,7 @@
     "status": "Alive",
     "first_appearance": "2.1",
     "total_episodes": 18,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/mark_wheeler.png",
     "id": 70
   },
   {
@@ -1367,7 +1367,7 @@
     "status": "Deceased",
     "first_appearance": "2.1",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/marvin_gudat.png",
     "id": 71
   },
   {
@@ -1385,7 +1385,7 @@
     "status": "Alive",
     "first_appearance": "3.1",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/mary_francis.png",
     "id": 72
   },
   {
@@ -1432,7 +1432,7 @@
     "status": "Alive",
     "first_appearance": "4.22",
     "total_episodes": 8,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/michael_scofield_jr.png",
     "id": 74
   },
   {
@@ -1452,7 +1452,7 @@
     "status": "Deceased",
     "first_appearance": "4.3",
     "total_episodes": 11,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/miriam_holtz.png",
     "id": 75
   },
   {
@@ -1472,7 +1472,7 @@
     "status": "Alive",
     "first_appearance": "4.6",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/nathaniel_edison.png",
     "id": 76
   },
   {
@@ -1489,7 +1489,7 @@
     "status": "Deceased",
     "first_appearance": "4.19",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/naveen_banerjee.png",
     "id": 77
   },
   {
@@ -1506,7 +1506,7 @@
     "status": "Deceased",
     "first_appearance": "1.4",
     "total_episodes": 18,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/nick_savrinn.png",
     "id": 78
   },
   {
@@ -1523,7 +1523,7 @@
     "status": "Alive",
     "first_appearance": "1.10",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/nika_volek.png",
     "id": 79
   },
   {
@@ -1541,7 +1541,7 @@
     "status": "Deceased",
     "first_appearance": "5.1",
     "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/omar.png",
     "id": 80
   },
   {
@@ -1557,11 +1557,11 @@
     "status": "Alive",
     "first_appearance": "1.10",
     "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/otto_fibonacci.png",
     "id": 81
   },
   {
-    "name": "Pam Mahone/Larson",
+    "name": "Pam Mahone (Larson)",
     "gender": "Female",
     "nationality": "USA",
     "kills": 0,
@@ -1574,7 +1574,7 @@
     "status": "Alive",
     "first_appearance": "2.3",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/pam_mahone.png",
     "id": 82
   },
   {
@@ -1599,7 +1599,7 @@
     "status": "Deceased",
     "first_appearance": "1.1",
     "total_episodes": 42,
-    "image_url": "assets/images/avatars/pkellerman.jpg",
+    "image_url": "assets/images/avatars/paul_kellerman.png",
     "id": 83
   },
   {
@@ -1618,7 +1618,7 @@
     "status": "Alive",
     "first_appearance": "1.2",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/philly_falzone.png",
     "id": 84
   },
   {
@@ -1636,7 +1636,7 @@
     "status": "Alive",
     "first_appearance": "3.3",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/pistachio.png",
     "id": 85
   },
   {
@@ -1655,7 +1655,7 @@
     "status": "Deceased",
     "first_appearance": "4.14",
     "total_episodes": 3,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/ralph_becker.png",
     "id": 86
   },
   {
@@ -1671,7 +1671,7 @@
     "status": "Deceased",
     "first_appearance": "1.6",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/richard_mills.png",
     "id": 87
   },
   {
@@ -1688,7 +1688,7 @@
     "status": "Alive",
     "first_appearance": "2.8",
     "total_episodes": 6,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/richard_sullins.png",
     "id": 88
   },
   {
@@ -1706,7 +1706,7 @@
     "status": "Alive",
     "first_appearance": "4.6",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/rita_morgan.png",
     "id": 89
   },
   {
@@ -1724,7 +1724,7 @@
     "status": "Deceased",
     "first_appearance": "4.2",
     "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/roland_glenn.png",
     "id": 90
   },
   {
@@ -1744,7 +1744,7 @@
     "status": "Deceased",
     "first_appearance": "1.6",
     "total_episodes": 16,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/roy_geary.png",
     "id": 91
   },
   {
@@ -1763,7 +1763,7 @@
     "status": "Unknown",
     "first_appearance": "1.13",
     "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/samantha_brinker.png",
     "id": 92
   },
   {
@@ -1783,7 +1783,7 @@
     "status": "Deceased",
     "first_appearance": "3.1",
     "total_episodes": 10,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/sammy.png",
     "id": 93
   },
   {
@@ -1809,7 +1809,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 73,
-    "image_url": "assets/images/avatars/stancredi.jpg",
+    "image_url": "assets/images/avatars/sara_tancredi.png",
     "id": 94
   },
   {
@@ -1844,7 +1844,7 @@
     "status": "Alive",
     "first_appearance": "5.1",
     "total_episodes": 8,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/sheba.png",
     "id": 96
   },
   {
@@ -1861,7 +1861,7 @@
     "status": "Deceased",
     "first_appearance": "5.2",
     "total_episodes": 4,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/sid.png",
     "id": 97
   },
   {
@@ -1879,7 +1879,7 @@
     "status": "Alive",
     "first_appearance": "3.1",
     "total_episodes": 15,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/sofia_lugo.png",
     "id": 98
   },
   {
@@ -1898,7 +1898,7 @@
     "status": "Deceased",
     "first_appearance": "4.1",
     "total_episodes": 5,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/stuart_tuxhorn.png",
     "id": 99
   },
   {
@@ -1915,7 +1915,7 @@
     "status": "Alive",
     "first_appearance": "1.16",
     "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/susan_hollander.png",
     "id": 100
   },
   {
@@ -1934,7 +1934,7 @@
     "status": "Deceased",
     "first_appearance": "1.16",
     "total_episodes": 7,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/terrence_steadman.png",
     "id": 101
   },
   {
@@ -1959,7 +1959,7 @@
     "status": "Alive",
     "first_appearance": "1.1",
     "total_episodes": 81,
-    "image_url": "assets/images/avatars/tbagwell.jpg",
+    "image_url": "assets/images/avatars/theodore_bagwell.png",
     "id": 102
   },
   {
@@ -1976,7 +1976,7 @@
     "status": "Alive",
     "first_appearance": "4.23",
     "total_episodes": 1,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/todd_wheatley.png",
     "id": 103
   },
   {
@@ -1995,7 +1995,7 @@
     "status": "Deceased",
     "first_appearance": "5.1",
     "total_episodes": 9,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/van_gogh.png",
     "id": 104
   },
   {
@@ -2013,7 +2013,7 @@
     "status": "Deceased",
     "first_appearance": "1.1",
     "total_episodes": 23,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/veronica_donovan.png",
     "id": 105
   },
   {
@@ -2031,7 +2031,7 @@
     "status": "Deceased",
     "first_appearance": "4.18",
     "total_episodes": 2,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/vincent_sandinsky.png",
     "id": 106
   },
   {
@@ -2052,7 +2052,26 @@
     "status": "Deceased",
     "first_appearance": "2.5",
     "total_episodes": 16,
-    "image_url": "assets/images/avatars/.jpg",
+    "image_url": "assets/images/avatars/william_kim.png",
     "id": 107
+  },
+  {
+    "name": "Wyatt Mathewson",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 5,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Hitman",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/wyatt_mathewson.png",
+    "id": 108
   }
 ]

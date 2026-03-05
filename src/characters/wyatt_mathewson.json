@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Wyatt Mathewson",
+    "gender": "Male",
+    "nationality": "USA",
+    "kills": 5,
+    "specific_groups": [
+      "Company"
+    ],
+    "broad_archetypes": [
+      "Criminal",
+      "Hitman",
+      "Organised Crime"
+    ],
+    "status": "Deceased",
+    "first_appearance": "4.1",
+    "total_episodes": 9,
+    "image_url": "assets/images/avatars/wyatt_mathewson.png"
+  }
+]

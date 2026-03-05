@@ -9,33 +9,106 @@ body {
 
 #title {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
-    margin: auto;
+    margin: 20px auto 10px;
     width: 90%;
     max-width: 500px;
+    position: relative;
+}
+
+#instructions-btn {
+    position: absolute;
+    left: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+#instructions-btn:hover {
+    transform: scale(1.1);
 }
 
 #character-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px auto;
+    margin: 10px auto 20px;
     width: 90vw;
     max-width: 500px;
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    padding-bottom: 20px;
 }
 
 #character-image {
     padding: 10px;
     width: 100px;
     height: 100px;
-    margin: 5px auto;
+    margin: 20px auto 5px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+#clue-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+.clue-dot {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem;
+    font-weight: bold;
+    color: black;
+    overflow: hidden;
+    text-align: center;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.clue-dot p {
+    margin: 0;
+    line-height: 1.1;
+    word-break: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.clue-dot img.emoji {
+    width: 2em;
+    height: 2em;
+}
+
+.clue-dot.correct {
+    background-color: #66e722;
+    border-color: #55c61c;
 }
 
 #guess-container {
@@ -85,7 +158,7 @@ body {
 }
 
 #result-status {
-    margin: 10px 0 5px;
+    margin: 5px 0 5px;
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -270,8 +343,8 @@ body {
 }
 
 .guess-image {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
     margin: 10px auto;
@@ -307,8 +380,8 @@ body {
 
 .clue {
     background-color: white;
-    width: 65px;
-    height: 65px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -319,7 +392,7 @@ body {
     border: 1px solid lightgray;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     overflow: hidden;
-    padding: 5px;
+    padding: 3px;
     box-sizing: border-box;
     transition: transform 0.2s;
 }
@@ -330,14 +403,14 @@ body {
 
 @media (min-width: 600px) {
     .clue {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
         font-size: 0.9rem;
     }
 }
 
 .clue p.emoji {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .clue p.emoji img.emoji {
@@ -349,7 +422,7 @@ body {
 
 @media (min-width: 600px) {
     .clue p.emoji {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
     .clue p.emoji img.emoji {
         height: 1.25em;
@@ -383,6 +456,8 @@ body {
 
 .clue p {
     margin: 0;
+    overflow-wrap: normal;
+    word-break: normal;
 }
 
 /* Welcome Page Styles */

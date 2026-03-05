@@ -188,6 +188,7 @@ function startGame() {
 }
 
 function handleGuess(characterGuess) {
+    const dots = document.querySelectorAll('.clue-dot');
     const guessesContainer = document.getElementById('guesses-container');
 
     const guessDiv = document.createElement('div');
@@ -218,6 +219,8 @@ function handleGuess(characterGuess) {
     
     // CHECK EXACT MATCH
     if (chosenCharacter.id === characterGuess.id) {
+        // Hide the final guess card to avoid redundancy with the summary
+        guessDiv.style.display = 'none';
         gameOver(true);
     } else {
         incrementGuessCount();
@@ -236,6 +239,9 @@ function compareGender(characterGuess) {
 
     if (chosenCharacter.gender === characterGuess.gender) {
         genderClue.style.backgroundColor = green;
+        const dot = document.querySelectorAll('.clue-dot')[0];
+        dot.classList.add('correct');
+        dot.innerHTML = `<p>${characterGuess.gender}</p>`;
     } else {
         genderClue.style.backgroundColor = red;
     }
@@ -267,6 +273,15 @@ function compareNationality(characterGuess) {
 
     if (chosenCharacter.nationality === characterGuess.nationality) {
         nationalityClue.style.backgroundColor = green;
+        const dot = document.querySelectorAll('.clue-dot')[1];
+        dot.classList.add('correct');
+        const flag = flags[characterGuess.nationality];
+        if (flag) {
+            dot.innerHTML = `<p>${flag}</p>`;
+            twemoji.parse(dot);
+        } else {
+            dot.innerHTML = `<p>${characterGuess.nationality}</p>`;
+        }
     } else {
         nationalityClue.style.backgroundColor = red;
     }
@@ -291,7 +306,11 @@ function compareStatus(characterGuess) {
 
     if (chosenCharacter.status === characterGuess.status) {
         statusClue.style.backgroundColor = green;
-    } else if (chosenCharacter.status === 'UNKNOWN' && (characterGuess.status === 'Dead' || characterGuess.status === 'Alive')) {
+        const dot = document.querySelectorAll('.clue-dot')[2];
+        dot.classList.add('correct');
+        const statusAbbreviation = characterGuess.status === 'Alive' ? 'A' : (characterGuess.status === 'Deceased' ? 'D' : characterGuess.status);
+        dot.innerHTML = `<p>${statusAbbreviation}</p>`;
+    } else if (chosenCharacter.status === 'UNKNOWN' && (characterGuess.status === 'Deceased' || characterGuess.status === 'Alive')) {
         statusClue.style.backgroundColor = yellow;
     } else {
         statusClue.style.backgroundColor = red;
@@ -331,6 +350,9 @@ function compareFirstAppearance(characterGuess) {
 
     if (chosenCharacter.first_appearance === firstAppearance) {
         firstAppearanceClue.style.backgroundColor = green;
+        const dot = document.querySelectorAll('.clue-dot')[3];
+        dot.classList.add('correct');
+        dot.innerHTML = `<p>S${season}E${episode}</p>`;
     } else if (chosenSeason === season) {
         firstAppearanceClue.style.backgroundColor = yellow;
     } else {
@@ -363,10 +385,14 @@ function compareRelevance(characterGuess) {
 
     if (specificOverlap.length > 0) {
         relevanceClue.style.backgroundColor = green;
+        const dot = document.querySelectorAll('.clue-dot')[4];
+        dot.classList.add('correct');
         if (specificOverlap.length > 1) {
             relevanceP.textContent = `x${specificOverlap.length}`;
+            dot.innerHTML = `<p>x${specificOverlap.length}</p>`;
         } else {
             relevanceP.textContent = specificOverlap[0];
+            dot.innerHTML = `<p>${specificOverlap[0]}</p>`;
         }
     } else if (broadOverlap.length > 0) {
         relevanceClue.style.backgroundColor = yellow;
@@ -405,6 +431,9 @@ function compareEpisodes(characterGuess) {
     const difference = chosenCharacter.total_episodes - characterGuess.total_episodes
     if (difference === 0) {
         episodesClue.style.backgroundColor = green;
+        const dot = document.querySelectorAll('.clue-dot')[5];
+        dot.classList.add('correct');
+        dot.innerHTML = `<p>${characterGuess.total_episodes}</p>`;
     } else if (difference <= 10 && difference >= -10) {
         episodesClue.style.backgroundColor = yellow;
     } else {
@@ -454,11 +483,15 @@ function gameOver(win) {
         resultGuessCount.textContent = `You got it in ${guessNo} guess${guessNo === 1 ? '' : 'es'}!`;
         resultGuessCount.style.display = 'block';
         characterImage.style.border = `4px solid ${green}`;
+        // Ensure indicators are visible on victory
+        document.getElementById('clue-indicators').style.display = 'flex';
     } else {
         resultStatus.textContent = "Game Over";
         resultStatus.style.color = red;
         resultGuessCount.style.display = 'none';
         characterImage.style.border = `4px solid ${red}`;
+        // Hide indicators on game over as they are incomplete/misleading
+        document.getElementById('clue-indicators').style.display = 'none';
     }
 }
 
@@ -480,6 +513,13 @@ function resetGame() {
     searchInput.placeholder = `GUESS ${guessNo} OF ${guessMax}`;
     characterImage.src = 'assets/images/question.png';
     characterImage.style.border = 'none';
+
+    const indicators = document.getElementById('clue-indicators');
+    indicators.style.display = 'flex';
+    indicators.querySelectorAll('.clue-dot').forEach(dot => {
+        dot.classList.remove('correct');
+        dot.innerHTML = '';
+    });
 
     startGame();
 }

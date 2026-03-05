@@ -1,7 +1,7 @@
 {
   "name": "breakle",
   "version": "1.0.0",
-  "description": "",
+  "description": "Breakle is a character guessing game. Your goal is to identify the secret Prison Break character in as few guesses as possible.",
   "main": "js/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

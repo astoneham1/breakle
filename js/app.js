@@ -232,6 +232,7 @@ function handleGuess(characterGuess) {
     if (chosenCharacter.id === characterGuess.id) {
         // Hide the final guess card to avoid redundancy with the summary
         guessDiv.style.display = 'none';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         gameOver(true);
     } else {
         incrementGuessCount();

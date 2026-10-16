@@ -1,7 +1,23 @@
-let chosenCharacter = -1;
-let availableCharacterList = [];
-let characterList = [];
-let flags = {};
+interface Character {
+    id: number;
+    name: string;
+    gender: string;
+    nationality: string;
+    kills: number;
+    specific_groups: string[];
+    broad_archetypes: string[];
+    status: string;
+    first_appearance: string;
+    total_episodes: number;
+    image_url?: string;
+}
+
+type Flags = Record<string, string>;
+
+let chosenCharacter: Character;
+let availableCharacterList: Character[] = [];
+let characterList: Character[] = [];
+let flags: Flags = {};
 let guessNo = 1;
 let guessMax = 10;
 
@@ -9,14 +25,23 @@ const green = '#66e722'
 const yellow = '#ffeb3b'
 const red = '#ff3333'
 
+// Looks up an element that is expected to exist in the page markup
+function getElement<T extends HTMLElement = HTMLElement>(id: string): T {
+    return document.getElementById(id) as T;
+}
+
+function getClueDot(index: number): HTMLElement {
+    return document.querySelectorAll<HTMLElement>('.clue-dot')[index];
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('guess');
-    const resultsList = document.getElementById('search-results');
+    const searchInput = getElement<HTMLInputElement>('guess');
+    const resultsList = getElement('search-results');
 
     // Load characters from the generated JSON file
     Promise.all([
-        fetch('src/characters.json').then(response => response.json()),
-        fetch('src/flags.json').then(response => response.json())
+        fetch('src/characters.json').then(response => response.json() as Promise<Character[]>),
+        fetch('src/flags.json').then(response => response.json() as Promise<Flags>)
     ])
     .then(([characterData, flagData]) => {
         characterList = characterData;
@@ -27,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.error('Error loading data:', error));
 
-    searchInput.addEventListener('keydown', function(e) {
-        const items = resultsList.querySelectorAll('.result-item');
+    searchInput.addEventListener('keydown', function(e: KeyboardEvent) {
+        const items = resultsList.querySelectorAll<HTMLElement>('.result-item');
         let activeIndex = -1;
 
         items.forEach((item, index) => {
@@ -61,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    searchInput.addEventListener('input', function() {
+    searchInput.addEventListener('input', function(this: HTMLInputElement) {
         const query = this.value.toLowerCase();
         resultsList.innerHTML = ''; // Clear previous results
 
@@ -113,31 +138,32 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Close the dropdown if the user clicks outside the search box
-    document.addEventListener('click', (e) => {
-        if (!searchInput.contains(e.target) && !resultsList.contains(e.target)) {
+    document.addEventListener('click', (e: MouseEvent) => {
+        const target = e.target as Node;
+        if (!searchInput.contains(target) && !resultsList.contains(target)) {
             resultsList.style.display = 'none';
         }
     });
 
     searchInput.placeholder = `GUESS ${guessNo} OF ${guessMax}`;
 
-    const playAgainBtn = document.getElementById('play-again-btn');
+    const playAgainBtn = getElement('play-again-btn');
     playAgainBtn.addEventListener('click', () => {
         resetGame();
     });
 
     // View All Characters Modal Logic
-    const viewAllBtn = document.getElementById('view-all-btn');
-    const viewAllBtnEnd = document.getElementById('view-all-btn-end');
-    const modal = document.getElementById('all-characters-modal');
-    const closeBtn = document.querySelector('.close-btn');
-    const allCharactersList = document.getElementById('all-characters-list');
+    const viewAllBtn = getElement('view-all-btn');
+    const viewAllBtnEnd = getElement('view-all-btn-end');
+    const modal = getElement('all-characters-modal');
+    const closeBtn = document.querySelector<HTMLElement>('.close-btn')!;
+    const allCharactersList = getElement('all-characters-list');
 
     const openModal = () => {
         allCharactersList.innerHTML = ''; // Clear previous list
         
         // Update heading with character count
-        const heading = document.getElementById('all-characters-heading');
+        const heading = getElement('all-characters-heading');
         heading.textContent = `All Characters (${characterList.length})`;
         
         // Sort alphabetically for the list
@@ -172,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.style.display = 'none';
     });
 
-    window.addEventListener('click', (event) => {
+    window.addEventListener('click', (event: MouseEvent) => {
         if (event.target === modal) {
             modal.style.display = 'none';
         }
@@ -181,9 +207,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Page transitions
     document.body.classList.add('fade-in');
 
-    const instructionsBtn = document.getElementById('instructions-btn');
+    const instructionsBtn = getElement('instructions-btn');
     if (instructionsBtn) {
-        instructionsBtn.addEventListener('click', function(e) {
+        instructionsBtn.addEventListener('click', function(e: MouseEvent) {
             e.preventDefault();
             document.body.classList.add('fade-out');
             setTimeout(function() {
@@ -193,14 +219,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 })
 
-function startGame() {
+function startGame(): void {
     // chosenCharacter = availableCharacterList[0];
     chosenCharacter = availableCharacterList[Math.random() * availableCharacterList.length | 0];
     console.log("Character chosen");
 }
 
-function handleGuess(characterGuess) {
-    const guessesContainer = document.getElementById('guesses-container');
+function handleGuess(characterGuess: Character): void {
+    const guessesContainer = getElement('guesses-container');
 
     const guessDiv = document.createElement('div');
     guessDiv.classList.add('guess');
@@ -238,7 +264,7 @@ function handleGuess(characterGuess) {
     }
 }
 
-function compareGender(characterGuess) {
+function compareGender(characterGuess: Character): HTMLElement {
     const genderWrapper = document.createElement('div');
     genderWrapper.classList.add('clue-wrapper');
     const genderClue = document.createElement('div');
@@ -250,7 +276,7 @@ function compareGender(characterGuess) {
 
     if (chosenCharacter.gender === characterGuess.gender) {
         genderClue.style.backgroundColor = green;
-        const dot = document.querySelectorAll('.clue-dot')[0];
+        const dot = getClueDot(0);
         dot.classList.add('correct');
         dot.innerHTML = `<p>${characterGuess.gender}</p>`;
     } else {
@@ -265,7 +291,7 @@ function compareGender(characterGuess) {
     return genderWrapper;
 }
 
-function compareNationality(characterGuess) {
+function compareNationality(characterGuess: Character): HTMLElement {
     const nationalityWrapper = document.createElement('div');
     nationalityWrapper.classList.add('clue-wrapper');
     const nationalityClue = document.createElement('div');
@@ -284,7 +310,7 @@ function compareNationality(characterGuess) {
 
     if (chosenCharacter.nationality === characterGuess.nationality) {
         nationalityClue.style.backgroundColor = green;
-        const dot = document.querySelectorAll('.clue-dot')[1];
+        const dot = getClueDot(1);
         dot.classList.add('correct');
         const flag = flags[characterGuess.nationality];
         if (flag) {
@@ -305,7 +331,7 @@ function compareNationality(characterGuess) {
     return nationalityWrapper;
 }
 
-function compareStatus(characterGuess) {
+function compareStatus(characterGuess: Character): HTMLElement {
     const statusWrapper = document.createElement('div');
     statusWrapper.classList.add('clue-wrapper');
     const statusClue = document.createElement('div');
@@ -317,7 +343,7 @@ function compareStatus(characterGuess) {
 
     if (chosenCharacter.status === characterGuess.status) {
         statusClue.style.backgroundColor = green;
-        const dot = document.querySelectorAll('.clue-dot')[2];
+        const dot = getClueDot(2);
         dot.classList.add('correct');
         const statusAbbreviation = characterGuess.status === 'Alive' ? 'A' : (characterGuess.status === 'Deceased' ? 'D' : characterGuess.status);
         dot.innerHTML = `<p>${statusAbbreviation}</p>`;
@@ -335,10 +361,10 @@ function compareStatus(characterGuess) {
     return statusWrapper;
 }
 
-function compareFirstAppearance(characterGuess) {
-    const firstAppearance = characterGuess.first_appearance
-    const season = parseInt(firstAppearance.split('.')[0])
-    const episode = parseInt(firstAppearance.split('.')[1])
+function compareFirstAppearance(characterGuess: Character): HTMLElement {
+    const firstAppearance = characterGuess.first_appearance;
+    const season = parseInt(firstAppearance.split('.')[0]);
+    const episode = parseInt(firstAppearance.split('.')[1]);
 
     const chosenFirstAppearance = chosenCharacter.first_appearance;
     const chosenSeason = parseInt(chosenFirstAppearance.split('.')[0]);
@@ -361,7 +387,7 @@ function compareFirstAppearance(characterGuess) {
 
     if (chosenCharacter.first_appearance === firstAppearance) {
         firstAppearanceClue.style.backgroundColor = green;
-        const dot = document.querySelectorAll('.clue-dot')[3];
+        const dot = getClueDot(3);
         dot.classList.add('correct');
         dot.innerHTML = `<p>S${season}E${episode}</p>`;
     } else if (chosenSeason === season) {
@@ -378,7 +404,7 @@ function compareFirstAppearance(characterGuess) {
     return firstAppearanceWrapper;
 }
 
-function compareRelevance(characterGuess) {
+function compareRelevance(characterGuess: Character): HTMLElement {
     const relevanceWrapper = document.createElement('div');
     relevanceWrapper.classList.add('clue-wrapper');
     const relevanceClue = document.createElement('div');
@@ -396,7 +422,7 @@ function compareRelevance(characterGuess) {
 
     if (specificOverlap.length > 0) {
         relevanceClue.style.backgroundColor = green;
-        const dot = document.querySelectorAll('.clue-dot')[4];
+        const dot = getClueDot(4);
         dot.classList.add('correct');
         if (specificOverlap.length > 1) {
             relevanceP.textContent = `x${specificOverlap.length}`;
@@ -423,7 +449,7 @@ function compareRelevance(characterGuess) {
     return relevanceWrapper;
 }
 
-function compareEpisodes(characterGuess) {
+function compareEpisodes(characterGuess: Character): HTMLElement {
     const episodesWrapper = document.createElement('div');
     episodesWrapper.classList.add('clue-wrapper');
     const episodesClue = document.createElement('div');
@@ -439,10 +465,10 @@ function compareEpisodes(characterGuess) {
     episodesP.textContent = `${characterGuess.total_episodes}${episodesArrow}`;
     episodesClue.appendChild(episodesP);
 
-    const difference = chosenCharacter.total_episodes - characterGuess.total_episodes
+    const difference = chosenCharacter.total_episodes - characterGuess.total_episodes;
     if (difference === 0) {
         episodesClue.style.backgroundColor = green;
-        const dot = document.querySelectorAll('.clue-dot')[5];
+        const dot = getClueDot(5);
         dot.classList.add('correct');
         dot.innerHTML = `<p>${characterGuess.total_episodes}</p>`;
     } else if (difference <= 10 && difference >= -10) {
@@ -459,22 +485,22 @@ function compareEpisodes(characterGuess) {
     return episodesWrapper;
 }
 
-function incrementGuessCount() {
+function incrementGuessCount(): void {
     guessNo++;
     if (guessNo > guessMax) {
         gameOver(false);
     }
 }
 
-function gameOver(win) {
-    const resultMessage = document.getElementById('result-message');
-    const resultStatus = document.getElementById('result-status');
-    const resultName = document.getElementById('result-character-name');
-    const resultGuessCount = document.getElementById('result-guess-count');
-    const searchInput = document.getElementById('guess');
-    const guessContainer = document.getElementById('guess-container');
-    const characterImage = document.getElementById('character-image');
-    const viewAllBtnMain = document.getElementById('view-all-btn');
+function gameOver(win: boolean): void {
+    const resultMessage = getElement('result-message');
+    const resultStatus = getElement('result-status');
+    const resultName = getElement('result-character-name');
+    const resultGuessCount = getElement('result-guess-count');
+    const searchInput = getElement<HTMLInputElement>('guess');
+    const guessContainer = getElement('guess-container');
+    const characterImage = getElement<HTMLImageElement>('character-image');
+    const viewAllBtnMain = getElement('view-all-btn');
 
     resultMessage.style.display = 'flex';
     guessContainer.style.display = 'none';
@@ -496,25 +522,25 @@ function gameOver(win) {
         resultGuessCount.style.display = 'block';
         characterImage.style.border = `4px solid ${green}`;
         // Ensure indicators are visible on victory
-        document.getElementById('clue-indicators').style.display = '';
+        getElement('clue-indicators').style.display = '';
     } else {
         resultStatus.textContent = "Game Over";
         resultStatus.style.color = red;
         resultGuessCount.style.display = 'none';
         characterImage.style.border = `4px solid ${red}`;
         // Hide indicators on game over as they are incomplete/misleading
-        document.getElementById('clue-indicators').style.display = 'none';
+        getElement('clue-indicators').style.display = 'none';
     }
 }
 
-function resetGame() {
+function resetGame(): void {
     guessNo = 1;
-    const guessesContainer = document.getElementById('guesses-container');
-    const resultMessage = document.getElementById('result-message');
-    const searchInput = document.getElementById('guess');
-    const guessContainer = document.getElementById('guess-container');
-    const characterImage = document.getElementById('character-image');
-    const viewAllBtnMain = document.getElementById('view-all-btn');
+    const guessesContainer = getElement('guesses-container');
+    const resultMessage = getElement('result-message');
+    const searchInput = getElement<HTMLInputElement>('guess');
+    const guessContainer = getElement('guess-container');
+    const characterImage = getElement<HTMLImageElement>('character-image');
+    const viewAllBtnMain = getElement('view-all-btn');
 
     guessesContainer.innerHTML = '';
     resultMessage.style.display = 'none';
@@ -526,9 +552,9 @@ function resetGame() {
     characterImage.src = 'assets/images/question.png';
     characterImage.style.border = 'none';
 
-    const indicators = document.getElementById('clue-indicators');
+    const indicators = getElement('clue-indicators');
     indicators.style.display = '';
-    indicators.querySelectorAll('.clue-dot').forEach(dot => {
+    indicators.querySelectorAll<HTMLElement>('.clue-dot').forEach(dot => {
         dot.classList.remove('correct');
         dot.innerHTML = '';
     });

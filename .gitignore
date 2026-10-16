@@ -1,2 +1,5 @@
 .idea
 .DS_Store
+node_modules
+# Compiled from ts/ by `npm run build`
+js/

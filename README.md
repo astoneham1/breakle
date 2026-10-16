@@ -29,7 +29,7 @@ Breakle is a character guessing game. Your goal is to identify the secret Prison
 
 ## Built With
 
-- **Static HTML/CSS/JS**
+- **Static HTML/CSS + TypeScript** (compiled to `js/` with `npm run build`)
 - **Twemoji** for consistent emoji rendering across all devices.
 - **Static JSON** data for fast character searching and comparison.
 

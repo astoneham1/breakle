@@ -2,9 +2,14 @@
   "name": "breakle",
   "version": "1.0.0",
   "description": "Breakle is a character guessing game. Your goal is to identify the secret Prison Break character in as few guesses as possible.",
-  "main": "js/app.js",
+  "main": "ts/app.ts",
   "scripts": {
+    "build": "tsc -p .",
+    "watch": "tsc -p . --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
